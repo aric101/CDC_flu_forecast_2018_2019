@@ -1,0 +1,575 @@
+
+R version 3.4.1 (2017-06-30) -- "Single Candle"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> ##########################################################
+> ############# Data Loading  ##############################
+> ##########################################################
+> rm(list=ls())
+> week2season <- function(k)c((40:53),(1:39))[k]
+> week2season(5)
+[1] 44
+> 
+> system("ls ./data/*.csv")
+./data/ILINetCA.csv
+./data/ILINet.csv
+./data/ILINetHHS.csv
+./data/national1-4wk.forecast.template.csv
+./data/national.onset.wk.forecast.template.csv
+./data/national.pk.prev.forecast.template.csv
+./data/national.pk.wk.forecast.template.csv
+./data/wILI_Baseline.csv
+> 
+> #Region.name <- paste("Region ",1:10 ,sep="")
+> Region.name <- 
++ structure(c(2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L, 11L, 12L, 13L, 
++ 14L, 15L, 16L, 17L, 18L, 19L, 20L, 21L, 22L, 23L, 24L, 25L, 26L, 
++ 27L, 28L, 29L, 30L, 31L, 32L, 33L, 34L, 36L, 37L, 38L, 39L, 40L, 
++ 41L, 44L, 45L, 46L, 47L, 48L, 49L, 50L, 52L, 53L, 54L, 55L, 56L, 
++ 35L, 51L, 42L), .Label = c("", "Alabama", "Alaska", "Arizona", 
++ "Arkansas", "California", "Colorado", "Connecticut", "Delaware", 
++ "District of Columbia", "Florida", "Georgia", "Hawaii", "Idaho", 
++ "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
++ "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", 
++ "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", 
++ "New Jersey", "New Mexico", "New York", "New York City", "North Carolina", 
++ "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", 
++ "Puerto Rico", "REGION", "Rhode Island", "South Carolina", "South Dakota", 
++ "Tennessee", "Texas", "Utah", "Vermont", "Virgin Islands", "Virginia", 
++ "Washington", "West Virginia", "Wisconsin", "Wyoming"), class = "factor")
+> Region.name <- as.character(Region.name)
+> #Region.name <- Region.name[-c(10, 19, 53)]
+> Region.name <- Region.name[-c(10)]
+> 
+> library(foreach)
+> library(doSNOW)
+Loading required package: iterators
+Loading required package: snow
+> #setup parallel backend to use 8 processors
+> cl<-makeCluster(4)
+> registerDoSNOW(cl)
+> #start time
+> strt<-Sys.time()
+> #loop
+> foreach(HHS.id=1:length(Region.name)) %dopar% {
++ #for( HHS.id in 1:length(Region.name)){
++ 
++ #HHS.id <- 1
++ 
++ flu.data <- read.csv("./data/ILINetCA.csv", header=F)[-(1:2),]
++ names(flu.data) <- as.character(read.csv("./data/ILINetCA.csv", header=F, colClasses="character")[2,])
++ flu.data <- flu.data[,-5]
++ flu.data[,5][which(flu.data[,5]=="X")] <- 0
++ names(flu.data)[5] <- "ILI"
++ head(flu.data)
++ #flu.data <- flu.data[-which(flu.data$ILI=="X"),]
++ 
++ flu.data$ILI <- as.numeric(as.character(flu.data$ILI))
++ flu.data$YEAR <- as.numeric(as.character(flu.data$YEAR))
++ flu.data$WEEK <- as.numeric(as.character(flu.data$WEEK))
++ #flu.data$ILI <- signif(flu.data$ILI,2)
++ 
++ flu.data <- flu.data[flu.data$REGION==Region.name[HHS.id],]
++ 
++ flu.data.wk.prev <- flu.data[,c("YEAR","WEEK","ILI")]
++ flu.data.wk.prev$WEEK <- flu.data.wk.prev$WEEK - 39
++ flu.data.wk.prev$YEAR[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$YEAR[flu.data.wk.prev$WEEK<=0] -1
++ flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
++ tail(flu.data.wk.prev)
++ 
++ flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
++ flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
++ flu.data.yr.prev$YEAR[flu.data.yr.prev$WEEK<=0] <- flu.data.yr.prev$YEAR[flu.data.yr.prev$WEEK<=0] -1
++ flu.data.yr.prev$WEEK[flu.data.yr.prev$WEEK<=0] <- flu.data.yr.prev$WEEK[flu.data.yr.prev$WEEK<=0] + 53
++ head(flu.data.yr.prev)
++ flu.data.yr.prev <- flu.data.yr.prev[-nrow(flu.data.yr.prev), ]
++ #flu.data.yr.prev <- flu.data.yr.prev[flu.data.yr.prev$YEAR<2016, ]
++ flu.data.yr.prev
++ 
++ flu.data.yr.prev
++ tmp.pk.week <- 
++ lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
++   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
++ })
++ 
++ years <- min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR)
++ flu.data.yr.prev.pk.wk <- vector()
++ for(ii in 1:length(tmp.pk.week)){
++   for(kk in 1:length(tmp.pk.week[[ii]])){
++     flu.data.yr.prev.pk.wk <- rbind(flu.data.yr.prev.pk.wk, c(years[ii], tmp.pk.week[[ii]][kk]))
++   }
++ }
++ 
++ 
++ tmp.pk.prev <- 
++ lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
++   flu.data.yr.prev$ILI[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
++ })
++ 
++ years <- min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR)
++ flu.data.yr.prev.pk.prev <- vector()
++ for(ii in 1:length(tmp.pk.prev)){
++   for(kk in 1:length(tmp.pk.prev[[ii]])){
++     flu.data.yr.prev.pk.prev <- rbind(flu.data.yr.prev.pk.prev, c(years[ii], tmp.pk.prev[[ii]][kk]))
++   }
++ }
++ 
++ 
++ onset.data <- read.csv("./data/wILI_Baseline.csv")[-1]
++ dim(onset.data)
++ onset.data <- apply(onset.data, 1, mean)
++ 
++ tmp.onset.wk <- 
++ lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
++   #flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI > onset.data[1+HHS.id])];
++   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI > mean(onset.data))];
++ })
++ 
++ years <- min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR)
++ flu.data.onset.wk <- vector()
++ for(ii in 1:length(tmp.onset.wk)){
++   tmp <- tmp.onset.wk[[ii]][1]
++   if(length(tmp.onset.wk[[ii]])>1) tmp <- tmp.onset.wk[[ii]][2]
++   tmp
++   flu.data.onset.wk <- rbind(flu.data.onset.wk, c(years[ii], tmp))
++ }
++ 
++ 
++ flu.data.onset.wk[,2][is.na(flu.data.onset.wk[,2])] <- floor(mean(flu.data.onset.wk[,2][!is.na(flu.data.onset.wk[,2])]))
++ 
++ ##########################################################
++ ##########################################################
++ ##########################################################
++ 
++ ################################################################
++ ############# Logistic Regression ##############################
++ ################################################################
++ sim.forecast.ili.LIST <- list()
++ for(j in 1:10){
++ 
++ err.ILI.cv <- -Inf
++ while(sum(is.infinite(err.ILI.cv))>0 | sum(is.na(err.ILI.cv)) >0){
++ 
++ X.input <- data.frame(year=flu.data.onset.wk[,1][flu.data.onset.wk[,2]>1])
++ Y.output <- data.frame(ili=flu.data.onset.wk[,2][flu.data.onset.wk[,2]>1])
++ 
++ head(X.input)
++ head(Y.output)
++ 
++ id.random <- which(X.input$year>=1997 & X.input$year<2018)
++ id.random <- sample(id.random, length(id.random))
++ #id.random <- sample(1:length(id.random), length(id.random))
++ id.test <- which(X.input$year>=2015)
++ 
++ id.random1 <- id.random[1:floor(length(id.random)*0.8)]
++ id.random2 <- id.random[floor(length(id.random)*0.8):length(id.random)]
++ 
++ scale <- 1 # 1: 130 bins, 10: 1300 bins
++ 
++ ### training data set and Standardization/Rescaling ###
++ X.data <- X.input[id.random1,] 
++ X.data <- as.matrix(X.data)
++ X.mean <- apply(X.data, 2, mean)
++ X.sd <- apply(X.data, 2,sd)
++ X.min <- apply(X.data, 2, min)
++ X.max <- apply(X.data, 2, max)
++ X.data <- apply(X.data, 2, function(tmp)(tmp-mean(tmp))/sd(tmp)) # Standardization
++ #X.data <- sapply(X.data, function(tmp)(tmp-min(tmp))/(max(tmp)-min(tmp))) # Rescaling
++ ##############################################
++ 
++ ### test data set ###
++ #X.input[id.2011,]$year <- 2020
++ #X.input[id.2011,]$year <- 2011
++ #X.input[id.2011,]$year <- 2012
++ #X.input[id.2011,]$year <- 2015
++ X.test <- as.matrix(sapply(1:length(id.test),function(k)(X.input[id.test[k],]-X.mean)/X.sd)) # Standardization
++ #X.2011 <- t(sapply(1:length(id.2011),function(k)(X.input[id.2011[k],]-X.min)/(X.max-X.min))) # Rescaling
++ X.test <- cbind(rep(1,nrow(X.test)), X.test)
++ X.test <- matrix(unlist(X.test), nrow(X.test), ncol(X.test))
++ 
++ X.forecast <- tail(X.input,1)
++ X.forecast$year <- 2018
++ X.forecast <- as.matrix(sapply(1,function(k)(X.forecast[k,]-X.mean)/X.sd)) # Standardization
++ #X.2011 <- t(sapply(1:length(id.2011),function(k)(X.input[id.2011[k],]-X.min)/(X.max-X.min))) # Rescaling
++ X.forecast <- cbind(rep(1,nrow(X.forecast)), X.forecast)
++ X.forecast <- matrix(unlist(X.forecast), nrow(X.forecast), ncol(X.forecast))
++ 
++ #####################
++ 
++ ### cross valication data set ###
++ X.cv <- as.matrix(sapply(1:length(id.random2),function(k)(X.input[id.random2[k],]-X.mean)/X.sd)) # Standardization
++ #X.2011 <- t(sapply(1:length(id.2011),function(k)(X.input[id.2011[k],]-X.min)/(X.max-X.min))) # Rescaling
++ X.cv <- cbind(rep(1,nrow(X.cv)), X.cv)
++ X.cv <- matrix(unlist(X.cv), nrow(X.cv), ncol(X.cv))
++ #####################
++ 
++ ### initialize paraemters and variables ###
++ Theta <- matrix(rep(0, 1+ncol(X.data)), 1+ncol(X.data), 1)
++ X <- matrix( unlist(cbind(rep(1, nrow(X.data)),X.data)), nrow(X.data), 1+ncol(X.data))
++ 
++ Y.data <- floor(scale*Y.output$ili[id.random1]) == 1
++ Y <- matrix(Y.data*scale, nrow=length(id.random1), ncol=1)
++ 
++ m <- nrow(X) # number of examples
++ lambda <- 0.01 # regularization param, under fit if too large, over fit if to small
++ 
++ J <- 0
++ Theta.grad <- rep(0, length(Theta)) # initial parameter Thata
++ ###########################################
++ 
++ ### hypothesis function ###
++ hypo <- function(Theta){
++   1/(1+exp(-1*(X %*% Theta))) # hypothesis function
++ }
++ #h.prob <- hypo(Theta) 
++ ###########################
++ 
++ ### cost function ###
++ cost.fn <- function(Theta){
++   h.prob <- hypo(Theta) # hypothesis function
++   J <- sum(Y * -log(h.prob) + (1-Y) * (-log(1-h.prob)))/m # cost function
++   J <- J + sum(lambda/(2*m)*(Theta[-1])^2) # regularization term
++   return(J)
++ }
++ #####################
++ 
++ ### gradient function ###
++ grad.fn <- function(Theta){
++   h.prob <- hypo(Theta) # hypothesis function
++   Theta.grad <- apply(X, 2, function(xj)sum((h.prob - Y) * xj)/m) # dCost/dTheta
++   Theta.grad <- Theta.grad + c(0, lambda/m * Theta[-1]) # regularization term
++   return(Theta.grad)
++ }
++ ########################
++ 
++ ## forecast function ###
++ forecast <- function(Theta, X){
++   1/(1+exp(-1*(X %*% Theta))) 
++ }
++ ########################
++ 
++ ## forecast Error function ###
++ cost.ERR <- function(Theta, X, Y){
++   h.prob <- forecast(Theta, X) # hypothesis function
++   J <- sum(Y * -log(h.prob) + (1-Y) * (-log(1-h.prob)))/nrow(X) # cost function
++   return(J)
++ }
++ ########################
++ 
++ ################################################################
++ ################################################################
++ ################################################################
++ ILI.Theta <- list()
++ err.ILI.train <- vector()
++ err.ILI.cv <- vector()
++ 
++ for( i in (-1:15)){# big loop
++ lambda <- (2^(i/1))/100
++ ##############################################
++ ###### ILI prediction using test-dataset ######
++ ##############################################
++ Theta.all <- vector()
++ system.time(
++ for(kk in 1:34){
++   Y.data <- floor(scale*Y.output$ili[id.random1]) == kk
++   Y <- matrix(Y.data*scale, nrow=length(id.random1), ncol=1)
++   Theta.optm <- optim(par=Theta, fn=cost.fn, gr=grad.fn, method="BFGS")
++   #Theta.optm <- optim(par=Theta, fn=cost.fn, method="Nelder-Mead")
++   Theta.optm <- Theta.optm$par
++   Theta.all <- cbind(Theta.all, Theta.optm)
++ }
++ )
++ 
++ ILI.Theta <- c(ILI.Theta, list(Theta.all))
++ 
++ err.ILI.tmp <- vector()
++ for(kk in 1:33){
++   Y.data <- floor(scale*Y.output$ili[id.random1]) == kk
++   Y <- matrix(Y.data*scale, nrow=length(id.random1), ncol=1)
++   tmp <- cost.ERR(Theta.all[,(kk+1)], X, Y)
++   err.ILI.tmp <- c(err.ILI.tmp, tmp)
++ }
++ err.ILI.train <- c(err.ILI.train, sum(err.ILI.tmp))
++ 
++ err.ILI.cv.tmp <- vector()
++ for(kk in 1:33){
++   Y.data.cv <- floor(scale*Y.output$ili[id.random2]) == kk
++   Y.cv <- matrix(Y.data.cv*scale, nrow=length(id.random2), ncol=1)
++   tmp <- cost.ERR(Theta.all[,(kk+1)], X.cv, Y.cv)
++   err.ILI.cv.tmp <- c(err.ILI.cv.tmp, tmp)
++ }
++ err.ILI.cv <- c(err.ILI.cv, sum(err.ILI.cv.tmp))
++ 
++ ##############################################
++ ##############################################
++ ##############################################
++ 
++ }# big loop
++ }# end while()
++ 
++ D <- length(err.ILI.train) - 1
++ total.cost <- c(err.ILI.train, err.ILI.cv)
++ plot(2^(0:D)/100, err.ILI.cv, type="l", ylim=c(min(total.cost), max(total.cost)), col="green", xlab="lambda", ylab="cost")
++ lines(2^(0:D)/100, err.ILI.train, type="l", col="red")
++ 
++ lambda.ili.id <- which((err.ILI.cv) == min(err.ILI.cv))[1]
++ 
++ #lambda.tf.id <- which((err.TF.cv+err.TT.cv) == min(err.TF.cv+err.TT.cv))
++ #lambda.tt.id <- which((err.TF.cv+err.TT.cv) == min(err.TF.cv+err.TT.cv))
++ 
++ ##############################################
++ ##############################################
++ ##############################################
++ ### forecasts of test data 2014/2015, 2015/2016
++ sim.test.ili <- vector()
++ for(k in 1:length(id.test)){
++   tmp <- c(forecast(ILI.Theta[[lambda.ili.id]], X.test[k,]))
++   sim.test.ili <- cbind(sim.test.ili, tmp/sum(tmp))
++ }
++ 
++ ## ILI
++ sim.test.ili.avg <- apply(sim.test.ili, 1, mean)
++ 
++ ili.mean.true <- mean(Y.output$ili[id.test])
++ 
++ plot.ILI <- function(){
++ plot(sim.test.ili[,1], type="l", main="TEST: national flu onset wk 2015/2016, 2016/2018", xlab="%ILI", ylab="density", ylim=c(0,0.1))
++ abline(v=(scale*Y.output$ili[id.test]), col="grey")
++ sapply(1:ncol(sim.test.ili),function(kk)lines(sim.test.ili[,kk], type="l"))
++ }
++ 
++ ### forecasts of test data 2016/2018
++ sim.forecast.ili <- vector()
++ for(k in 1:nrow(X.forecast)){
++   tmp <- c(forecast(ILI.Theta[[lambda.ili.id]], X.forecast[k,]))
++   sim.forecast.ili <- cbind(sim.forecast.ili, tmp/sum(tmp))
++ }
++ 
++ plot.ILI.forecast <- function(){
++ plot( sim.forecast.ili[,1], type="l", main="FORECAST: national flu onset wk 2018/2019", xlab="%ILI", ylab="density", ylim=c(0,0.1))
++ sapply(1:ncol(sim.forecast.ili),function(kk)lines(sim.forecast.ili[,kk], type="l"))
++ }
++ 
++ ##############################
++ ###### plot results ##########
++ ##############################
++ 
++ png(paste("./plots/State",HHS.id,"onset.wk.forecast.png",paste=""),width=6,height=8,units="in",res=150)
++ 
++ par(mfrow = c(3,1))
++ plot(2^(0:D)/100, err.ILI.cv, type="l", col="green", xlab="lambda", ylab="cost", ylim=c(min(c(err.ILI.cv, err.ILI.train)), max(c(err.ILI.cv, err.ILI.train))))
++ lines(2^(0:D)/100, err.ILI.train, type="l", col="red")
++ legend("bottomright", c("training Error","cross validation Error"), lty=1, col=c("red", "green"))
++ plot.ILI()
++ plot.ILI.forecast()
++ 
++ dev.off()
++ ##############################
++ ##############################
++ ##############################
++ sim.forecast.ili.LIST <- c(sim.forecast.ili.LIST, list(sim.forecast.ili))
++ } # external for-loop
++ 
++ tmp <- sim.forecast.ili.LIST[[1]]
++ for(i in 2:length(sim.forecast.ili.LIST)){
++   tmp <- tmp + sim.forecast.ili.LIST[[i]]
++ }
++ 
++ sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
++ 
++ national4wks <- read.csv("national.onset.wk.forecast.template.csv")
++ head(national4wks)
++ national4wks$Location <- paste(Region.name[HHS.id],sep="")
++ nrow(national4wks)
++ 
++ national4wks$Value[1] <- week2season(floor(signif(sum((1:34)*sim.forecast.ili[,1]), 2)))
++ national4wks$Value[(2):(2+33)] <- signif(sim.forecast.ili[,1], 2)
++ 
++ head(national4wks)
++ 
++ write.csv(national4wks, paste("./output/State",HHS.id,".onset.wk.csv",sep=""), row.names=F)
++ 
++ }
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
+NULL
+
+[[9]]
+NULL
+
+[[10]]
+NULL
+
+[[11]]
+NULL
+
+[[12]]
+NULL
+
+[[13]]
+NULL
+
+[[14]]
+NULL
+
+[[15]]
+NULL
+
+[[16]]
+NULL
+
+[[17]]
+NULL
+
+[[18]]
+NULL
+
+[[19]]
+NULL
+
+[[20]]
+NULL
+
+[[21]]
+NULL
+
+[[22]]
+NULL
+
+[[23]]
+NULL
+
+[[24]]
+NULL
+
+[[25]]
+NULL
+
+[[26]]
+NULL
+
+[[27]]
+NULL
+
+[[28]]
+NULL
+
+[[29]]
+NULL
+
+[[30]]
+NULL
+
+[[31]]
+NULL
+
+[[32]]
+NULL
+
+[[33]]
+NULL
+
+[[34]]
+NULL
+
+[[35]]
+NULL
+
+[[36]]
+NULL
+
+[[37]]
+NULL
+
+[[38]]
+NULL
+
+[[39]]
+NULL
+
+[[40]]
+NULL
+
+[[41]]
+NULL
+
+[[42]]
+NULL
+
+[[43]]
+NULL
+
+[[44]]
+NULL
+
+[[45]]
+NULL
+
+[[46]]
+NULL
+
+[[47]]
+NULL
+
+[[48]]
+NULL
+
+[[49]]
+NULL
+
+[[50]]
+NULL
+
+[[51]]
+NULL
+
+[[52]]
+NULL
+
+[[53]]
+NULL
+
+> print(Sys.time()-strt)
+Time difference of 5.517431 mins
+> stopCluster(cl)
+> 
+> proc.time()
+   user  system elapsed 
+  0.860   0.043 331.936 
