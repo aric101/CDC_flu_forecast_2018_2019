@@ -372,6 +372,7 @@ sapply(1:ncol(sim.forecast.ili), function(k){
 tmp.mean <- sum(c(0:130)/10*sim.forecast.ili[,k])
 #tmp.sd <- sd(sample(x=(0:130)/10, 10000, replace=T, prob=sim.forecast.ili[,k]))/2
 tmp.sd <- sd(sample(x=(0:130)/10, 10000, replace=T, prob=sim.forecast.ili[,k]))/1
+if(tmp.sd==0)return(sim.forecast.ili[,k])
 tmp <- dnorm(x=(0:130)/10, mean=tmp.mean, sd=tmp.sd)
 tmp/sum(tmp)
 })
