@@ -1,0 +1,2 @@
+system("ls")
+state.tmpo <- read.csv("./stateili_submission_template_1819.csv")
