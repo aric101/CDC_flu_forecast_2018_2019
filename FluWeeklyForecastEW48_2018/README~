@@ -1,0 +1,217 @@
+├── data
+│   ├── ILINetCA.csv
+│   ├── ILINet.csv
+│   ├── ILINetHHS.csv
+│   ├── national1-4wk.forecast.template.csv
+│   ├── national.onset.wk.forecast.template.csv
+│   ├── national.pk.prev.forecast.template.csv
+│   ├── national.pk.wk.forecast.template.csv
+│   ├── original
+│   │   ├── california
+│   │   │   └── dataEW42
+│   │   │       ├── FluViewPhase2Data (3).zip
+│   │   │       ├── ILINet.csv
+│   │   │       ├── WHO_NREVSS_Clinical_Labs.csv
+│   │   │       ├── WHO_NREVSS_Combined_prior_to_2015_16.csv
+│   │   │       └── WHO_NREVSS_Public_Health_Labs.csv
+│   │   ├── nation
+│   │   │   ├── dataEW41
+│   │   │   │   ├── FluViewPhase2Data (1).zip
+│   │   │   │   ├── ILINet.csv
+│   │   │   │   ├── WHO_NREVSS_Clinical_Labs.csv
+│   │   │   │   ├── WHO_NREVSS_Combined_prior_to_2015_16.csv
+│   │   │   │   └── WHO_NREVSS_Public_Health_Labs.csv
+│   │   │   └── dataEW42
+│   │   │       ├── FluViewPhase2Data (5).zip
+│   │   │       ├── ILINet.csv
+│   │   │       ├── WHO_NREVSS_Clinical_Labs.csv
+│   │   │       ├── WHO_NREVSS_Combined_prior_to_2015_16.csv
+│   │   │       └── WHO_NREVSS_Public_Health_Labs.csv
+│   │   └── region
+│   │       └── dataEW42
+│   │           ├── FluViewPhase2Data (2).zip
+│   │           ├── ILINet.csv
+│   │           ├── WHO_NREVSS_Clinical_Labs.csv
+│   │           ├── WHO_NREVSS_Combined_prior_to_2015_16.csv
+│   │           └── WHO_NREVSS_Public_Health_Labs.csv
+│   └── wILI_Baseline.csv
+├── EW17-UCSF1-2017-10-29.csv
+├── EW17-UCSF1-CA-2017-10-29.csv
+├── EW17-UCSF1-CA.2017-10-29.csv
+├── forecast1-4wk.png
+├── #LR1.CA.R#
+├── LR1.CA.R
+├── LR1.CA.R~
+├── LR1.CA.Rout
+├── #LR1.HHS.R#
+├── LR1.HHS.R
+├── LR1.HHS.R~
+├── LR1.HHS.Rout
+├── LR1.R
+├── LR1.R~
+├── LR1.Rout
+├── #LR2.CA.R#
+├── LR2.CA.R
+├── LR2.CA.R~
+├── LR2.CA.Rout
+├── LR2.HHS.R
+├── LR2.HHS.R~
+├── LR2.HHS.Rout
+├── LR2.R
+├── LR2.R~
+├── LR2.Rout
+├── #LR3.CA.R#
+├── LR3.CA.R
+├── LR3.CA.R~
+├── LR3.CA.Rout
+├── LR3.HHS.R
+├── LR3.HHS.R~
+├── LR3.HHS.Rout
+├── LR3.R
+├── LR3.R~
+├── LR3.Rout
+├── LR4.CA.R
+├── LR4.CA.R~
+├── LR4.CA.Rout
+├── LR4.HHS.R
+├── LR4.HHS.R~
+├── LR4.HHS.Rout
+├── LR4.R
+├── LR4.R~
+├── LR4.Rout
+├── merge.data2.R
+├── merge.data2.R~
+├── merge.data.R
+├── national1-4wk.forecast.template.csv
+├── national4wks.csv
+├── national.onset.wk.forecast.template.csv
+├── national.pk.prev.forecast.template.csv
+├── national.pk.wk.forecast.template.csv
+├── output
+│   ├── ca4wks.csv
+│   ├── ca4wksSMOOTH.csv
+│   ├── ca.onset.wk.csv
+│   ├── ca.pk.prev.csv
+│   ├── ca.pk.wk.csv
+│   ├── national4wksSMOOTH.csv
+│   ├── national.onset.wk.csv
+│   ├── national.pk.prev.csv
+│   ├── national.pk.wk.csv
+│   ├── Region104wksSMOOTH.csv
+│   ├── Region10.onset.wk.csv
+│   ├── Region10.pk.prev.csv
+│   ├── Region10.pk.wk.csv
+│   ├── Region14wksSMOOTH.csv
+│   ├── Region1.onset.wk.csv
+│   ├── Region1.pk.prev.csv
+│   ├── Region1.pk.wk.csv
+│   ├── Region24wksSMOOTH.csv
+│   ├── Region2.onset.wk.csv
+│   ├── Region2.pk.prev.csv
+│   ├── Region2.pk.wk.csv
+│   ├── Region34wksSMOOTH.csv
+│   ├── Region3.onset.wk.csv
+│   ├── Region3.pk.prev.csv
+│   ├── Region3.pk.wk.csv
+│   ├── Region44wksSMOOTH.csv
+│   ├── Region4.onset.wk.csv
+│   ├── Region4.pk.prev.csv
+│   ├── Region4.pk.wk.csv
+│   ├── Region54wksSMOOTH.csv
+│   ├── Region5.onset.wk.csv
+│   ├── Region5.pk.prev.csv
+│   ├── Region5.pk.wk.csv
+│   ├── Region64wksSMOOTH.csv
+│   ├── Region6.onset.wk.csv
+│   ├── Region6.pk.prev.csv
+│   ├── Region6.pk.wk.csv
+│   ├── Region74wksSMOOTH.csv
+│   ├── Region7.onset.wk.csv
+│   ├── Region7.pk.prev.csv
+│   ├── Region7.pk.wk.csv
+│   ├── Region84wksSMOOTH.csv
+│   ├── Region8.onset.wk.csv
+│   ├── Region8.pk.prev.csv
+│   ├── Region8.pk.wk.csv
+│   ├── Region94wksSMOOTH.csv
+│   ├── Region9.onset.wk.csv
+│   ├── Region9.pk.prev.csv
+│   └── Region9.pk.wk.csv
+├── plots
+│   ├── CA 1-4 week forecast.png
+│   ├── CA onset wk forecast.png
+│   ├── CA pk prev forecast.png
+│   ├── CA pk wk forecast.png
+│   ├── forecastCA.png
+│   ├── forecastHHS10.png
+│   ├── forecastHHS1.png
+│   ├── forecastHHS2.png
+│   ├── forecastHHS3.png
+│   ├── forecastHHS4.png
+│   ├── forecastHHS5.png
+│   ├── forecastHHS6.png
+│   ├── forecastHHS7.png
+│   ├── forecastHHS8.png
+│   ├── forecastHHS9.png
+│   ├── forecastNational.png
+│   ├── national 1-4 week forecast.png
+│   ├── national onset wk forecast.png
+│   ├── national pk prev forecast.png
+│   ├── national pk wk forecast.png
+│   ├── Region101-4 week forecast.png
+│   ├── Region 10 onset.wk.forecast.png 
+│   ├── Region10pk prev forecast.png
+│   ├── Region10pk.wk.forecast.png
+│   ├── Region11-4 week forecast.png
+│   ├── Region 1 onset.wk.forecast.png 
+│   ├── Region1pk prev forecast.png
+│   ├── Region1pk.wk.forecast.png
+│   ├── Region21-4 week forecast.png
+│   ├── Region 2 onset.wk.forecast.png 
+│   ├── Region2pk prev forecast.png
+│   ├── Region2pk.wk.forecast.png
+│   ├── Region31-4 week forecast.png
+│   ├── Region 3 onset.wk.forecast.png 
+│   ├── Region3pk prev forecast.png
+│   ├── Region3pk.wk.forecast.png
+│   ├── Region41-4 week forecast.png
+│   ├── Region 4 onset.wk.forecast.png 
+│   ├── Region4pk prev forecast.png
+│   ├── Region4pk.wk.forecast.png
+│   ├── Region51-4 week forecast.png
+│   ├── Region 5 onset.wk.forecast.png 
+│   ├── Region5pk prev forecast.png
+│   ├── Region5pk.wk.forecast.png
+│   ├── Region61-4 week forecast.png
+│   ├── Region 6 onset.wk.forecast.png 
+│   ├── Region6pk prev forecast.png
+│   ├── Region6pk.wk.forecast.png
+│   ├── Region71-4 week forecast.png
+│   ├── Region 7 onset.wk.forecast.png 
+│   ├── Region7pk prev forecast.png
+│   ├── Region7pk.wk.forecast.png
+│   ├── Region81-4 week forecast.png
+│   ├── Region 8 onset.wk.forecast.png 
+│   ├── Region8pk prev forecast.png
+│   ├── Region8pk.wk.forecast.png
+│   ├── Region91-4 week forecast.png
+│   ├── Region 9 onset.wk.forecast.png 
+│   ├── Region9pk prev forecast.png
+│   └── Region9pk.wk.forecast.png
+├── Region104wks.csv
+├── Region14wks.csv
+├── Region24wks.csv
+├── Region34wks.csv
+├── Region44wks.csv
+├── Region54wks.csv
+├── Region64wks.csv
+├── Region74wks.csv
+├── Region84wks.csv
+├── Region94wks.csv
+├── Rplots.pdf
+├── run.sh
+├── run.sh~
+└── submit
+    ├── EW17-UCSF1-2017-10-29.csv
+    ├── EW17-UCSF1-CA-2017-10-29.csv
+    └── forecast1-4wk.png
