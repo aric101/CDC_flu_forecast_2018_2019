@@ -6,5 +6,5 @@ https://predict.cdc.gov/#
 Submitted forecasts in csv: `ls ./FluWeeklyForecastEW*/submit/EW*-TeamAnonymous-2018*.csv` 
 
 ### [State FluSight 2018–2019 (weekly forecasts):](https://predict.cdc.gov/post/5ba5389fa983f303b832726b)
-Submitted forecasts in csv `ls ./FluWeeklyForecastEW**/submit/EW*-TeamAnonymous-States-2018*.csv`
+Submitted forecasts in csv `ls ./FluWeeklyForecastEW*/submit/EW*-TeamAnonymous-States-2018*.csv`
 
