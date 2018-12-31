@@ -920,8 +920,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(0:130))))
- [1] 49.91950 50.29066 51.49329 49.48124 49.84050 49.83648 49.23427 51.13751
- [9] 49.20988 50.40179
+ [1] 49.45129 49.85904 49.69288 49.40543 49.20678 50.18947 51.21759 50.78208
+ [9] 49.84050 49.68999
 > 
 > national4wks <- read.csv("national.pk.prev.forecast.template.csv")
 > head(national4wks)
@@ -956,15 +956,15 @@ Type 'q()' to quit R.
 6 California Season peak percentage   Bin percent            0.4
   Bin_end_notincl   Value
 1              NA 5.00000
-2             0.1 0.00021
-3             0.2 0.00021
-4             0.3 0.00021
-5             0.4 0.00021
-6             0.5 0.00021
+2             0.1 0.00029
+3             0.2 0.00029
+4             0.3 0.00029
+5             0.4 0.00029
+6             0.5 0.00029
 > 
 > write.csv(national4wks, "./output/ca.pk.prev.csv", row.names=F)
 > 
 > 
 > proc.time()
    user  system elapsed 
- 52.852   0.087  53.624 
+ 53.103   0.068  53.999 

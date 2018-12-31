@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Georgia","1 wk ahead","Point","percent",NA,NA,5.8
+"Georgia","1 wk ahead","Point","percent",NA,NA,5.9
 "Georgia","1 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -40,7 +40,7 @@
 "Georgia","1 wk ahead","Bin","percent",3.7,3.8,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",3.9,4,4.5e-09
-"Georgia","1 wk ahead","Bin","percent",4,4.1,0.11
+"Georgia","1 wk ahead","Bin","percent",4,4.1,0.093
 "Georgia","1 wk ahead","Bin","percent",4.1,4.2,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",4.2,4.3,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",4.3,4.4,4.5e-09
@@ -66,7 +66,7 @@
 "Georgia","1 wk ahead","Bin","percent",6.3,6.4,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",6.4,6.5,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",6.5,6.6,4.5e-09
-"Georgia","1 wk ahead","Bin","percent",6.6,6.7,0.53
+"Georgia","1 wk ahead","Bin","percent",6.6,6.7,0.55
 "Georgia","1 wk ahead","Bin","percent",6.7,6.8,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",6.8,6.9,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",6.9,7,4.5e-09
@@ -131,7 +131,7 @@
 "Georgia","1 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Georgia","1 wk ahead","Bin","percent",13,100,4.5e-09
-"Georgia","2 wk ahead","Point","percent",NA,NA,5.9
+"Georgia","2 wk ahead","Point","percent",NA,NA,6
 "Georgia","2 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -172,7 +172,7 @@
 "Georgia","2 wk ahead","Bin","percent",3.7,3.8,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",3.9,4,4.5e-09
-"Georgia","2 wk ahead","Bin","percent",4,4.1,0.085
+"Georgia","2 wk ahead","Bin","percent",4,4.1,0.071
 "Georgia","2 wk ahead","Bin","percent",4.1,4.2,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",4.2,4.3,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",4.3,4.4,4.5e-09
@@ -185,7 +185,7 @@
 "Georgia","2 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Georgia","2 wk ahead","Bin","percent",5.3,5.4,0.36
+"Georgia","2 wk ahead","Bin","percent",5.3,5.4,0.35
 "Georgia","2 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -198,7 +198,7 @@
 "Georgia","2 wk ahead","Bin","percent",6.3,6.4,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",6.4,6.5,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",6.5,6.6,4.5e-09
-"Georgia","2 wk ahead","Bin","percent",6.6,6.7,0.55
+"Georgia","2 wk ahead","Bin","percent",6.6,6.7,0.58
 "Georgia","2 wk ahead","Bin","percent",6.7,6.8,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",6.8,6.9,4.5e-09
 "Georgia","2 wk ahead","Bin","percent",6.9,7,4.5e-09
@@ -304,7 +304,7 @@
 "Georgia","3 wk ahead","Bin","percent",3.7,3.8,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",3.9,4,4.5e-09
-"Georgia","3 wk ahead","Bin","percent",4,4.1,0.064
+"Georgia","3 wk ahead","Bin","percent",4,4.1,0.054
 "Georgia","3 wk ahead","Bin","percent",4.1,4.2,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",4.2,4.3,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",4.3,4.4,4.5e-09
@@ -317,7 +317,7 @@
 "Georgia","3 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Georgia","3 wk ahead","Bin","percent",5.3,5.4,0.37
+"Georgia","3 wk ahead","Bin","percent",5.3,5.4,0.35
 "Georgia","3 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -330,7 +330,7 @@
 "Georgia","3 wk ahead","Bin","percent",6.3,6.4,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",6.4,6.5,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",6.5,6.6,4.5e-09
-"Georgia","3 wk ahead","Bin","percent",6.6,6.7,0.57
+"Georgia","3 wk ahead","Bin","percent",6.6,6.7,0.6
 "Georgia","3 wk ahead","Bin","percent",6.7,6.8,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",6.8,6.9,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",6.9,7,4.5e-09
@@ -395,7 +395,7 @@
 "Georgia","3 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Georgia","3 wk ahead","Bin","percent",13,100,4.5e-09
-"Georgia","4 wk ahead","Point","percent",NA,NA,6
+"Georgia","4 wk ahead","Point","percent",NA,NA,6.1
 "Georgia","4 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -436,7 +436,7 @@
 "Georgia","4 wk ahead","Bin","percent",3.7,3.8,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",3.9,4,4.5e-09
-"Georgia","4 wk ahead","Bin","percent",4,4.1,0.047
+"Georgia","4 wk ahead","Bin","percent",4,4.1,0.04
 "Georgia","4 wk ahead","Bin","percent",4.1,4.2,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",4.2,4.3,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",4.3,4.4,4.5e-09
@@ -449,7 +449,7 @@
 "Georgia","4 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Georgia","4 wk ahead","Bin","percent",5.3,5.4,0.37
+"Georgia","4 wk ahead","Bin","percent",5.3,5.4,0.34
 "Georgia","4 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -462,7 +462,7 @@
 "Georgia","4 wk ahead","Bin","percent",6.3,6.4,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",6.4,6.5,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",6.5,6.6,4.5e-09
-"Georgia","4 wk ahead","Bin","percent",6.6,6.7,0.58
+"Georgia","4 wk ahead","Bin","percent",6.6,6.7,0.62
 "Georgia","4 wk ahead","Bin","percent",6.7,6.8,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",6.8,6.9,4.5e-09
 "Georgia","4 wk ahead","Bin","percent",6.9,7,4.5e-09

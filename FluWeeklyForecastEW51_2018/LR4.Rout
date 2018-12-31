@@ -2696,11 +2696,11 @@ Type 'q()' to quit R.
 > head(national4wks)
      Location     Target  Type    Unit Bin_start_incl Bin_end_notincl   Value
 1 US National 1 wk ahead Point percent             NA              NA 2.8e+00
-2 US National 1 wk ahead   Bin percent            0.0             0.1 8.5e-08
-3 US National 1 wk ahead   Bin percent            0.1             0.2 8.5e-08
-4 US National 1 wk ahead   Bin percent            0.2             0.3 8.5e-08
-5 US National 1 wk ahead   Bin percent            0.3             0.4 8.5e-08
-6 US National 1 wk ahead   Bin percent            0.4             0.5 8.5e-08
+2 US National 1 wk ahead   Bin percent            0.0             0.1 8.9e-08
+3 US National 1 wk ahead   Bin percent            0.1             0.2 8.9e-08
+4 US National 1 wk ahead   Bin percent            0.2             0.3 8.9e-08
+5 US National 1 wk ahead   Bin percent            0.3             0.4 8.9e-08
+6 US National 1 wk ahead   Bin percent            0.4             0.5 8.9e-08
 > 
 > write.csv(national4wks, "./output/national4wks.csv", row.names=F)
 > 
@@ -2741,11 +2741,11 @@ Type 'q()' to quit R.
 > head(national4wks)
      Location     Target  Type    Unit Bin_start_incl Bin_end_notincl   Value
 1 US National 1 wk ahead Point percent             NA              NA 2.8e+00
-2 US National 1 wk ahead   Bin percent            0.0             0.1 9.9e-06
-3 US National 1 wk ahead   Bin percent            0.1             0.2 1.8e-05
-4 US National 1 wk ahead   Bin percent            0.2             0.3 3.3e-05
-5 US National 1 wk ahead   Bin percent            0.3             0.4 5.7e-05
-6 US National 1 wk ahead   Bin percent            0.4             0.5 9.9e-05
+2 US National 1 wk ahead   Bin percent            0.0             0.1 1.0e-05
+3 US National 1 wk ahead   Bin percent            0.1             0.2 1.9e-05
+4 US National 1 wk ahead   Bin percent            0.2             0.3 3.4e-05
+5 US National 1 wk ahead   Bin percent            0.3             0.4 5.9e-05
+6 US National 1 wk ahead   Bin percent            0.4             0.5 1.0e-04
 > 
 > write.csv(national4wks, "./output/national4wksSMOOTH.csv", row.names=F)
 > 
@@ -2757,8 +2757,170 @@ Type 'q()' to quit R.
 > 
 > projection <- apply(avg.ili,2, function(x)c(flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], x/10))
 > png("./plots/forecastNational.png")
-> plot(week2season(head(wkID,1)-3):week2season(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,3) , main="national 1-4 wk ahead")
-Error in xy.coords(x, y, xlabel, ylabel, log) : 
-  'x' and 'y' lengths differ
-Calls: plot -> plot.default -> xy.coords
-Execution halted
+> plot((head(wkID,1)-3):(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,7) , main="national 1-4 wk ahead", xaxt="n")
+> axis(1, at=(head(wkID,1)-3):(tail(wkID,1)),labels=c(week2season(wkID-3), week2season(wkID)[-1]))
+> sapply(1:ncol(projection),function(k)lines((head(wkID,1)-3):(tail(wkID,1)),projection[,k], lty=2,type="l", col="grey"))
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
+NULL
+
+[[9]]
+NULL
+
+[[10]]
+NULL
+
+[[11]]
+NULL
+
+[[12]]
+NULL
+
+[[13]]
+NULL
+
+[[14]]
+NULL
+
+[[15]]
+NULL
+
+[[16]]
+NULL
+
+[[17]]
+NULL
+
+[[18]]
+NULL
+
+[[19]]
+NULL
+
+[[20]]
+NULL
+
+[[21]]
+NULL
+
+[[22]]
+NULL
+
+[[23]]
+NULL
+
+[[24]]
+NULL
+
+[[25]]
+NULL
+
+[[26]]
+NULL
+
+[[27]]
+NULL
+
+[[28]]
+NULL
+
+[[29]]
+NULL
+
+[[30]]
+NULL
+
+[[31]]
+NULL
+
+[[32]]
+NULL
+
+[[33]]
+NULL
+
+[[34]]
+NULL
+
+[[35]]
+NULL
+
+[[36]]
+NULL
+
+[[37]]
+NULL
+
+[[38]]
+NULL
+
+[[39]]
+NULL
+
+[[40]]
+NULL
+
+[[41]]
+NULL
+
+[[42]]
+NULL
+
+[[43]]
+NULL
+
+[[44]]
+NULL
+
+[[45]]
+NULL
+
+[[46]]
+NULL
+
+[[47]]
+NULL
+
+[[48]]
+NULL
+
+[[49]]
+NULL
+
+[[50]]
+NULL
+
+> lines((head(wkID,1)-3):((head(wkID,1))-1), flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], lwd=3)
+> lines(((head(wkID,1))-1):(tail(wkID,1)), c(tail(flu.data.wk.prev$ILI,1), apply(avg.ili, 1, mean)/10), lty=2, col="red",lwd=3)
+> dev.off()
+pdf 
+  2 
+> 
+> apply(avg.ili, 1, mean)
+[1] 28.10046 28.20412 28.30803 28.41206
+> 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+202.992   0.278 206.117 

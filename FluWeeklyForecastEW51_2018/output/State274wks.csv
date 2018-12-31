@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Nebraska","1 wk ahead","Point","percent",NA,NA,2.9
+"Nebraska","1 wk ahead","Point","percent",NA,NA,3
 "Nebraska","1 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -8,7 +8,7 @@
 "Nebraska","1 wk ahead","Bin","percent",0.5,0.6,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",0.6,0.7,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",0.7,0.8,4.5e-09
-"Nebraska","1 wk ahead","Bin","percent",0.8,0.9,0.093
+"Nebraska","1 wk ahead","Bin","percent",0.8,0.9,0.1
 "Nebraska","1 wk ahead","Bin","percent",0.9,1,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",1,1.1,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",1.1,1.2,4.5e-09
@@ -18,7 +18,7 @@
 "Nebraska","1 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Nebraska","1 wk ahead","Bin","percent",1.8,1.9,0.39
+"Nebraska","1 wk ahead","Bin","percent",1.8,1.9,0.36
 "Nebraska","1 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",2.1,2.2,4.5e-09
@@ -42,7 +42,7 @@
 "Nebraska","1 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",4.1,4.2,4.5e-09
-"Nebraska","1 wk ahead","Bin","percent",4.2,4.3,0.52
+"Nebraska","1 wk ahead","Bin","percent",4.2,4.3,0.54
 "Nebraska","1 wk ahead","Bin","percent",4.3,4.4,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Nebraska","1 wk ahead","Bin","percent",4.5,4.6,4.5e-09
@@ -140,7 +140,7 @@
 "Nebraska","2 wk ahead","Bin","percent",0.5,0.6,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",0.6,0.7,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",0.7,0.8,4.5e-09
-"Nebraska","2 wk ahead","Bin","percent",0.8,0.9,0.071
+"Nebraska","2 wk ahead","Bin","percent",0.8,0.9,0.08
 "Nebraska","2 wk ahead","Bin","percent",0.9,1,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",1,1.1,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",1.1,1.2,4.5e-09
@@ -150,7 +150,7 @@
 "Nebraska","2 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Nebraska","2 wk ahead","Bin","percent",1.8,1.9,0.38
+"Nebraska","2 wk ahead","Bin","percent",1.8,1.9,0.36
 "Nebraska","2 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",2.1,2.2,4.5e-09
@@ -174,7 +174,7 @@
 "Nebraska","2 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",4.1,4.2,4.5e-09
-"Nebraska","2 wk ahead","Bin","percent",4.2,4.3,0.55
+"Nebraska","2 wk ahead","Bin","percent",4.2,4.3,0.56
 "Nebraska","2 wk ahead","Bin","percent",4.3,4.4,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Nebraska","2 wk ahead","Bin","percent",4.5,4.6,4.5e-09
@@ -272,7 +272,7 @@
 "Nebraska","3 wk ahead","Bin","percent",0.5,0.6,4.5e-09
 "Nebraska","3 wk ahead","Bin","percent",0.6,0.7,4.5e-09
 "Nebraska","3 wk ahead","Bin","percent",0.7,0.8,4.5e-09
-"Nebraska","3 wk ahead","Bin","percent",0.8,0.9,0.054
+"Nebraska","3 wk ahead","Bin","percent",0.8,0.9,0.06
 "Nebraska","3 wk ahead","Bin","percent",0.9,1,4.5e-09
 "Nebraska","3 wk ahead","Bin","percent",1,1.1,4.5e-09
 "Nebraska","3 wk ahead","Bin","percent",1.1,1.2,4.5e-09
@@ -404,7 +404,7 @@
 "Nebraska","4 wk ahead","Bin","percent",0.5,0.6,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",0.6,0.7,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",0.7,0.8,4.5e-09
-"Nebraska","4 wk ahead","Bin","percent",0.8,0.9,0.04
+"Nebraska","4 wk ahead","Bin","percent",0.8,0.9,0.045
 "Nebraska","4 wk ahead","Bin","percent",0.9,1,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",1,1.1,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",1.1,1.2,4.5e-09
@@ -414,7 +414,7 @@
 "Nebraska","4 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Nebraska","4 wk ahead","Bin","percent",1.8,1.9,0.35
+"Nebraska","4 wk ahead","Bin","percent",1.8,1.9,0.36
 "Nebraska","4 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",2.1,2.2,4.5e-09
@@ -438,7 +438,7 @@
 "Nebraska","4 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",4.1,4.2,4.5e-09
-"Nebraska","4 wk ahead","Bin","percent",4.2,4.3,0.61
+"Nebraska","4 wk ahead","Bin","percent",4.2,4.3,0.59
 "Nebraska","4 wk ahead","Bin","percent",4.3,4.4,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Nebraska","4 wk ahead","Bin","percent",4.5,4.6,4.5e-09

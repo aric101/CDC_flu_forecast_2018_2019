@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Colorado","1 wk ahead","Point","percent",NA,NA,6.7
+"Colorado","1 wk ahead","Point","percent",NA,NA,6.3
 "Colorado","1 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -38,7 +38,7 @@
 "Colorado","1 wk ahead","Bin","percent",3.5,3.6,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",3.6,3.7,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",3.7,3.8,4.5e-09
-"Colorado","1 wk ahead","Bin","percent",3.8,3.9,0.052
+"Colorado","1 wk ahead","Bin","percent",3.8,3.9,0.1
 "Colorado","1 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",4.1,4.2,4.5e-09
@@ -53,7 +53,7 @@
 "Colorado","1 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Colorado","1 wk ahead","Bin","percent",5.3,5.4,0.27
+"Colorado","1 wk ahead","Bin","percent",5.3,5.4,0.39
 "Colorado","1 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -75,7 +75,7 @@
 "Colorado","1 wk ahead","Bin","percent",7.2,7.3,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",7.3,7.4,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",7.4,7.5,4.5e-09
-"Colorado","1 wk ahead","Bin","percent",7.5,7.6,0.68
+"Colorado","1 wk ahead","Bin","percent",7.5,7.6,0.51
 "Colorado","1 wk ahead","Bin","percent",7.6,7.7,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",7.7,7.8,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",7.8,7.9,4.5e-09
@@ -131,7 +131,7 @@
 "Colorado","1 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Colorado","1 wk ahead","Bin","percent",13,100,4.5e-09
-"Colorado","2 wk ahead","Point","percent",NA,NA,6.8
+"Colorado","2 wk ahead","Point","percent",NA,NA,6.4
 "Colorado","2 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -170,7 +170,7 @@
 "Colorado","2 wk ahead","Bin","percent",3.5,3.6,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",3.6,3.7,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",3.7,3.8,4.5e-09
-"Colorado","2 wk ahead","Bin","percent",3.8,3.9,0.04
+"Colorado","2 wk ahead","Bin","percent",3.8,3.9,0.08
 "Colorado","2 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",4.1,4.2,4.5e-09
@@ -185,7 +185,7 @@
 "Colorado","2 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Colorado","2 wk ahead","Bin","percent",5.3,5.4,0.25
+"Colorado","2 wk ahead","Bin","percent",5.3,5.4,0.38
 "Colorado","2 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -207,7 +207,7 @@
 "Colorado","2 wk ahead","Bin","percent",7.2,7.3,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",7.3,7.4,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",7.4,7.5,4.5e-09
-"Colorado","2 wk ahead","Bin","percent",7.5,7.6,0.71
+"Colorado","2 wk ahead","Bin","percent",7.5,7.6,0.54
 "Colorado","2 wk ahead","Bin","percent",7.6,7.7,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",7.7,7.8,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",7.8,7.9,4.5e-09
@@ -263,7 +263,7 @@
 "Colorado","2 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Colorado","2 wk ahead","Bin","percent",13,100,4.5e-09
-"Colorado","3 wk ahead","Point","percent",NA,NA,6.9
+"Colorado","3 wk ahead","Point","percent",NA,NA,6.4
 "Colorado","3 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -302,7 +302,7 @@
 "Colorado","3 wk ahead","Bin","percent",3.5,3.6,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",3.6,3.7,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",3.7,3.8,4.5e-09
-"Colorado","3 wk ahead","Bin","percent",3.8,3.9,0.03
+"Colorado","3 wk ahead","Bin","percent",3.8,3.9,0.06
 "Colorado","3 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",4.1,4.2,4.5e-09
@@ -317,7 +317,7 @@
 "Colorado","3 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Colorado","3 wk ahead","Bin","percent",5.3,5.4,0.23
+"Colorado","3 wk ahead","Bin","percent",5.3,5.4,0.38
 "Colorado","3 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -339,7 +339,7 @@
 "Colorado","3 wk ahead","Bin","percent",7.2,7.3,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",7.3,7.4,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",7.4,7.5,4.5e-09
-"Colorado","3 wk ahead","Bin","percent",7.5,7.6,0.74
+"Colorado","3 wk ahead","Bin","percent",7.5,7.6,0.56
 "Colorado","3 wk ahead","Bin","percent",7.6,7.7,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",7.7,7.8,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",7.8,7.9,4.5e-09
@@ -395,7 +395,7 @@
 "Colorado","3 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Colorado","3 wk ahead","Bin","percent",13,100,4.5e-09
-"Colorado","4 wk ahead","Point","percent",NA,NA,6.9
+"Colorado","4 wk ahead","Point","percent",NA,NA,6.5
 "Colorado","4 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -434,7 +434,7 @@
 "Colorado","4 wk ahead","Bin","percent",3.5,3.6,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",3.6,3.7,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",3.7,3.8,4.5e-09
-"Colorado","4 wk ahead","Bin","percent",3.8,3.9,0.022
+"Colorado","4 wk ahead","Bin","percent",3.8,3.9,0.045
 "Colorado","4 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",4,4.1,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",4.1,4.2,4.5e-09
@@ -449,7 +449,7 @@
 "Colorado","4 wk ahead","Bin","percent",5,5.1,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",5.1,5.2,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",5.2,5.3,4.5e-09
-"Colorado","4 wk ahead","Bin","percent",5.3,5.4,0.22
+"Colorado","4 wk ahead","Bin","percent",5.3,5.4,0.38
 "Colorado","4 wk ahead","Bin","percent",5.4,5.5,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",5.5,5.6,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",5.6,5.7,4.5e-09
@@ -471,7 +471,7 @@
 "Colorado","4 wk ahead","Bin","percent",7.2,7.3,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",7.3,7.4,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",7.4,7.5,4.5e-09
-"Colorado","4 wk ahead","Bin","percent",7.5,7.6,0.76
+"Colorado","4 wk ahead","Bin","percent",7.5,7.6,0.58
 "Colorado","4 wk ahead","Bin","percent",7.6,7.7,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",7.7,7.8,4.5e-09
 "Colorado","4 wk ahead","Bin","percent",7.8,7.9,4.5e-09

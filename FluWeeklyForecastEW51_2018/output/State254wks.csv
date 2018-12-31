@@ -25,7 +25,7 @@
 "Missouri","1 wk ahead","Bin","percent",2.2,2.3,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",2.4,2.5,4.5e-09
-"Missouri","1 wk ahead","Bin","percent",2.5,2.6,0.076
+"Missouri","1 wk ahead","Bin","percent",2.5,2.6,0.11
 "Missouri","1 wk ahead","Bin","percent",2.6,2.7,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",2.7,2.8,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",2.8,2.9,4.5e-09
@@ -41,9 +41,9 @@
 "Missouri","1 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",4,4.1,4.5e-09
-"Missouri","1 wk ahead","Bin","percent",4.1,4.2,0.63
+"Missouri","1 wk ahead","Bin","percent",4.1,4.2,0.49
 "Missouri","1 wk ahead","Bin","percent",4.2,4.3,4.5e-09
-"Missouri","1 wk ahead","Bin","percent",4.3,4.4,0.3
+"Missouri","1 wk ahead","Bin","percent",4.3,4.4,0.4
 "Missouri","1 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",4.5,4.6,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",4.6,4.7,4.5e-09
@@ -131,7 +131,7 @@
 "Missouri","1 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Missouri","1 wk ahead","Bin","percent",13,100,4.5e-09
-"Missouri","2 wk ahead","Point","percent",NA,NA,4.1
+"Missouri","2 wk ahead","Point","percent",NA,NA,4
 "Missouri","2 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -157,7 +157,7 @@
 "Missouri","2 wk ahead","Bin","percent",2.2,2.3,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",2.4,2.5,4.5e-09
-"Missouri","2 wk ahead","Bin","percent",2.5,2.6,0.058
+"Missouri","2 wk ahead","Bin","percent",2.5,2.6,0.085
 "Missouri","2 wk ahead","Bin","percent",2.6,2.7,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",2.7,2.8,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",2.8,2.9,4.5e-09
@@ -173,9 +173,9 @@
 "Missouri","2 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",4,4.1,4.5e-09
-"Missouri","2 wk ahead","Bin","percent",4.1,4.2,0.65
+"Missouri","2 wk ahead","Bin","percent",4.1,4.2,0.52
 "Missouri","2 wk ahead","Bin","percent",4.2,4.3,4.5e-09
-"Missouri","2 wk ahead","Bin","percent",4.3,4.4,0.29
+"Missouri","2 wk ahead","Bin","percent",4.3,4.4,0.39
 "Missouri","2 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",4.5,4.6,4.5e-09
 "Missouri","2 wk ahead","Bin","percent",4.6,4.7,4.5e-09
@@ -289,7 +289,7 @@
 "Missouri","3 wk ahead","Bin","percent",2.2,2.3,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",2.4,2.5,4.5e-09
-"Missouri","3 wk ahead","Bin","percent",2.5,2.6,0.044
+"Missouri","3 wk ahead","Bin","percent",2.5,2.6,0.064
 "Missouri","3 wk ahead","Bin","percent",2.6,2.7,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",2.7,2.8,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",2.8,2.9,4.5e-09
@@ -305,9 +305,9 @@
 "Missouri","3 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",4,4.1,4.5e-09
-"Missouri","3 wk ahead","Bin","percent",4.1,4.2,0.67
+"Missouri","3 wk ahead","Bin","percent",4.1,4.2,0.54
 "Missouri","3 wk ahead","Bin","percent",4.2,4.3,4.5e-09
-"Missouri","3 wk ahead","Bin","percent",4.3,4.4,0.28
+"Missouri","3 wk ahead","Bin","percent",4.3,4.4,0.39
 "Missouri","3 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",4.5,4.6,4.5e-09
 "Missouri","3 wk ahead","Bin","percent",4.6,4.7,4.5e-09
@@ -421,7 +421,7 @@
 "Missouri","4 wk ahead","Bin","percent",2.2,2.3,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",2.4,2.5,4.5e-09
-"Missouri","4 wk ahead","Bin","percent",2.5,2.6,0.032
+"Missouri","4 wk ahead","Bin","percent",2.5,2.6,0.047
 "Missouri","4 wk ahead","Bin","percent",2.6,2.7,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",2.7,2.8,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",2.8,2.9,4.5e-09
@@ -437,9 +437,9 @@
 "Missouri","4 wk ahead","Bin","percent",3.8,3.9,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",3.9,4,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",4,4.1,4.5e-09
-"Missouri","4 wk ahead","Bin","percent",4.1,4.2,0.69
+"Missouri","4 wk ahead","Bin","percent",4.1,4.2,0.56
 "Missouri","4 wk ahead","Bin","percent",4.2,4.3,4.5e-09
-"Missouri","4 wk ahead","Bin","percent",4.3,4.4,0.28
+"Missouri","4 wk ahead","Bin","percent",4.3,4.4,0.39
 "Missouri","4 wk ahead","Bin","percent",4.4,4.5,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",4.5,4.6,4.5e-09
 "Missouri","4 wk ahead","Bin","percent",4.6,4.7,4.5e-09

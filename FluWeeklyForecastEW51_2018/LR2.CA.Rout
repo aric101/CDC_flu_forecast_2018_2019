@@ -951,8 +951,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(1:33))))
- [1] 15.50767 17.89653 17.36522 17.05099 17.49389 17.43022 17.11128 16.71538
- [9] 15.41525 17.30828
+ [1] 17.95668 17.30610 14.80237 16.84294 18.02856 14.70887 15.36398 17.30399
+ [9] 17.49871 16.58049
 > 
 > national4wks <- read.csv("national.pk.wk.forecast.template.csv")
 > head(national4wks)
@@ -980,15 +980,15 @@ Type 'q()' to quit R.
 > head(national4wks)
     Location           Target  Type Unit Bin_start_incl Bin_end_notincl   Value
 1 California Season peak week Point week             NA              NA 2.00000
-2 California Season peak week   Bin week             40              41 0.00032
-3 California Season peak week   Bin week             41              42 0.00032
-4 California Season peak week   Bin week             42              43 0.00032
-5 California Season peak week   Bin week             43              44 0.00032
-6 California Season peak week   Bin week             44              45 0.00032
+2 California Season peak week   Bin week             40              41 0.00028
+3 California Season peak week   Bin week             41              42 0.00028
+4 California Season peak week   Bin week             42              43 0.00028
+5 California Season peak week   Bin week             43              44 0.00028
+6 California Season peak week   Bin week             44              45 0.00028
 > 
 > write.csv(national4wks, "./output/ca.pk.wk.csv", row.names=F)
 > 
 > 
 > proc.time()
    user  system elapsed 
- 15.510   0.060  15.857 
+ 15.546   0.038  15.780 

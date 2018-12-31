@@ -423,10 +423,12 @@ flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018]
 
 projection <- apply(avg.ili,2, function(x)c(flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], x/10))
 png(paste("./plots/forecastState",HHS.id,".png",sep=""))
-plot(week2season(head(wkID,1)-3):week2season(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,3), , main=paste("State: ", Region.name[HHS.id], " 1-4 wk ahead",sep=""))
-sapply(1:ncol(projection),function(k)lines(week2season(head(wkID,1)-3):week2season(tail(wkID,1)),projection[,k], lty=2,type="l", col="grey"))
-lines(week2season(head(wkID,1)-3):(week2season(head(wkID,1))-1), flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], lwd=3)
-lines((week2season(head(wkID,1))-1):week2season(tail(wkID,1)), c(tail(flu.data.wk.prev$ILI,1), apply(avg.ili, 1, mean)/10), lty=2, col="red",lwd=3)
+plot((head(wkID,1)-3):(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,7) , main=paste("State: ", Region.name[HHS.id], " 1-4 wk ahead",sep=""), xaxt="n")
+axis(1, at=(head(wkID,1)-3):(tail(wkID,1)),labels=c(week2season(wkID-3), week2season(wkID)[-1]))
+sapply(1:ncol(projection),function(k)lines((head(wkID,1)-3):(tail(wkID,1)),projection[,k], lty=2,type="l", col="grey"))
+lines((head(wkID,1)-3):((head(wkID,1))-1), flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], lwd=3)
+lines(((head(wkID,1))-1):(tail(wkID,1)), c(tail(flu.data.wk.prev$ILI,1), apply(avg.ili, 1, mean)/10), lty=2, col="red",lwd=3)
+
 dev.off()
 
 apply(avg.ili, 1, mean)

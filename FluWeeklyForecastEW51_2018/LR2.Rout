@@ -1697,8 +1697,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(1:33))))
- [1] 18.06346 17.89264 18.14398 17.77689 18.45684 18.34148 17.54530 18.64076
- [9] 17.70443 18.49917
+ [1] 18.06507 17.70607 18.50490 17.80687 18.45377 18.11892 17.74827 18.07737
+ [9] 18.27433 18.22536
 > 
 > national4wks <- read.csv("national.pk.wk.forecast.template.csv")
 > head(national4wks)
@@ -1732,15 +1732,15 @@ Type 'q()' to quit R.
 6 US National Season peak week   Bin week             44              45
     Value
 1 4.0e+00
-2 9.3e-05
-3 9.3e-05
+2 9.1e-05
+3 9.1e-05
 4 1.8e-02
-5 2.1e-02
-6 9.3e-05
+5 2.6e-02
+6 9.1e-05
 > 
 > write.csv(national4wks, "./output/national.pk.wk.csv", row.names=F)
 > 
 > 
 > proc.time()
    user  system elapsed 
- 14.923   0.051  15.695 
+ 14.618   0.036  14.756 

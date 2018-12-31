@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Tennessee","1 wk ahead","Point","percent",NA,NA,2
+"Tennessee","1 wk ahead","Point","percent",NA,NA,1.9
 "Tennessee","1 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -18,11 +18,11 @@
 "Tennessee","1 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Tennessee","1 wk ahead","Bin","percent",1.8,1.9,0.6
+"Tennessee","1 wk ahead","Bin","percent",1.8,1.9,0.63
 "Tennessee","1 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",2.1,2.2,4.5e-09
-"Tennessee","1 wk ahead","Bin","percent",2.2,2.3,0.4
+"Tennessee","1 wk ahead","Bin","percent",2.2,2.3,0.37
 "Tennessee","1 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",2.4,2.5,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",2.5,2.6,4.5e-09
@@ -131,7 +131,7 @@
 "Tennessee","1 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Tennessee","1 wk ahead","Bin","percent",13,100,4.5e-09
-"Tennessee","2 wk ahead","Point","percent",NA,NA,2
+"Tennessee","2 wk ahead","Point","percent",NA,NA,1.9
 "Tennessee","2 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -150,11 +150,11 @@
 "Tennessee","2 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Tennessee","2 wk ahead","Bin","percent",1.8,1.9,0.6
+"Tennessee","2 wk ahead","Bin","percent",1.8,1.9,0.63
 "Tennessee","2 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",2.1,2.2,4.5e-09
-"Tennessee","2 wk ahead","Bin","percent",2.2,2.3,0.4
+"Tennessee","2 wk ahead","Bin","percent",2.2,2.3,0.37
 "Tennessee","2 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",2.4,2.5,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",2.5,2.6,4.5e-09
@@ -263,7 +263,7 @@
 "Tennessee","2 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Tennessee","2 wk ahead","Bin","percent",13,100,4.5e-09
-"Tennessee","3 wk ahead","Point","percent",NA,NA,2
+"Tennessee","3 wk ahead","Point","percent",NA,NA,1.9
 "Tennessee","3 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -282,11 +282,11 @@
 "Tennessee","3 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Tennessee","3 wk ahead","Bin","percent",1.8,1.9,0.6
+"Tennessee","3 wk ahead","Bin","percent",1.8,1.9,0.63
 "Tennessee","3 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",2.1,2.2,4.5e-09
-"Tennessee","3 wk ahead","Bin","percent",2.2,2.3,0.4
+"Tennessee","3 wk ahead","Bin","percent",2.2,2.3,0.37
 "Tennessee","3 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",2.4,2.5,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",2.5,2.6,4.5e-09
@@ -395,7 +395,7 @@
 "Tennessee","3 wk ahead","Bin","percent",12.8,12.9,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",12.9,13,4.5e-09
 "Tennessee","3 wk ahead","Bin","percent",13,100,4.5e-09
-"Tennessee","4 wk ahead","Point","percent",NA,NA,2
+"Tennessee","4 wk ahead","Point","percent",NA,NA,1.9
 "Tennessee","4 wk ahead","Bin","percent",0,0.1,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",0.1,0.2,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",0.2,0.3,4.5e-09
@@ -414,11 +414,11 @@
 "Tennessee","4 wk ahead","Bin","percent",1.5,1.6,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",1.6,1.7,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",1.7,1.8,4.5e-09
-"Tennessee","4 wk ahead","Bin","percent",1.8,1.9,0.6
+"Tennessee","4 wk ahead","Bin","percent",1.8,1.9,0.63
 "Tennessee","4 wk ahead","Bin","percent",1.9,2,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",2,2.1,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",2.1,2.2,4.5e-09
-"Tennessee","4 wk ahead","Bin","percent",2.2,2.3,0.4
+"Tennessee","4 wk ahead","Bin","percent",2.2,2.3,0.37
 "Tennessee","4 wk ahead","Bin","percent",2.3,2.4,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",2.4,2.5,4.5e-09
 "Tennessee","4 wk ahead","Bin","percent",2.5,2.6,4.5e-09

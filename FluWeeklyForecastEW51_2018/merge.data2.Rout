@@ -41,12 +41,18 @@ Type 'q()' to quit R.
 > 
 > 
 > system("ls ./plots/fore*.png")
+./plots/forecastCA.png
+./plots/forecastHHS10.png
 ./plots/forecastHHS1.png
 ./plots/forecastHHS2.png
 ./plots/forecastHHS3.png
 ./plots/forecastHHS4.png
 ./plots/forecastHHS5.png
+./plots/forecastHHS6.png
+./plots/forecastHHS7.png
 ./plots/forecastHHS8.png
+./plots/forecastHHS9.png
+./plots/forecastNational.png
 ./plots/forecastState10.png
 ./plots/forecastState11.png
 ./plots/forecastState12.png
@@ -89,8 +95,12 @@ Type 'q()' to quit R.
 ./plots/forecastState46.png
 ./plots/forecastState47.png
 ./plots/forecastState48.png
+./plots/forecastState49.png
 ./plots/forecastState4.png
+./plots/forecastState50.png
 ./plots/forecastState51.png
+./plots/forecastState52.png
+./plots/forecastState53.png
 ./plots/forecastState5.png
 ./plots/forecastState6.png
 ./plots/forecastState7.png
@@ -101,8 +111,6 @@ Type 'q()' to quit R.
 > 
 > 
 > system("convert ./plots/forecastNational.png ./plots/forecastHHS*.png ./plots/forecastState*.png -append ./forecast1-4wk.png")
-convert: unable to open image `./plots/forecastNational.png': No such file or directory @ error/blob.c/OpenBlob/2702.
-convert: unable to open file `./plots/forecastNational.png' @ error/png.c/ReadPNGImage/3913.
 > 
 > #system("convert forecast1-4wk-v1.png forecast1-4wk-v2.png forecast1-4wk-v3.png forecast1-4wk-v4.png +append forecast1-4wk-all.png")
 > 
@@ -269,4 +277,4 @@ cat: ./output/State6.pk.prev.csv: No such file or directory
 > 
 > proc.time()
    user  system elapsed 
-  1.301   0.643   2.859 
+  1.701   0.649   2.385 

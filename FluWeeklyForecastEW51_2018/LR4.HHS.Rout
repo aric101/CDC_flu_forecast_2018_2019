@@ -434,15 +434,53 @@ Loading required package: snow
 + 
 + projection <- apply(avg.ili,2, function(x)c(flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], x/10))
 + png(paste("./plots/forecastHHS",HHS.id,".png",sep=""))
-+ plot(week2season(head(wkID,1)-3):week2season(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,3), , main=paste("HHS", HHS.id, " 1-4 wk ahead",sep=""))
-+ sapply(1:ncol(projection),function(k)lines(week2season(head(wkID,1)-3):week2season(tail(wkID,1)),projection[,k], lty=2,type="l", col="grey"))
-+ lines(week2season(head(wkID,1)-3):(week2season(head(wkID,1))-1), flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], lwd=3)
-+ lines((week2season(head(wkID,1))-1):week2season(tail(wkID,1)), c(tail(flu.data.wk.prev$ILI,1), apply(avg.ili, 1, mean)/10), lty=2, col="red",lwd=3)
++ plot((head(wkID,1)-3):(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,7) , main=paste("HHS", HHS.id, " 1-4 wk ahead",sep=""), xaxt="n")
++ axis(1, at=(head(wkID,1)-3):(tail(wkID,1)),labels=c(week2season(wkID-3), week2season(wkID)[-1]))
++ sapply(1:ncol(projection),function(k)lines((head(wkID,1)-3):(tail(wkID,1)),projection[,k], lty=2,type="l", col="grey"))
++ lines((head(wkID,1)-3):((head(wkID,1))-1), flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], lwd=3)
++ lines(((head(wkID,1))-1):(tail(wkID,1)), c(tail(flu.data.wk.prev$ILI,1), apply(avg.ili, 1, mean)/10), lty=2, col="red",lwd=3)
++ 
 + dev.off()
 + 
 + apply(avg.ili, 1, mean)
 + 
 + }
-Error in { : task 2 failed - "'x' and 'y' lengths differ"
-Calls: %dopar% -> <Anonymous>
-Execution halted
+[[1]]
+[1] 24.77214 24.95844 25.13391 25.29496
+
+[[2]]
+[1] 40.03234 40.90155 41.73937 42.53012
+
+[[3]]
+[1] 37.41053 37.67057 37.92900 38.18319
+
+[[4]]
+[1] 27.76963 27.75767 27.74447 27.73004
+
+[[5]]
+[1] 19.99483 20.04345 20.08186 20.11574
+
+[[6]]
+[1] 39.86174 39.83090 39.79094 39.74646
+
+[[7]]
+[1] 27.07397 27.20934 27.33516 27.45028
+
+[[8]]
+[1] 40.37070 40.81573 41.19315 41.49928
+
+[[9]]
+[1] 34.53582 34.80625 35.07219 35.33385
+
+[[10]]
+[1]  9.901835 10.048119 10.217170 10.443045
+
+> 
+> print(Sys.time()-strt)
+Time difference of 12.13854 mins
+> stopCluster(cl)
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  1.017   0.032 729.106 
