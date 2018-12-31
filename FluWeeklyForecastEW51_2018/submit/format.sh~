@@ -1,0 +1,1 @@
+sed '/Season onset/d' ./EW51-TeamAnonymous-States-2018-12-31.csv > ./V2_EW51-TeamAnonymous-States-2018-12-31.csv 
