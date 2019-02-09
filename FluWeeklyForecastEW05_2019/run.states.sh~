@@ -1,0 +1,16 @@
+# 54 states
+echo "Running: 10 regions onset week"
+R CMD BATCH ./LR1.States.R
+echo "Done: 10 regions onset week"
+
+echo "Running: 10 regions peak week"
+R CMD BATCH ./LR2.States.R
+echo "Done: 10 regions peak week"
+
+echo "Running: 10 regions peak prev"
+R CMD BATCH ./LR3.States.R
+echo "Done: 10 regions peak prev"
+
+echo "Running: 10 regions ILI prev 1-4 weeks ahead"
+R CMD BATCH ./LR4.States.R
+echo "Done: 10 regions ILI prev 1-4 weeks ahead"
