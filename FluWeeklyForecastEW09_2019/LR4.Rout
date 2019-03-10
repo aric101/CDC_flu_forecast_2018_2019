@@ -1,7 +1,7 @@
 
-R version 3.4.1 (2017-06-30) -- "Single Candle"
-Copyright (C) 2017 The R Foundation for Statistical Computing
-Platform: x86_64-redhat-linux-gnu (64-bit)
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -2665,6 +2665,120 @@ Type 'q()' to quit R.
 + 
 + sim.forecast.ili.LIST <- c(sim.forecast.ili.LIST, list(sim.forecast.ili))
 + } # external for-loop
-
-Timing stopped at: 0.014 0 0.014
+> 
+> tmp <- sim.forecast.ili.LIST[[1]]
+> for(i in 2:length(sim.forecast.ili.LIST)){
++   tmp <- tmp + sim.forecast.ili.LIST[[i]]
++ }
+> 
+> sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
+> 
+> avg.ili <- sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(0:130))))
+> 
+> data.smooth <- 
++ sapply(1:ncol(sim.forecast.ili), function(k){
++ tmp.mean <- sum(c(0:130)/10*sim.forecast.ili[,k])
++ #tmp.sd <- sd(sample(x=(0:130)/10, 10000, replace=T, prob=sim.forecast.ili[,k]))/2
++ tmp.sd <- sd(sample(x=(0:130)/10, 10000, replace=T, prob=sim.forecast.ili[,k]))/1
++ tmp <- dnorm(x=(0:130)/10, mean=tmp.mean, sd=tmp.sd)
++ tmp/sum(tmp)
++ })
+> 
+> national4wks <- read.csv("national1-4wk.forecast.template.csv")
+> head(national4wks)
+     Location     Target  Type    Unit Bin_start_incl Bin_end_notincl
+1 US National 1 wk ahead Point percent             NA              NA
+2 US National 1 wk ahead   Bin percent            0.0             0.1
+3 US National 1 wk ahead   Bin percent            0.1             0.2
+4 US National 1 wk ahead   Bin percent            0.2             0.3
+5 US National 1 wk ahead   Bin percent            0.3             0.4
+6 US National 1 wk ahead   Bin percent            0.4             0.5
+        Value
+1 1.500000000
+2 0.007633588
+3 0.007633588
+4 0.007633588
+5 0.007633588
+6 0.007633588
+> nrow(national4wks)
+[1] 528
+> 
+> national4wks$Value[1] <- signif(sum((0:130)*sim.forecast.ili[,1])/10, 2)
+> national4wks$Value[1+132] <- signif(sum((0:130)*sim.forecast.ili[,2])/10, 2)
+> national4wks$Value[1+132+132] <- signif(sum((0:130)*sim.forecast.ili[,3])/10, 2)
+> national4wks$Value[1+132+132+132] <- signif(sum((0:130)*sim.forecast.ili[,4])/10, 2)
+> 
+> national4wks$Value[(2):(2+130)] <- signif(sim.forecast.ili[,1],2)
+> national4wks$Value[(2+130+2):(2+130+2+130)] <- signif(sim.forecast.ili[,2],2)
+> national4wks$Value[(2+130+2+130+2):(2+130+2+130+2+130)] <- signif(sim.forecast.ili[,3],2)
+> national4wks$Value[(2+130+2+130+2+130+2):(2+130+2+130+2+130+2+130)] <- signif(sim.forecast.ili[,4],2)
+> 
+> head(national4wks)
+     Location     Target  Type    Unit Bin_start_incl Bin_end_notincl   Value
+1 US National 1 wk ahead Point percent             NA              NA 4.4e+00
+2 US National 1 wk ahead   Bin percent            0.0             0.1 4.7e-06
+3 US National 1 wk ahead   Bin percent            0.1             0.2 4.7e-06
+4 US National 1 wk ahead   Bin percent            0.2             0.3 4.7e-06
+5 US National 1 wk ahead   Bin percent            0.3             0.4 4.7e-06
+6 US National 1 wk ahead   Bin percent            0.4             0.5 4.7e-06
+> 
+> write.csv(national4wks, "./output/national4wks.csv", row.names=F)
+> 
+> 
+> for(k in 1:ncol(sim.forecast.ili)){
++   sim.forecast.ili[,k] <- data.smooth[,k]
++ }
+> 
+> national4wks <- read.csv("national1-4wk.forecast.template.csv")
+> head(national4wks)
+     Location     Target  Type    Unit Bin_start_incl Bin_end_notincl
+1 US National 1 wk ahead Point percent             NA              NA
+2 US National 1 wk ahead   Bin percent            0.0             0.1
+3 US National 1 wk ahead   Bin percent            0.1             0.2
+4 US National 1 wk ahead   Bin percent            0.2             0.3
+5 US National 1 wk ahead   Bin percent            0.3             0.4
+6 US National 1 wk ahead   Bin percent            0.4             0.5
+        Value
+1 1.500000000
+2 0.007633588
+3 0.007633588
+4 0.007633588
+5 0.007633588
+6 0.007633588
+> nrow(national4wks)
+[1] 528
+> 
+> national4wks$Value[1] <- signif(sum((0:130)*sim.forecast.ili[,1])/10, 2)
+> national4wks$Value[1+132] <- signif(sum((0:130)*sim.forecast.ili[,2])/10, 2)
+> national4wks$Value[1+132+132] <- signif(sum((0:130)*sim.forecast.ili[,3])/10, 2)
+> national4wks$Value[1+132+132+132] <- signif(sum((0:130)*sim.forecast.ili[,4])/10, 2)
+> 
+> national4wks$Value[(2):(2+130)] <- signif(sim.forecast.ili[,1],2)
+> national4wks$Value[(2+130+2):(2+130+2+130)] <- signif(sim.forecast.ili[,2],2)
+> national4wks$Value[(2+130+2+130+2):(2+130+2+130+2+130)] <- signif(sim.forecast.ili[,3],2)
+> national4wks$Value[(2+130+2+130+2+130+2):(2+130+2+130+2+130+2+130)] <- signif(sim.forecast.ili[,4],2)
+> 
+> head(national4wks)
+     Location     Target  Type    Unit Bin_start_incl Bin_end_notincl   Value
+1 US National 1 wk ahead Point percent             NA              NA 4.4e+00
+2 US National 1 wk ahead   Bin percent            0.0             0.1 3.7e-05
+3 US National 1 wk ahead   Bin percent            0.1             0.2 5.0e-05
+4 US National 1 wk ahead   Bin percent            0.2             0.3 6.7e-05
+5 US National 1 wk ahead   Bin percent            0.3             0.4 9.0e-05
+6 US National 1 wk ahead   Bin percent            0.4             0.5 1.2e-04
+> 
+> write.csv(national4wks, "./output/national4wksSMOOTH.csv", row.names=F)
+> 
+> 
+> 
+> 
+> flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018]
+[1] 4.83215 5.04239 4.93166 4.69796
+> 
+> projection <- apply(avg.ili,2, function(x)c(flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], x/10))
+> png("./plots/forecastNational.png")
+> plot((head(wkID,1)-3):(tail(wkID,1)), projection[,1], lty=2,type="l", col="grey", xlab="wk", ylab="ILI%", ylim=c(0.2,7) , main="national 1-4 wk ahead", xaxt="n")
+Error in xy.coords(x, y, xlabel, ylabel, log) : 
+  'x' and 'y' lengths differ
+Calls: plot -> plot.default -> xy.coords
 Execution halted
