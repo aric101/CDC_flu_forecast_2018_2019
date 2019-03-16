@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Indiana","Season peak percentage","Point","percent",NA,NA,7.3
+"Indiana","Season peak percentage","Point","percent",NA,NA,7.2
 "Indiana","Season peak percentage","Bin","percent",0,0.1,4e-04
 "Indiana","Season peak percentage","Bin","percent",0.1,0.2,4e-04
 "Indiana","Season peak percentage","Bin","percent",0.2,0.3,4e-04
@@ -57,9 +57,9 @@
 "Indiana","Season peak percentage","Bin","percent",5.4,5.5,4e-04
 "Indiana","Season peak percentage","Bin","percent",5.5,5.6,4e-04
 "Indiana","Season peak percentage","Bin","percent",5.6,5.7,4e-04
-"Indiana","Season peak percentage","Bin","percent",5.7,5.8,0.095
+"Indiana","Season peak percentage","Bin","percent",5.7,5.8,0.094
 "Indiana","Season peak percentage","Bin","percent",5.8,5.9,4e-04
-"Indiana","Season peak percentage","Bin","percent",5.9,6,0.081
+"Indiana","Season peak percentage","Bin","percent",5.9,6,0.11
 "Indiana","Season peak percentage","Bin","percent",6,6.1,4e-04
 "Indiana","Season peak percentage","Bin","percent",6.1,6.2,4e-04
 "Indiana","Season peak percentage","Bin","percent",6.2,6.3,4e-04
@@ -67,9 +67,9 @@
 "Indiana","Season peak percentage","Bin","percent",6.4,6.5,4e-04
 "Indiana","Season peak percentage","Bin","percent",6.5,6.6,4e-04
 "Indiana","Season peak percentage","Bin","percent",6.6,6.7,4e-04
-"Indiana","Season peak percentage","Bin","percent",6.7,6.8,0.11
+"Indiana","Season peak percentage","Bin","percent",6.7,6.8,0.15
 "Indiana","Season peak percentage","Bin","percent",6.8,6.9,4e-04
-"Indiana","Season peak percentage","Bin","percent",6.9,7,0.12
+"Indiana","Season peak percentage","Bin","percent",6.9,7,0.077
 "Indiana","Season peak percentage","Bin","percent",7,7.1,4e-04
 "Indiana","Season peak percentage","Bin","percent",7.1,7.2,0.12
 "Indiana","Season peak percentage","Bin","percent",7.2,7.3,4e-04
@@ -80,16 +80,16 @@
 "Indiana","Season peak percentage","Bin","percent",7.7,7.8,4e-04
 "Indiana","Season peak percentage","Bin","percent",7.8,7.9,4e-04
 "Indiana","Season peak percentage","Bin","percent",7.9,8,4e-04
-"Indiana","Season peak percentage","Bin","percent",8,8.1,0.15
+"Indiana","Season peak percentage","Bin","percent",8,8.1,0.11
 "Indiana","Season peak percentage","Bin","percent",8.1,8.2,4e-04
 "Indiana","Season peak percentage","Bin","percent",8.2,8.3,4e-04
-"Indiana","Season peak percentage","Bin","percent",8.3,8.4,0.13
+"Indiana","Season peak percentage","Bin","percent",8.3,8.4,0.16
 "Indiana","Season peak percentage","Bin","percent",8.4,8.5,4e-04
 "Indiana","Season peak percentage","Bin","percent",8.5,8.6,4e-04
 "Indiana","Season peak percentage","Bin","percent",8.6,8.7,4e-04
 "Indiana","Season peak percentage","Bin","percent",8.7,8.8,4e-04
 "Indiana","Season peak percentage","Bin","percent",8.8,8.9,4e-04
-"Indiana","Season peak percentage","Bin","percent",8.9,9,0.14
+"Indiana","Season peak percentage","Bin","percent",8.9,9,0.11
 "Indiana","Season peak percentage","Bin","percent",9,9.1,4e-04
 "Indiana","Season peak percentage","Bin","percent",9.1,9.2,4e-04
 "Indiana","Season peak percentage","Bin","percent",9.2,9.3,4e-04

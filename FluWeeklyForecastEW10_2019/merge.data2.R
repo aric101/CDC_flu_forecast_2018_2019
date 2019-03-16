@@ -131,12 +131,12 @@ for(k in 2:length(all.states.output)){
 
 
 #### rename output files
-system("cp ./output/all.csv ./EW09-UCSF1-2019-03-11.csv")
-system("cp ./output/all.ca.csv ./EW09-UCSF1-CA-2019-03-11.csv")
-system("cp ./output/all.state.csv ./EW09-UCSF1-States-2019-03-11.csv")
+system("cp ./output/all.csv ./EW10-UCSF1-2019-03-18.csv")
+system("cp ./output/all.ca.csv ./EW10-UCSF1-CA-2019-03-18.csv")
+system("cp ./output/all.state.csv ./EW10-UCSF1-States-2019-03-18.csv")
 
-system("wc -l  EW09-UCSF1-2019-03-11.csv")
-system("wc -l  EW09-UCSF1-CA-2019-03-11.csv")
-system("wc -l  EW09-UCSF1-States-2019-03-11.csv")
-system("cp  EW09-UCSF1-2019-03-11.csv EW09-UCSF1-CA-2019-03-11.csv EW09-UCSF1-States-2019-03-11.csv forecast1-4wk.png ./submit")
+system("wc -l  EW10-UCSF1-2019-03-18.csv")
+system("wc -l  EW10-UCSF1-CA-2019-03-18.csv")
+system("wc -l  EW10-UCSF1-States-2019-03-18.csv")
+system("cp  EW10-UCSF1-2019-03-18.csv EW10-UCSF1-CA-2019-03-18.csv EW10-UCSF1-States-2019-03-18.csv forecast1-4wk.png ./submit")
 

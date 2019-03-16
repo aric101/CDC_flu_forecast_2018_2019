@@ -6,7 +6,7 @@ week2season <- function(k)c((40:52),(1:39))[k]
 week2season(5)
 
 #wkID <- (5:8) + (0)
-wkID <- (4:7) + (19) # EW09 2019
+wkID <- (4:7) + (20) # EW10 2019
 week2season(wkID)
 
 system("ls ./data/*.csv")

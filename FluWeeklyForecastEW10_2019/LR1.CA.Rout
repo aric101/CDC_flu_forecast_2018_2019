@@ -92,12 +92,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
       YEAR WEEK     ILI
-23181 2018   18 2.73051
-23235 2018   19 3.21239
-23289 2018   20 3.14602
-23343 2018   21 3.71578
-23397 2018   22 3.41651
-23451 2018   23 3.84036
+23235 2018   19 3.23037
+23289 2018   20 3.21323
+23343 2018   21 3.79482
+23397 2018   22 3.45642
+23451 2018   23 3.74355
+23505 2018   24 3.63101
 > 
 > flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
 > flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
@@ -532,27 +532,28 @@ Type 'q()' to quit R.
 22155 2017   51 1.537840
 22209 2017   52 1.367260
 22263 2017   53 1.303440
-22317 2018    1 1.376680
-22371 2018    2 1.186360
-22425 2018    3 1.287310
-22479 2018    4 1.423720
-22533 2018    5 1.596790
-22587 2018    6 1.736640
-22641 2018    7 2.005720
-22695 2018    8 2.072870
-22749 2018    9 2.259060
-22803 2018   10 2.428000
-22857 2018   11 2.816360
-22911 2018   12 3.098870
-22965 2018   13 3.241440
-23019 2018   15 3.278290
-23073 2018   16 3.141520
-23127 2018   17 2.898090
-23181 2018   18 2.730510
-23235 2018   19 3.212390
-23289 2018   20 3.146020
-23343 2018   21 3.715780
-23397 2018   22 3.416510
+22317 2018    1 1.480790
+22371 2018    2 1.272180
+22425 2018    3 1.427980
+22479 2018    4 1.586350
+22533 2018    5 1.754210
+22587 2018    6 1.844690
+22641 2018    7 2.080670
+22695 2018    8 2.079870
+22749 2018    9 2.329790
+22803 2018   10 2.506840
+22857 2018   11 2.828630
+22911 2018   12 3.096660
+22965 2018   13 3.223400
+23019 2018   15 3.294170
+23073 2018   16 3.144040
+23127 2018   17 2.896470
+23181 2018   18 2.764900
+23235 2018   19 3.230370
+23289 2018   20 3.213230
+23343 2018   21 3.794820
+23397 2018   22 3.456420
+23451 2018   23 3.743550
 > 
 > flu.data.yr.prev
       YEAR WEEK      ILI
@@ -973,27 +974,28 @@ Type 'q()' to quit R.
 22155 2017   51 1.537840
 22209 2017   52 1.367260
 22263 2017   53 1.303440
-22317 2018    1 1.376680
-22371 2018    2 1.186360
-22425 2018    3 1.287310
-22479 2018    4 1.423720
-22533 2018    5 1.596790
-22587 2018    6 1.736640
-22641 2018    7 2.005720
-22695 2018    8 2.072870
-22749 2018    9 2.259060
-22803 2018   10 2.428000
-22857 2018   11 2.816360
-22911 2018   12 3.098870
-22965 2018   13 3.241440
-23019 2018   15 3.278290
-23073 2018   16 3.141520
-23127 2018   17 2.898090
-23181 2018   18 2.730510
-23235 2018   19 3.212390
-23289 2018   20 3.146020
-23343 2018   21 3.715780
-23397 2018   22 3.416510
+22317 2018    1 1.480790
+22371 2018    2 1.272180
+22425 2018    3 1.427980
+22479 2018    4 1.586350
+22533 2018    5 1.754210
+22587 2018    6 1.844690
+22641 2018    7 2.080670
+22695 2018    8 2.079870
+22749 2018    9 2.329790
+22803 2018   10 2.506840
+22857 2018   11 2.828630
+22911 2018   12 3.096660
+22965 2018   13 3.223400
+23019 2018   15 3.294170
+23073 2018   16 3.144040
+23127 2018   17 2.896470
+23181 2018   18 2.764900
+23235 2018   19 3.230370
+23289 2018   20 3.213230
+23343 2018   21 3.794820
+23397 2018   22 3.456420
+23451 2018   23 3.743550
 > tmp.pk.week <- 
 + lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -1286,8 +1288,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(1:34))))
- [1] 11.29534 11.84315 11.29534 11.65850 11.33336 11.19341 10.66347 11.35204
- [9] 11.25240 11.19341
+ [1]  9.686138 11.843147 10.663469 11.252395 11.252395 11.658499 11.658499
+ [8] 11.295343 11.352042 11.352042
 > 
 > 
 > national4wks <- read.csv("national.onset.wk.forecast.template.csv")
@@ -1314,16 +1316,16 @@ Type 'q()' to quit R.
 > national4wks$Value[(2):(2+33)] <- signif(sim.forecast.ili[,1], 2)
 > 
 > head(national4wks)
-    Location       Target  Type Unit Bin_start_incl Bin_end_notincl Value
-1 California Season onset Point week           <NA>            <NA> 5e+01
-2 California Season onset   Bin week             40              41 6e-05
-3 California Season onset   Bin week             41              42 6e-05
-4 California Season onset   Bin week             42              43 6e-05
-5 California Season onset   Bin week             43              44 6e-05
-6 California Season onset   Bin week             44              45 6e-05
+    Location       Target  Type Unit Bin_start_incl Bin_end_notincl   Value
+1 California Season onset Point week           <NA>            <NA> 5.0e+01
+2 California Season onset   Bin week             40              41 1.2e-04
+3 California Season onset   Bin week             41              42 1.2e-04
+4 California Season onset   Bin week             42              43 1.2e-04
+5 California Season onset   Bin week             43              44 1.2e-04
+6 California Season onset   Bin week             44              45 1.2e-04
 > 
 > write.csv(national4wks, "./output/ca.onset.wk.csv", row.names=F)
 > 
 > proc.time()
    user  system elapsed 
- 17.144   0.056  17.199 
+ 18.664   0.068  18.731 

@@ -567,9 +567,9 @@ NULL
 NULL
 
 > print(Sys.time()-strt)
-Time difference of 8.503652 mins
+Time difference of 8.702363 mins
 > stopCluster(cl)
 > 
 > proc.time()
    user  system elapsed 
-  0.896   0.052 511.230 
+  0.892   0.056 523.158 

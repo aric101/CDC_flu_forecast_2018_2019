@@ -28,7 +28,7 @@ Type 'q()' to quit R.
 [1] 44
 > 
 > #wkID <- (5:8) + (0)
-> wkID <- (4:7) + (19) # EW09-2019
+> wkID <- (4:7) + (20) # EW10-2019
 > 
 > system("ls ./data/*.csv")
 ./data/ILINetCA.csv

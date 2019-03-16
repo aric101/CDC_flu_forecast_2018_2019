@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Delaware","Season onset","Point","week",NA,NA,3
+"Delaware","Season onset","Point","week",NA,NA,4
 "Delaware","Season onset","Bin","week","40","41",0.00025
 "Delaware","Season onset","Bin","week","41","42",0.00025
 "Delaware","Season onset","Bin","week","42","43",0.00025
@@ -12,13 +12,13 @@
 "Delaware","Season onset","Bin","week","49","50",0.00025
 "Delaware","Season onset","Bin","week","50","51",0.00025
 "Delaware","Season onset","Bin","week","51","52",0.00025
-"Delaware","Season onset","Bin","week","52","53",0.15
+"Delaware","Season onset","Bin","week","52","53",0.098
 "Delaware","Season onset","Bin","week","1","2",0.00025
 "Delaware","Season onset","Bin","week","2","3",0.00025
 "Delaware","Season onset","Bin","week","3","4",0.00025
-"Delaware","Season onset","Bin","week","4","5",0.23
+"Delaware","Season onset","Bin","week","4","5",0.2
 "Delaware","Season onset","Bin","week","5","6",0.42
-"Delaware","Season onset","Bin","week","6","7",0.1
+"Delaware","Season onset","Bin","week","6","7",0.17
 "Delaware","Season onset","Bin","week","7","8",0.00025
 "Delaware","Season onset","Bin","week","8","9",0.096
 "Delaware","Season onset","Bin","week","9","10",0.00025
