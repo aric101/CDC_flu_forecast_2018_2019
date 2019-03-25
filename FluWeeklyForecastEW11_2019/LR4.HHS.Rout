@@ -28,7 +28,7 @@ Type 'q()' to quit R.
 [1] 44
 > 
 > #wkID <- (5:8) + (0)
-> wkID <- (4:7) + (20) # EW10-2019
+> wkID <- (4:7) + (21) # EW11-2019
 > 
 > system("ls ./data/*.csv")
 ./data/ILINetCA.csv
@@ -445,6 +445,6 @@ Loading required package: snow
 + apply(avg.ili, 1, mean)
 + 
 + }
-Error in { : task 3 failed - "'x' and 'y' lengths differ"
+Error in { : task 1 failed - "'x' and 'y' lengths differ"
 Calls: %dopar% -> <Anonymous>
 Execution halted

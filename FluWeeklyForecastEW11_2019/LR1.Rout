@@ -68,12 +68,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
      YEAR WEEK     ILI
-1116 2018   19 4.33306
-1117 2018   20 4.85588
-1118 2018   21 5.05787
-1119 2018   22 4.93504
-1120 2018   23 4.63017
-1121 2018   24 4.50701
+1117 2018   20 4.85249
+1118 2018   21 5.08248
+1119 2018   22 4.93764
+1120 2018   23 4.59832
+1121 2018   24 4.40476
+1122 2018   25 4.43528
 > 
 > flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
 > flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
@@ -1191,24 +1191,25 @@ Type 'q()' to quit R.
 1100 2018    2 1.408710
 1101 2018    3 1.476430
 1102 2018    4 1.644850
-1103 2018    5 1.795790
-1104 2018    6 1.874640
-1105 2018    7 1.998520
-1106 2018    8 2.250070
-1107 2018    9 2.154240
-1108 2018   10 2.272740
-1109 2018   11 2.641850
-1110 2018   12 3.140440
-1111 2018   13 3.967880
-1112 2018   15 3.468600
-1113 2018   16 3.105470
-1114 2018   17 3.317860
-1115 2018   18 3.790300
-1116 2018   19 4.333060
-1117 2018   20 4.855880
-1118 2018   21 5.057870
-1119 2018   22 4.935040
-1120 2018   23 4.630170
+1103 2018    5 1.794990
+1104 2018    6 1.873910
+1105 2018    7 1.997810
+1106 2018    8 2.249100
+1107 2018    9 2.153570
+1108 2018   10 2.272000
+1109 2018   11 2.640940
+1110 2018   12 3.139380
+1111 2018   13 3.966830
+1112 2018   15 3.468270
+1113 2018   16 3.104680
+1114 2018   17 3.318230
+1115 2018   18 3.787460
+1116 2018   19 4.332610
+1117 2018   20 4.852490
+1118 2018   21 5.082480
+1119 2018   22 4.937640
+1120 2018   23 4.598320
+1121 2018   24 4.404760
 > 
 > flu.data.yr.prev
      YEAR WEEK      ILI
@@ -2312,24 +2313,25 @@ Type 'q()' to quit R.
 1100 2018    2 1.408710
 1101 2018    3 1.476430
 1102 2018    4 1.644850
-1103 2018    5 1.795790
-1104 2018    6 1.874640
-1105 2018    7 1.998520
-1106 2018    8 2.250070
-1107 2018    9 2.154240
-1108 2018   10 2.272740
-1109 2018   11 2.641850
-1110 2018   12 3.140440
-1111 2018   13 3.967880
-1112 2018   15 3.468600
-1113 2018   16 3.105470
-1114 2018   17 3.317860
-1115 2018   18 3.790300
-1116 2018   19 4.333060
-1117 2018   20 4.855880
-1118 2018   21 5.057870
-1119 2018   22 4.935040
-1120 2018   23 4.630170
+1103 2018    5 1.794990
+1104 2018    6 1.873910
+1105 2018    7 1.997810
+1106 2018    8 2.249100
+1107 2018    9 2.153570
+1108 2018   10 2.272000
+1109 2018   11 2.640940
+1110 2018   12 3.139380
+1111 2018   13 3.966830
+1112 2018   15 3.468270
+1113 2018   16 3.104680
+1114 2018   17 3.318230
+1115 2018   18 3.787460
+1116 2018   19 4.332610
+1117 2018   20 4.852490
+1118 2018   21 5.082480
+1119 2018   22 4.937640
+1120 2018   23 4.598320
+1121 2018   24 4.404760
 > tmp.pk.week <- 
 + lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -2622,8 +2624,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(1:34))))
- [1] 12.60032 13.43808 13.33328 13.20694 13.33278 12.35249 12.65798 13.82376
- [9] 13.30898 12.96479
+ [1] 12.81945 12.69786 13.32713 13.33423 13.49086 13.08973 13.12215 13.51539
+ [9] 13.39646 13.24715
 > 
 > 
 > national4wks <- read.csv("national.onset.wk.forecast.template.csv")
@@ -2651,14 +2653,14 @@ Type 'q()' to quit R.
 > head(national4wks)
      Location       Target  Type Unit Bin_start_incl Bin_end_notincl   Value
 1 US National Season onset Point week           <NA>            <NA> 5.2e+01
-2 US National Season onset   Bin week             40              41 4.7e-04
-3 US National Season onset   Bin week             41              42 4.7e-04
-4 US National Season onset   Bin week             42              43 4.7e-04
-5 US National Season onset   Bin week             43              44 4.7e-04
-6 US National Season onset   Bin week             44              45 4.7e-04
+2 US National Season onset   Bin week             40              41 5.1e-04
+3 US National Season onset   Bin week             41              42 5.1e-04
+4 US National Season onset   Bin week             42              43 5.1e-04
+5 US National Season onset   Bin week             43              44 5.1e-04
+6 US National Season onset   Bin week             44              45 5.1e-04
 > 
 > write.csv(national4wks, "./output/national.onset.wk.csv", row.names=F)
 > 
 > proc.time()
    user  system elapsed 
- 25.360   0.052  25.424 
+ 25.520   0.084  25.879 

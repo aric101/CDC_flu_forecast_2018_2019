@@ -45,8 +45,8 @@ Type 'q()' to quit R.
 ./plots/forecastHHS2.png
 ./plots/forecastHHS3.png
 ./plots/forecastHHS4.png
+./plots/forecastHHS5.png
 ./plots/forecastHHS6.png
-./plots/forecastHHS7.png
 ./plots/forecastState10.png
 ./plots/forecastState11.png
 ./plots/forecastState12.png
@@ -89,8 +89,8 @@ Type 'q()' to quit R.
 ./plots/forecastState46.png
 ./plots/forecastState47.png
 ./plots/forecastState48.png
+./plots/forecastState49.png
 ./plots/forecastState4.png
-./plots/forecastState50.png
 ./plots/forecastState5.png
 ./plots/forecastState6.png
 ./plots/forecastState7.png
@@ -245,6 +245,7 @@ sh: 1: convert: not found
 cat: ./output/State2.pk.prev.csv: No such file or directory
 cat: ./output/State6.pk.prev.csv: No such file or directory
 cat: ./output/State10.pk.prev.csv: No such file or directory
+cat: ./output/State15.pk.prev.csv: No such file or directory
 cat: ./output/State17.pk.prev.csv: No such file or directory
 cat: ./output/State18.pk.prev.csv: No such file or directory
 cat: ./output/State19.pk.prev.csv: No such file or directory
@@ -256,6 +257,7 @@ cat: ./output/State40.pk.prev.csv: No such file or directory
 cat: ./output/State44.pk.prev.csv: No such file or directory
 cat: ./output/State46.pk.prev.csv: No such file or directory
 cat: ./output/State48.pk.prev.csv: No such file or directory
+cat: ./output/State50.pk.prev.csv: No such file or directory
 cat: ./output/State53.pk.prev.csv: No such file or directory
 > 
 > all.states.output <- system("ls ./output/State*.all.csv", intern=T)
@@ -266,19 +268,19 @@ cat: ./output/State53.pk.prev.csv: No such file or directory
 > 
 > 
 > #### rename output files
-> system("cp ./output/all.csv ./EW10-UCSF1-2019-03-18.csv")
-> system("cp ./output/all.ca.csv ./EW10-UCSF1-CA-2019-03-18.csv")
-> system("cp ./output/all.state.csv ./EW10-UCSF1-States-2019-03-18.csv")
+> system("cp ./output/all.csv ./EW11-UCSF1-2019-03-25.csv")
+> system("cp ./output/all.ca.csv ./EW11-UCSF1-CA-2019-03-25.csv")
+> system("cp ./output/all.state.csv ./EW11-UCSF1-States-2019-03-25.csv")
 > 
-> system("wc -l  EW10-UCSF1-2019-03-18.csv")
-8020 EW10-UCSF1-2019-03-18.csv
-> system("wc -l  EW10-UCSF1-CA-2019-03-18.csv")
-730 EW10-UCSF1-CA-2019-03-18.csv
-> system("wc -l  EW10-UCSF1-States-2019-03-18.csv")
-36658 EW10-UCSF1-States-2019-03-18.csv
-> system("cp  EW10-UCSF1-2019-03-18.csv EW10-UCSF1-CA-2019-03-18.csv EW10-UCSF1-States-2019-03-18.csv forecast1-4wk.png ./submit")
+> system("wc -l  EW11-UCSF1-2019-03-25.csv")
+8020 EW11-UCSF1-2019-03-25.csv
+> system("wc -l  EW11-UCSF1-CA-2019-03-25.csv")
+730 EW11-UCSF1-CA-2019-03-25.csv
+> system("wc -l  EW11-UCSF1-States-2019-03-25.csv")
+36394 EW11-UCSF1-States-2019-03-25.csv
+> system("cp  EW11-UCSF1-2019-03-25.csv EW11-UCSF1-CA-2019-03-25.csv EW11-UCSF1-States-2019-03-25.csv forecast1-4wk.png ./submit")
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.188   0.144   1.050 
+  0.192   0.120   1.011 
