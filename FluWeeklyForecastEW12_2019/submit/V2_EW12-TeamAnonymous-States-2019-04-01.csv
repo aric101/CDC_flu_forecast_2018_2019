@@ -1,39 +1,4 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Alabama","Season onset","Point","week",NA,NA,44
-"Alabama","Season onset","Bin","week","40","41",0.00033
-"Alabama","Season onset","Bin","week","41","42",0.21
-"Alabama","Season onset","Bin","week","42","43",0.00033
-"Alabama","Season onset","Bin","week","43","44",0.00033
-"Alabama","Season onset","Bin","week","44","45",0.35
-"Alabama","Season onset","Bin","week","45","46",0.18
-"Alabama","Season onset","Bin","week","46","47",0.13
-"Alabama","Season onset","Bin","week","47","48",0.12
-"Alabama","Season onset","Bin","week","48","49",0.00033
-"Alabama","Season onset","Bin","week","49","50",0.00033
-"Alabama","Season onset","Bin","week","50","51",0.00033
-"Alabama","Season onset","Bin","week","51","52",0.00033
-"Alabama","Season onset","Bin","week","52","53",0.00033
-"Alabama","Season onset","Bin","week","1","2",0.00033
-"Alabama","Season onset","Bin","week","2","3",0.00033
-"Alabama","Season onset","Bin","week","3","4",0.00033
-"Alabama","Season onset","Bin","week","4","5",0.00033
-"Alabama","Season onset","Bin","week","5","6",0.00033
-"Alabama","Season onset","Bin","week","6","7",0.00033
-"Alabama","Season onset","Bin","week","7","8",0.00033
-"Alabama","Season onset","Bin","week","8","9",0.00033
-"Alabama","Season onset","Bin","week","9","10",0.00033
-"Alabama","Season onset","Bin","week","10","11",0.00033
-"Alabama","Season onset","Bin","week","11","12",0.00033
-"Alabama","Season onset","Bin","week","12","13",0.00033
-"Alabama","Season onset","Bin","week","13","14",0.00033
-"Alabama","Season onset","Bin","week","14","15",0.00033
-"Alabama","Season onset","Bin","week","15","16",0.00033
-"Alabama","Season onset","Bin","week","16","17",0.00033
-"Alabama","Season onset","Bin","week","17","18",0.00033
-"Alabama","Season onset","Bin","week","18","19",0.00033
-"Alabama","Season onset","Bin","week","19","20",0.00033
-"Alabama","Season onset","Bin","week","20","21",0.00033
-"Alabama","Season onset","Bin","week","none","none",0.00033
 "Alabama","Season peak week","Point","week",NA,NA,4
 "Alabama","Season peak week","Bin","week",40,41,0.00045
 "Alabama","Season peak week","Bin","week",41,42,0.00045
@@ -728,41 +693,6 @@
 "Alabama","4 wk ahead","Bin","percent",12.8,12.9,5.5e-12
 "Alabama","4 wk ahead","Bin","percent",12.9,13,3.4e-12
 "Alabama","4 wk ahead","Bin","percent",13,100,2.1e-12
-"Alaska","Season onset","Point","week",NA,NA,2
-"Alaska","Season onset","Bin","week","40","41",0.00025
-"Alaska","Season onset","Bin","week","41","42",0.1
-"Alaska","Season onset","Bin","week","42","43",0.00025
-"Alaska","Season onset","Bin","week","43","44",0.00025
-"Alaska","Season onset","Bin","week","44","45",0.00025
-"Alaska","Season onset","Bin","week","45","46",0.00025
-"Alaska","Season onset","Bin","week","46","47",0.13
-"Alaska","Season onset","Bin","week","47","48",0.00025
-"Alaska","Season onset","Bin","week","48","49",0.00025
-"Alaska","Season onset","Bin","week","49","50",0.00025
-"Alaska","Season onset","Bin","week","50","51",0.00025
-"Alaska","Season onset","Bin","week","51","52",0.00025
-"Alaska","Season onset","Bin","week","52","53",0.25
-"Alaska","Season onset","Bin","week","1","2",0.00025
-"Alaska","Season onset","Bin","week","2","3",0.00025
-"Alaska","Season onset","Bin","week","3","4",0.00025
-"Alaska","Season onset","Bin","week","4","5",0.00025
-"Alaska","Season onset","Bin","week","5","6",0.00025
-"Alaska","Season onset","Bin","week","6","7",0.14
-"Alaska","Season onset","Bin","week","7","8",0.00025
-"Alaska","Season onset","Bin","week","8","9",0.13
-"Alaska","Season onset","Bin","week","9","10",0.00025
-"Alaska","Season onset","Bin","week","10","11",0.00025
-"Alaska","Season onset","Bin","week","11","12",0.00025
-"Alaska","Season onset","Bin","week","12","13",0.12
-"Alaska","Season onset","Bin","week","13","14",0.00025
-"Alaska","Season onset","Bin","week","14","15",0.00025
-"Alaska","Season onset","Bin","week","15","16",0.00025
-"Alaska","Season onset","Bin","week","16","17",0.13
-"Alaska","Season onset","Bin","week","17","18",0.00025
-"Alaska","Season onset","Bin","week","18","19",0.00025
-"Alaska","Season onset","Bin","week","19","20",0.00025
-"Alaska","Season onset","Bin","week","20","21",0.00025
-"Alaska","Season onset","Bin","week","none","none",0.00025
 "Alaska","Season peak week","Point","week",NA,NA,4
 "Alaska","Season peak week","Bin","week",40,41,0.00036
 "Alaska","Season peak week","Bin","week",41,42,0.00036
@@ -1325,41 +1255,6 @@
 "Alaska","4 wk ahead","Bin","percent",12.8,12.9,3.2e-08
 "Alaska","4 wk ahead","Bin","percent",12.9,13,2.4e-08
 "Alaska","4 wk ahead","Bin","percent",13,100,1.8e-08
-"Arizona","Season onset","Point","week",NA,NA,51
-"Arizona","Season onset","Bin","week","40","41",0.00021
-"Arizona","Season onset","Bin","week","41","42",0.00021
-"Arizona","Season onset","Bin","week","42","43",0.00021
-"Arizona","Season onset","Bin","week","43","44",0.00021
-"Arizona","Season onset","Bin","week","44","45",0.2
-"Arizona","Season onset","Bin","week","45","46",0.00021
-"Arizona","Season onset","Bin","week","46","47",0.00021
-"Arizona","Season onset","Bin","week","47","48",0.00021
-"Arizona","Season onset","Bin","week","48","49",0.00021
-"Arizona","Season onset","Bin","week","49","50",0.14
-"Arizona","Season onset","Bin","week","50","51",0.00021
-"Arizona","Season onset","Bin","week","51","52",0.084
-"Arizona","Season onset","Bin","week","52","53",0.14
-"Arizona","Season onset","Bin","week","1","2",0.00021
-"Arizona","Season onset","Bin","week","2","3",0.21
-"Arizona","Season onset","Bin","week","3","4",0.00021
-"Arizona","Season onset","Bin","week","4","5",0.097
-"Arizona","Season onset","Bin","week","5","6",0.12
-"Arizona","Season onset","Bin","week","6","7",0.00021
-"Arizona","Season onset","Bin","week","7","8",0.00021
-"Arizona","Season onset","Bin","week","8","9",0.00021
-"Arizona","Season onset","Bin","week","9","10",0.00021
-"Arizona","Season onset","Bin","week","10","11",0.00021
-"Arizona","Season onset","Bin","week","11","12",0.00021
-"Arizona","Season onset","Bin","week","12","13",0.00021
-"Arizona","Season onset","Bin","week","13","14",0.00021
-"Arizona","Season onset","Bin","week","14","15",0.00021
-"Arizona","Season onset","Bin","week","15","16",0.00021
-"Arizona","Season onset","Bin","week","16","17",0.00021
-"Arizona","Season onset","Bin","week","17","18",0.00021
-"Arizona","Season onset","Bin","week","18","19",0.00021
-"Arizona","Season onset","Bin","week","19","20",0.00021
-"Arizona","Season onset","Bin","week","20","21",0.00021
-"Arizona","Season onset","Bin","week","none","none",0.00021
 "Arizona","Season peak week","Point","week",NA,NA,7
 "Arizona","Season peak week","Bin","week",40,41,3e-04
 "Arizona","Season peak week","Bin","week",41,42,3e-04
@@ -2054,41 +1949,6 @@
 "Arizona","4 wk ahead","Bin","percent",12.8,12.9,9.1e-100
 "Arizona","4 wk ahead","Bin","percent",12.9,13,6.3e-102
 "Arizona","4 wk ahead","Bin","percent",13,100,4.1e-104
-"Arkansas","Season onset","Point","week",NA,NA,53
-"Arkansas","Season onset","Bin","week","40","41",0.00033
-"Arkansas","Season onset","Bin","week","41","42",0.00033
-"Arkansas","Season onset","Bin","week","42","43",0.00033
-"Arkansas","Season onset","Bin","week","43","44",0.00033
-"Arkansas","Season onset","Bin","week","44","45",0.00033
-"Arkansas","Season onset","Bin","week","45","46",0.00033
-"Arkansas","Season onset","Bin","week","46","47",0.00033
-"Arkansas","Season onset","Bin","week","47","48",0.00033
-"Arkansas","Season onset","Bin","week","48","49",0.098
-"Arkansas","Season onset","Bin","week","49","50",0.14
-"Arkansas","Season onset","Bin","week","50","51",0.12
-"Arkansas","Season onset","Bin","week","51","52",0.15
-"Arkansas","Season onset","Bin","week","52","53",0.13
-"Arkansas","Season onset","Bin","week","1","2",0.00033
-"Arkansas","Season onset","Bin","week","2","3",0.00033
-"Arkansas","Season onset","Bin","week","3","4",0.12
-"Arkansas","Season onset","Bin","week","4","5",0.00033
-"Arkansas","Season onset","Bin","week","5","6",0.00033
-"Arkansas","Season onset","Bin","week","6","7",0.00033
-"Arkansas","Season onset","Bin","week","7","8",0.00033
-"Arkansas","Season onset","Bin","week","8","9",0.12
-"Arkansas","Season onset","Bin","week","9","10",0.13
-"Arkansas","Season onset","Bin","week","10","11",0.00033
-"Arkansas","Season onset","Bin","week","11","12",0.00033
-"Arkansas","Season onset","Bin","week","12","13",0.00033
-"Arkansas","Season onset","Bin","week","13","14",0.00033
-"Arkansas","Season onset","Bin","week","14","15",0.00033
-"Arkansas","Season onset","Bin","week","15","16",0.00033
-"Arkansas","Season onset","Bin","week","16","17",0.00033
-"Arkansas","Season onset","Bin","week","17","18",0.00033
-"Arkansas","Season onset","Bin","week","18","19",0.00033
-"Arkansas","Season onset","Bin","week","19","20",0.00033
-"Arkansas","Season onset","Bin","week","20","21",0.00033
-"Arkansas","Season onset","Bin","week","none","none",0.00033
 "Arkansas","Season peak week","Point","week",NA,NA,4
 "Arkansas","Season peak week","Bin","week",40,41,0.00047
 "Arkansas","Season peak week","Bin","week",41,42,0.00047
@@ -2783,41 +2643,6 @@
 "Arkansas","4 wk ahead","Bin","percent",12.8,12.9,2.5e-14
 "Arkansas","4 wk ahead","Bin","percent",12.9,13,1.1e-14
 "Arkansas","4 wk ahead","Bin","percent",13,100,4.5e-15
-"California","Season onset","Point","week",NA,NA,47
-"California","Season onset","Bin","week","40","41",0.00029
-"California","Season onset","Bin","week","41","42",0.00029
-"California","Season onset","Bin","week","42","43",0.085
-"California","Season onset","Bin","week","43","44",0.1
-"California","Season onset","Bin","week","44","45",0.00029
-"California","Season onset","Bin","week","45","46",0.11
-"California","Season onset","Bin","week","46","47",0.13
-"California","Season onset","Bin","week","47","48",0.00029
-"California","Season onset","Bin","week","48","49",0.12
-"California","Season onset","Bin","week","49","50",0.00029
-"California","Season onset","Bin","week","50","51",0.15
-"California","Season onset","Bin","week","51","52",0.3
-"California","Season onset","Bin","week","52","53",0.00029
-"California","Season onset","Bin","week","1","2",0.00029
-"California","Season onset","Bin","week","2","3",0.00029
-"California","Season onset","Bin","week","3","4",0.00029
-"California","Season onset","Bin","week","4","5",0.00029
-"California","Season onset","Bin","week","5","6",0.00029
-"California","Season onset","Bin","week","6","7",0.00029
-"California","Season onset","Bin","week","7","8",0.00029
-"California","Season onset","Bin","week","8","9",0.00029
-"California","Season onset","Bin","week","9","10",0.00029
-"California","Season onset","Bin","week","10","11",0.00029
-"California","Season onset","Bin","week","11","12",0.00029
-"California","Season onset","Bin","week","12","13",0.00029
-"California","Season onset","Bin","week","13","14",0.00029
-"California","Season onset","Bin","week","14","15",0.00029
-"California","Season onset","Bin","week","15","16",0.00029
-"California","Season onset","Bin","week","16","17",0.00029
-"California","Season onset","Bin","week","17","18",0.00029
-"California","Season onset","Bin","week","18","19",0.00029
-"California","Season onset","Bin","week","19","20",0.00029
-"California","Season onset","Bin","week","20","21",0.00029
-"California","Season onset","Bin","week","none","none",0.00029
 "California","Season peak week","Point","week",NA,NA,2
 "California","Season peak week","Bin","week",40,41,2e-04
 "California","Season peak week","Bin","week",41,42,2e-04
@@ -3512,41 +3337,6 @@
 "California","4 wk ahead","Bin","percent",12.8,12.9,3.9e-89
 "California","4 wk ahead","Bin","percent",12.9,13,5e-91
 "California","4 wk ahead","Bin","percent",13,100,6e-93
-"Colorado","Season onset","Point","week",NA,NA,1
-"Colorado","Season onset","Bin","week","40","41",0.00017
-"Colorado","Season onset","Bin","week","41","42",0.00017
-"Colorado","Season onset","Bin","week","42","43",0.00017
-"Colorado","Season onset","Bin","week","43","44",0.00017
-"Colorado","Season onset","Bin","week","44","45",0.00017
-"Colorado","Season onset","Bin","week","45","46",0.00017
-"Colorado","Season onset","Bin","week","46","47",0.00017
-"Colorado","Season onset","Bin","week","47","48",0.00017
-"Colorado","Season onset","Bin","week","48","49",0.00017
-"Colorado","Season onset","Bin","week","49","50",0.00017
-"Colorado","Season onset","Bin","week","50","51",0.00017
-"Colorado","Season onset","Bin","week","51","52",0.00017
-"Colorado","Season onset","Bin","week","52","53",0.13
-"Colorado","Season onset","Bin","week","1","2",0.41
-"Colorado","Season onset","Bin","week","2","3",0.27
-"Colorado","Season onset","Bin","week","3","4",0.00017
-"Colorado","Season onset","Bin","week","4","5",0.00017
-"Colorado","Season onset","Bin","week","5","6",0.00017
-"Colorado","Season onset","Bin","week","6","7",0.00017
-"Colorado","Season onset","Bin","week","7","8",0.062
-"Colorado","Season onset","Bin","week","8","9",0.12
-"Colorado","Season onset","Bin","week","9","10",0.00017
-"Colorado","Season onset","Bin","week","10","11",0.00017
-"Colorado","Season onset","Bin","week","11","12",0.00017
-"Colorado","Season onset","Bin","week","12","13",0.00017
-"Colorado","Season onset","Bin","week","13","14",0.00017
-"Colorado","Season onset","Bin","week","14","15",0.00017
-"Colorado","Season onset","Bin","week","15","16",0.00017
-"Colorado","Season onset","Bin","week","16","17",0.00017
-"Colorado","Season onset","Bin","week","17","18",0.00017
-"Colorado","Season onset","Bin","week","18","19",0.00017
-"Colorado","Season onset","Bin","week","19","20",0.00017
-"Colorado","Season onset","Bin","week","20","21",0.00017
-"Colorado","Season onset","Bin","week","none","none",0.00017
 "Colorado","Season peak week","Point","week",NA,NA,7
 "Colorado","Season peak week","Bin","week",40,41,0.00041
 "Colorado","Season peak week","Bin","week",41,42,0.00041
@@ -4109,41 +3899,6 @@
 "Colorado","4 wk ahead","Bin","percent",12.8,12.9,1.4e-15
 "Colorado","4 wk ahead","Bin","percent",12.9,13,5.8e-16
 "Colorado","4 wk ahead","Bin","percent",13,100,2.3e-16
-"Connecticut","Season onset","Point","week",NA,NA,53
-"Connecticut","Season onset","Bin","week","40","41",0.00033
-"Connecticut","Season onset","Bin","week","41","42",0.00033
-"Connecticut","Season onset","Bin","week","42","43",0.00033
-"Connecticut","Season onset","Bin","week","43","44",0.00033
-"Connecticut","Season onset","Bin","week","44","45",0.00033
-"Connecticut","Season onset","Bin","week","45","46",0.00033
-"Connecticut","Season onset","Bin","week","46","47",0.00033
-"Connecticut","Season onset","Bin","week","47","48",0.00033
-"Connecticut","Season onset","Bin","week","48","49",0.19
-"Connecticut","Season onset","Bin","week","49","50",0.00033
-"Connecticut","Season onset","Bin","week","50","51",0.00033
-"Connecticut","Season onset","Bin","week","51","52",0.00033
-"Connecticut","Season onset","Bin","week","52","53",0.33
-"Connecticut","Season onset","Bin","week","1","2",0.00033
-"Connecticut","Season onset","Bin","week","2","3",0.22
-"Connecticut","Season onset","Bin","week","3","4",0.14
-"Connecticut","Season onset","Bin","week","4","5",0.00033
-"Connecticut","Season onset","Bin","week","5","6",0.00033
-"Connecticut","Season onset","Bin","week","6","7",0.00033
-"Connecticut","Season onset","Bin","week","7","8",0.12
-"Connecticut","Season onset","Bin","week","8","9",0.00033
-"Connecticut","Season onset","Bin","week","9","10",0.00033
-"Connecticut","Season onset","Bin","week","10","11",0.00033
-"Connecticut","Season onset","Bin","week","11","12",0.00033
-"Connecticut","Season onset","Bin","week","12","13",0.00033
-"Connecticut","Season onset","Bin","week","13","14",0.00033
-"Connecticut","Season onset","Bin","week","14","15",0.00033
-"Connecticut","Season onset","Bin","week","15","16",0.00033
-"Connecticut","Season onset","Bin","week","16","17",0.00033
-"Connecticut","Season onset","Bin","week","17","18",0.00033
-"Connecticut","Season onset","Bin","week","18","19",0.00033
-"Connecticut","Season onset","Bin","week","19","20",0.00033
-"Connecticut","Season onset","Bin","week","20","21",0.00033
-"Connecticut","Season onset","Bin","week","none","none",0.00033
 "Connecticut","Season peak week","Point","week",NA,NA,6
 "Connecticut","Season peak week","Bin","week",40,41,0.00039
 "Connecticut","Season peak week","Bin","week",41,42,0.00039
@@ -4838,41 +4593,6 @@
 "Connecticut","4 wk ahead","Bin","percent",12.8,12.9,0
 "Connecticut","4 wk ahead","Bin","percent",12.9,13,0
 "Connecticut","4 wk ahead","Bin","percent",13,100,0
-"Delaware","Season onset","Point","week",NA,NA,4
-"Delaware","Season onset","Bin","week","40","41",0.00024
-"Delaware","Season onset","Bin","week","41","42",0.00024
-"Delaware","Season onset","Bin","week","42","43",0.00024
-"Delaware","Season onset","Bin","week","43","44",0.00024
-"Delaware","Season onset","Bin","week","44","45",0.00024
-"Delaware","Season onset","Bin","week","45","46",0.00024
-"Delaware","Season onset","Bin","week","46","47",0.00024
-"Delaware","Season onset","Bin","week","47","48",0.00024
-"Delaware","Season onset","Bin","week","48","49",0.00024
-"Delaware","Season onset","Bin","week","49","50",0.00024
-"Delaware","Season onset","Bin","week","50","51",0.00024
-"Delaware","Season onset","Bin","week","51","52",0.00024
-"Delaware","Season onset","Bin","week","52","53",0.067
-"Delaware","Season onset","Bin","week","1","2",0.00024
-"Delaware","Season onset","Bin","week","2","3",0.00024
-"Delaware","Season onset","Bin","week","3","4",0.00024
-"Delaware","Season onset","Bin","week","4","5",0.23
-"Delaware","Season onset","Bin","week","5","6",0.45
-"Delaware","Season onset","Bin","week","6","7",0.12
-"Delaware","Season onset","Bin","week","7","8",0.00024
-"Delaware","Season onset","Bin","week","8","9",0.13
-"Delaware","Season onset","Bin","week","9","10",0.00024
-"Delaware","Season onset","Bin","week","10","11",0.00024
-"Delaware","Season onset","Bin","week","11","12",0.00024
-"Delaware","Season onset","Bin","week","12","13",0.00024
-"Delaware","Season onset","Bin","week","13","14",0.00024
-"Delaware","Season onset","Bin","week","14","15",0.00024
-"Delaware","Season onset","Bin","week","15","16",0.00024
-"Delaware","Season onset","Bin","week","16","17",0.00024
-"Delaware","Season onset","Bin","week","17","18",0.00024
-"Delaware","Season onset","Bin","week","18","19",0.00024
-"Delaware","Season onset","Bin","week","19","20",0.00024
-"Delaware","Season onset","Bin","week","20","21",0.00024
-"Delaware","Season onset","Bin","week","none","none",0.00024
 "Delaware","Season peak week","Point","week",NA,NA,6
 "Delaware","Season peak week","Bin","week",40,41,0.00054
 "Delaware","Season peak week","Bin","week",41,42,0.00054
@@ -5567,41 +5287,6 @@
 "Delaware","4 wk ahead","Bin","percent",12.8,12.9,3.3e-153
 "Delaware","4 wk ahead","Bin","percent",12.9,13,1e-155
 "Delaware","4 wk ahead","Bin","percent",13,100,3.1e-158
-"District of Columbia","Season onset","Point","week",NA,NA,42
-"District of Columbia","Season onset","Bin","week","40","41",0.00021
-"District of Columbia","Season onset","Bin","week","41","42",0.7
-"District of Columbia","Season onset","Bin","week","42","43",0.00021
-"District of Columbia","Season onset","Bin","week","43","44",0.00021
-"District of Columbia","Season onset","Bin","week","44","45",0.14
-"District of Columbia","Season onset","Bin","week","45","46",0.00021
-"District of Columbia","Season onset","Bin","week","46","47",0.00021
-"District of Columbia","Season onset","Bin","week","47","48",0.00021
-"District of Columbia","Season onset","Bin","week","48","49",0.15
-"District of Columbia","Season onset","Bin","week","49","50",0.00021
-"District of Columbia","Season onset","Bin","week","50","51",0.00021
-"District of Columbia","Season onset","Bin","week","51","52",0.00021
-"District of Columbia","Season onset","Bin","week","52","53",0.00021
-"District of Columbia","Season onset","Bin","week","1","2",0.00021
-"District of Columbia","Season onset","Bin","week","2","3",0.00021
-"District of Columbia","Season onset","Bin","week","3","4",0.00021
-"District of Columbia","Season onset","Bin","week","4","5",0.00021
-"District of Columbia","Season onset","Bin","week","5","6",0.00021
-"District of Columbia","Season onset","Bin","week","6","7",0.00021
-"District of Columbia","Season onset","Bin","week","7","8",0.00021
-"District of Columbia","Season onset","Bin","week","8","9",0.00021
-"District of Columbia","Season onset","Bin","week","9","10",0.00021
-"District of Columbia","Season onset","Bin","week","10","11",0.00021
-"District of Columbia","Season onset","Bin","week","11","12",0.00021
-"District of Columbia","Season onset","Bin","week","12","13",0.00021
-"District of Columbia","Season onset","Bin","week","13","14",0.00021
-"District of Columbia","Season onset","Bin","week","14","15",0.00021
-"District of Columbia","Season onset","Bin","week","15","16",0.00021
-"District of Columbia","Season onset","Bin","week","16","17",0.00021
-"District of Columbia","Season onset","Bin","week","17","18",0.00021
-"District of Columbia","Season onset","Bin","week","18","19",0.00021
-"District of Columbia","Season onset","Bin","week","19","20",0.00021
-"District of Columbia","Season onset","Bin","week","20","21",0.00021
-"District of Columbia","Season onset","Bin","week","none","none",0.00021
 "District of Columbia","Season peak week","Point","week",NA,NA,3
 "District of Columbia","Season peak week","Bin","week",40,41,0.00051
 "District of Columbia","Season peak week","Bin","week",41,42,0.00051
@@ -6296,41 +5981,6 @@
 "District of Columbia","4 wk ahead","Bin","percent",12.8,12.9,7.5e-27
 "District of Columbia","4 wk ahead","Bin","percent",12.9,13,2.6e-27
 "District of Columbia","4 wk ahead","Bin","percent",13,100,9.2e-28
-"Georgia","Season onset","Point","week",NA,NA,49
-"Georgia","Season onset","Bin","week","40","41",0.00024
-"Georgia","Season onset","Bin","week","41","42",0.00024
-"Georgia","Season onset","Bin","week","42","43",0.00024
-"Georgia","Season onset","Bin","week","43","44",0.00024
-"Georgia","Season onset","Bin","week","44","45",0.2
-"Georgia","Season onset","Bin","week","45","46",0.13
-"Georgia","Season onset","Bin","week","46","47",0.00024
-"Georgia","Season onset","Bin","week","47","48",0.14
-"Georgia","Season onset","Bin","week","48","49",0.15
-"Georgia","Season onset","Bin","week","49","50",0.066
-"Georgia","Season onset","Bin","week","50","51",0.00024
-"Georgia","Season onset","Bin","week","51","52",0.12
-"Georgia","Season onset","Bin","week","52","53",0.00024
-"Georgia","Season onset","Bin","week","1","2",0.00024
-"Georgia","Season onset","Bin","week","2","3",0.00024
-"Georgia","Season onset","Bin","week","3","4",0.00024
-"Georgia","Season onset","Bin","week","4","5",0.00024
-"Georgia","Season onset","Bin","week","5","6",0.00024
-"Georgia","Season onset","Bin","week","6","7",0.00024
-"Georgia","Season onset","Bin","week","7","8",0.00024
-"Georgia","Season onset","Bin","week","8","9",0.18
-"Georgia","Season onset","Bin","week","9","10",0.00024
-"Georgia","Season onset","Bin","week","10","11",0.00024
-"Georgia","Season onset","Bin","week","11","12",0.00024
-"Georgia","Season onset","Bin","week","12","13",0.00024
-"Georgia","Season onset","Bin","week","13","14",0.00024
-"Georgia","Season onset","Bin","week","14","15",0.00024
-"Georgia","Season onset","Bin","week","15","16",0.00024
-"Georgia","Season onset","Bin","week","16","17",0.00024
-"Georgia","Season onset","Bin","week","17","18",0.00024
-"Georgia","Season onset","Bin","week","18","19",0.00024
-"Georgia","Season onset","Bin","week","19","20",0.00024
-"Georgia","Season onset","Bin","week","20","21",0.00024
-"Georgia","Season onset","Bin","week","none","none",0.00024
 "Georgia","Season peak week","Point","week",NA,NA,2
 "Georgia","Season peak week","Bin","week",40,41,5e-04
 "Georgia","Season peak week","Bin","week",41,42,5e-04
@@ -6893,41 +6543,6 @@
 "Georgia","4 wk ahead","Bin","percent",12.8,12.9,6.5e-118
 "Georgia","4 wk ahead","Bin","percent",12.9,13,1.6e-120
 "Georgia","4 wk ahead","Bin","percent",13,100,3.8e-123
-"Hawaii","Season onset","Point","week",NA,NA,49
-"Hawaii","Season onset","Bin","week","40","41",0.00021
-"Hawaii","Season onset","Bin","week","41","42",0.13
-"Hawaii","Season onset","Bin","week","42","43",0.00021
-"Hawaii","Season onset","Bin","week","43","44",0.00021
-"Hawaii","Season onset","Bin","week","44","45",0.19
-"Hawaii","Season onset","Bin","week","45","46",0.00021
-"Hawaii","Season onset","Bin","week","46","47",0.00021
-"Hawaii","Season onset","Bin","week","47","48",0.25
-"Hawaii","Season onset","Bin","week","48","49",0.00021
-"Hawaii","Season onset","Bin","week","49","50",0.00021
-"Hawaii","Season onset","Bin","week","50","51",0.18
-"Hawaii","Season onset","Bin","week","51","52",0.00021
-"Hawaii","Season onset","Bin","week","52","53",0.00021
-"Hawaii","Season onset","Bin","week","1","2",0.00021
-"Hawaii","Season onset","Bin","week","2","3",0.00021
-"Hawaii","Season onset","Bin","week","3","4",0.14
-"Hawaii","Season onset","Bin","week","4","5",0.00021
-"Hawaii","Season onset","Bin","week","5","6",0.00021
-"Hawaii","Season onset","Bin","week","6","7",0.00021
-"Hawaii","Season onset","Bin","week","7","8",0.00021
-"Hawaii","Season onset","Bin","week","8","9",0.00021
-"Hawaii","Season onset","Bin","week","9","10",0.00021
-"Hawaii","Season onset","Bin","week","10","11",0.00021
-"Hawaii","Season onset","Bin","week","11","12",0.00021
-"Hawaii","Season onset","Bin","week","12","13",0.00021
-"Hawaii","Season onset","Bin","week","13","14",0.00021
-"Hawaii","Season onset","Bin","week","14","15",0.096
-"Hawaii","Season onset","Bin","week","15","16",0.00021
-"Hawaii","Season onset","Bin","week","16","17",0.00021
-"Hawaii","Season onset","Bin","week","17","18",0.00021
-"Hawaii","Season onset","Bin","week","18","19",0.00021
-"Hawaii","Season onset","Bin","week","19","20",0.00021
-"Hawaii","Season onset","Bin","week","20","21",0.00021
-"Hawaii","Season onset","Bin","week","none","none",0.00021
 "Hawaii","Season peak week","Point","week",NA,NA,9
 "Hawaii","Season peak week","Bin","week",40,41,0.00051
 "Hawaii","Season peak week","Bin","week",41,42,0.00051
@@ -7622,41 +7237,6 @@
 "Hawaii","4 wk ahead","Bin","percent",12.8,12.9,1.5e-27
 "Hawaii","4 wk ahead","Bin","percent",12.9,13,2.8e-28
 "Hawaii","4 wk ahead","Bin","percent",13,100,5.4e-29
-"Idaho","Season onset","Point","week",NA,NA,2
-"Idaho","Season onset","Bin","week","40","41",0.00029
-"Idaho","Season onset","Bin","week","41","42",0.00029
-"Idaho","Season onset","Bin","week","42","43",0.00029
-"Idaho","Season onset","Bin","week","43","44",0.00029
-"Idaho","Season onset","Bin","week","44","45",0.00029
-"Idaho","Season onset","Bin","week","45","46",0.00029
-"Idaho","Season onset","Bin","week","46","47",0.00029
-"Idaho","Season onset","Bin","week","47","48",0.00029
-"Idaho","Season onset","Bin","week","48","49",0.00029
-"Idaho","Season onset","Bin","week","49","50",0.13
-"Idaho","Season onset","Bin","week","50","51",0.00029
-"Idaho","Season onset","Bin","week","51","52",0.23
-"Idaho","Season onset","Bin","week","52","53",0.14
-"Idaho","Season onset","Bin","week","1","2",0.00029
-"Idaho","Season onset","Bin","week","2","3",0.00029
-"Idaho","Season onset","Bin","week","3","4",0.26
-"Idaho","Season onset","Bin","week","4","5",0.00029
-"Idaho","Season onset","Bin","week","5","6",0.00029
-"Idaho","Season onset","Bin","week","6","7",0.079
-"Idaho","Season onset","Bin","week","7","8",0.00029
-"Idaho","Season onset","Bin","week","8","9",0.00029
-"Idaho","Season onset","Bin","week","9","10",0.00029
-"Idaho","Season onset","Bin","week","10","11",0.00029
-"Idaho","Season onset","Bin","week","11","12",0.00029
-"Idaho","Season onset","Bin","week","12","13",0.16
-"Idaho","Season onset","Bin","week","13","14",0.00029
-"Idaho","Season onset","Bin","week","14","15",0.00029
-"Idaho","Season onset","Bin","week","15","16",0.00029
-"Idaho","Season onset","Bin","week","16","17",0.00029
-"Idaho","Season onset","Bin","week","17","18",0.00029
-"Idaho","Season onset","Bin","week","18","19",0.00029
-"Idaho","Season onset","Bin","week","19","20",0.00029
-"Idaho","Season onset","Bin","week","20","21",0.00029
-"Idaho","Season onset","Bin","week","none","none",0.00029
 "Idaho","Season peak week","Point","week",NA,NA,4
 "Idaho","Season peak week","Bin","week",40,41,0.00033
 "Idaho","Season peak week","Bin","week",41,42,0.00033
@@ -8351,41 +7931,6 @@
 "Idaho","4 wk ahead","Bin","percent",12.8,12.9,2.2e-67
 "Idaho","4 wk ahead","Bin","percent",12.9,13,1.3e-68
 "Idaho","4 wk ahead","Bin","percent",13,100,7.5e-70
-"Illinois","Season onset","Point","week",NA,NA,51
-"Illinois","Season onset","Bin","week","40","41",0.00041
-"Illinois","Season onset","Bin","week","41","42",0.00041
-"Illinois","Season onset","Bin","week","42","43",0.00041
-"Illinois","Season onset","Bin","week","43","44",0.00041
-"Illinois","Season onset","Bin","week","44","45",0.00041
-"Illinois","Season onset","Bin","week","45","46",0.00041
-"Illinois","Season onset","Bin","week","46","47",0.00041
-"Illinois","Season onset","Bin","week","47","48",0.00041
-"Illinois","Season onset","Bin","week","48","49",0.25
-"Illinois","Season onset","Bin","week","49","50",0.13
-"Illinois","Season onset","Bin","week","50","51",0.00041
-"Illinois","Season onset","Bin","week","51","52",0.12
-"Illinois","Season onset","Bin","week","52","53",0.39
-"Illinois","Season onset","Bin","week","1","2",0.00041
-"Illinois","Season onset","Bin","week","2","3",0.00041
-"Illinois","Season onset","Bin","week","3","4",0.00041
-"Illinois","Season onset","Bin","week","4","5",0.00041
-"Illinois","Season onset","Bin","week","5","6",0.00041
-"Illinois","Season onset","Bin","week","6","7",0.097
-"Illinois","Season onset","Bin","week","7","8",0.00041
-"Illinois","Season onset","Bin","week","8","9",0.00041
-"Illinois","Season onset","Bin","week","9","10",0.00041
-"Illinois","Season onset","Bin","week","10","11",0.00041
-"Illinois","Season onset","Bin","week","11","12",0.00041
-"Illinois","Season onset","Bin","week","12","13",0.00041
-"Illinois","Season onset","Bin","week","13","14",0.00041
-"Illinois","Season onset","Bin","week","14","15",0.00041
-"Illinois","Season onset","Bin","week","15","16",0.00041
-"Illinois","Season onset","Bin","week","16","17",0.00041
-"Illinois","Season onset","Bin","week","17","18",0.00041
-"Illinois","Season onset","Bin","week","18","19",0.00041
-"Illinois","Season onset","Bin","week","19","20",0.00041
-"Illinois","Season onset","Bin","week","20","21",0.00041
-"Illinois","Season onset","Bin","week","none","none",0.00041
 "Illinois","Season peak week","Point","week",NA,NA,4
 "Illinois","Season peak week","Bin","week",40,41,0.00037
 "Illinois","Season peak week","Bin","week",41,42,0.00037
@@ -9080,41 +8625,6 @@
 "Illinois","4 wk ahead","Bin","percent",12.8,12.9,8.6e-46
 "Illinois","4 wk ahead","Bin","percent",12.9,13,1.2e-46
 "Illinois","4 wk ahead","Bin","percent",13,100,1.6e-47
-"Indiana","Season onset","Point","week",NA,NA,1
-"Indiana","Season onset","Bin","week","40","41",0.00033
-"Indiana","Season onset","Bin","week","41","42",0.00033
-"Indiana","Season onset","Bin","week","42","43",0.00033
-"Indiana","Season onset","Bin","week","43","44",0.00033
-"Indiana","Season onset","Bin","week","44","45",0.00033
-"Indiana","Season onset","Bin","week","45","46",0.00033
-"Indiana","Season onset","Bin","week","46","47",0.00033
-"Indiana","Season onset","Bin","week","47","48",0.00033
-"Indiana","Season onset","Bin","week","48","49",0.00033
-"Indiana","Season onset","Bin","week","49","50",0.15
-"Indiana","Season onset","Bin","week","50","51",0.25
-"Indiana","Season onset","Bin","week","51","52",0.00033
-"Indiana","Season onset","Bin","week","52","53",0.12
-"Indiana","Season onset","Bin","week","1","2",0.00033
-"Indiana","Season onset","Bin","week","2","3",0.12
-"Indiana","Season onset","Bin","week","3","4",0.00033
-"Indiana","Season onset","Bin","week","4","5",0.11
-"Indiana","Season onset","Bin","week","5","6",0.00033
-"Indiana","Season onset","Bin","week","6","7",0.00033
-"Indiana","Season onset","Bin","week","7","8",0.00033
-"Indiana","Season onset","Bin","week","8","9",0.00033
-"Indiana","Season onset","Bin","week","9","10",0.084
-"Indiana","Season onset","Bin","week","10","11",0.00033
-"Indiana","Season onset","Bin","week","11","12",0.00033
-"Indiana","Season onset","Bin","week","12","13",0.16
-"Indiana","Season onset","Bin","week","13","14",0.00033
-"Indiana","Season onset","Bin","week","14","15",0.00033
-"Indiana","Season onset","Bin","week","15","16",0.00033
-"Indiana","Season onset","Bin","week","16","17",0.00033
-"Indiana","Season onset","Bin","week","17","18",0.00033
-"Indiana","Season onset","Bin","week","18","19",0.00033
-"Indiana","Season onset","Bin","week","19","20",0.00033
-"Indiana","Season onset","Bin","week","20","21",0.00033
-"Indiana","Season onset","Bin","week","none","none",0.00033
 "Indiana","Season peak week","Point","week",NA,NA,4
 "Indiana","Season peak week","Bin","week",40,41,0.00047
 "Indiana","Season peak week","Bin","week",41,42,0.00047
@@ -9809,41 +9319,6 @@
 "Indiana","4 wk ahead","Bin","percent",12.8,12.9,4.4e-19
 "Indiana","4 wk ahead","Bin","percent",12.9,13,1.7e-19
 "Indiana","4 wk ahead","Bin","percent",13,100,6.1e-20
-"Iowa","Season onset","Point","week",NA,NA,3
-"Iowa","Season onset","Bin","week","40","41",0.00021
-"Iowa","Season onset","Bin","week","41","42",0.00021
-"Iowa","Season onset","Bin","week","42","43",0.00021
-"Iowa","Season onset","Bin","week","43","44",0.00021
-"Iowa","Season onset","Bin","week","44","45",0.00021
-"Iowa","Season onset","Bin","week","45","46",0.00021
-"Iowa","Season onset","Bin","week","46","47",0.00021
-"Iowa","Season onset","Bin","week","47","48",0.00021
-"Iowa","Season onset","Bin","week","48","49",0.00021
-"Iowa","Season onset","Bin","week","49","50",0.00021
-"Iowa","Season onset","Bin","week","50","51",0.00021
-"Iowa","Season onset","Bin","week","51","52",0.00021
-"Iowa","Season onset","Bin","week","52","53",0.00021
-"Iowa","Season onset","Bin","week","1","2",0.00021
-"Iowa","Season onset","Bin","week","2","3",0.11
-"Iowa","Season onset","Bin","week","3","4",0.3
-"Iowa","Season onset","Bin","week","4","5",0.00021
-"Iowa","Season onset","Bin","week","5","6",0.36
-"Iowa","Season onset","Bin","week","6","7",0.082
-"Iowa","Season onset","Bin","week","7","8",0.14
-"Iowa","Season onset","Bin","week","8","9",0.00021
-"Iowa","Season onset","Bin","week","9","10",0.00021
-"Iowa","Season onset","Bin","week","10","11",0.00021
-"Iowa","Season onset","Bin","week","11","12",0.00021
-"Iowa","Season onset","Bin","week","12","13",0.00021
-"Iowa","Season onset","Bin","week","13","14",0.00021
-"Iowa","Season onset","Bin","week","14","15",0.00021
-"Iowa","Season onset","Bin","week","15","16",0.00021
-"Iowa","Season onset","Bin","week","16","17",0.00021
-"Iowa","Season onset","Bin","week","17","18",0.00021
-"Iowa","Season onset","Bin","week","18","19",0.00021
-"Iowa","Season onset","Bin","week","19","20",0.00021
-"Iowa","Season onset","Bin","week","20","21",0.00021
-"Iowa","Season onset","Bin","week","none","none",0.00021
 "Iowa","Season peak week","Point","week",NA,NA,3
 "Iowa","Season peak week","Bin","week",40,41,0.00042
 "Iowa","Season peak week","Bin","week",41,42,0.044
@@ -10406,41 +9881,6 @@
 "Iowa","4 wk ahead","Bin","percent",12.8,12.9,1.4e-34
 "Iowa","4 wk ahead","Bin","percent",12.9,13,2.9e-35
 "Iowa","4 wk ahead","Bin","percent",13,100,5.8e-36
-"Kansas","Season onset","Point","week",NA,NA,2
-"Kansas","Season onset","Bin","week","40","41",0.00025
-"Kansas","Season onset","Bin","week","41","42",0.00025
-"Kansas","Season onset","Bin","week","42","43",0.00025
-"Kansas","Season onset","Bin","week","43","44",0.00025
-"Kansas","Season onset","Bin","week","44","45",0.00025
-"Kansas","Season onset","Bin","week","45","46",0.00025
-"Kansas","Season onset","Bin","week","46","47",0.00025
-"Kansas","Season onset","Bin","week","47","48",0.00025
-"Kansas","Season onset","Bin","week","48","49",0.00025
-"Kansas","Season onset","Bin","week","49","50",0.1
-"Kansas","Season onset","Bin","week","50","51",0.13
-"Kansas","Season onset","Bin","week","51","52",0.12
-"Kansas","Season onset","Bin","week","52","53",0.25
-"Kansas","Season onset","Bin","week","1","2",0.00025
-"Kansas","Season onset","Bin","week","2","3",0.00025
-"Kansas","Season onset","Bin","week","3","4",0.00025
-"Kansas","Season onset","Bin","week","4","5",0.00025
-"Kansas","Season onset","Bin","week","5","6",0.00025
-"Kansas","Season onset","Bin","week","6","7",0.13
-"Kansas","Season onset","Bin","week","7","8",0.00025
-"Kansas","Season onset","Bin","week","8","9",0.00025
-"Kansas","Season onset","Bin","week","9","10",0.26
-"Kansas","Season onset","Bin","week","10","11",0.00025
-"Kansas","Season onset","Bin","week","11","12",0.00025
-"Kansas","Season onset","Bin","week","12","13",0.00025
-"Kansas","Season onset","Bin","week","13","14",0.00025
-"Kansas","Season onset","Bin","week","14","15",0.00025
-"Kansas","Season onset","Bin","week","15","16",0.00025
-"Kansas","Season onset","Bin","week","16","17",0.00025
-"Kansas","Season onset","Bin","week","17","18",0.00025
-"Kansas","Season onset","Bin","week","18","19",0.00025
-"Kansas","Season onset","Bin","week","19","20",0.00025
-"Kansas","Season onset","Bin","week","20","21",0.00025
-"Kansas","Season onset","Bin","week","none","none",0.00025
 "Kansas","Season peak week","Point","week",NA,NA,4
 "Kansas","Season peak week","Bin","week",40,41,0.00038
 "Kansas","Season peak week","Bin","week",41,42,0.00038
@@ -11135,41 +10575,6 @@
 "Kansas","4 wk ahead","Bin","percent",12.8,12.9,7.4e-10
 "Kansas","4 wk ahead","Bin","percent",12.9,13,5.1e-10
 "Kansas","4 wk ahead","Bin","percent",13,100,3.5e-10
-"Kentucky","Season onset","Point","week",NA,NA,1
-"Kentucky","Season onset","Bin","week","40","41",0.00024
-"Kentucky","Season onset","Bin","week","41","42",0.00024
-"Kentucky","Season onset","Bin","week","42","43",0.00024
-"Kentucky","Season onset","Bin","week","43","44",0.00024
-"Kentucky","Season onset","Bin","week","44","45",0.00024
-"Kentucky","Season onset","Bin","week","45","46",0.00024
-"Kentucky","Season onset","Bin","week","46","47",0.00024
-"Kentucky","Season onset","Bin","week","47","48",0.00024
-"Kentucky","Season onset","Bin","week","48","49",0.00024
-"Kentucky","Season onset","Bin","week","49","50",0.00024
-"Kentucky","Season onset","Bin","week","50","51",0.14
-"Kentucky","Season onset","Bin","week","51","52",0.00024
-"Kentucky","Season onset","Bin","week","52","53",0.29
-"Kentucky","Season onset","Bin","week","1","2",0.36
-"Kentucky","Season onset","Bin","week","2","3",0.00024
-"Kentucky","Season onset","Bin","week","3","4",0.00024
-"Kentucky","Season onset","Bin","week","4","5",0.00024
-"Kentucky","Season onset","Bin","week","5","6",0.00024
-"Kentucky","Season onset","Bin","week","6","7",0.00024
-"Kentucky","Season onset","Bin","week","7","8",0.097
-"Kentucky","Season onset","Bin","week","8","9",0.00024
-"Kentucky","Season onset","Bin","week","9","10",0.00024
-"Kentucky","Season onset","Bin","week","10","11",0.00024
-"Kentucky","Season onset","Bin","week","11","12",0.12
-"Kentucky","Season onset","Bin","week","12","13",0.00024
-"Kentucky","Season onset","Bin","week","13","14",0.00024
-"Kentucky","Season onset","Bin","week","14","15",0.00024
-"Kentucky","Season onset","Bin","week","15","16",0.00024
-"Kentucky","Season onset","Bin","week","16","17",0.00024
-"Kentucky","Season onset","Bin","week","17","18",0.00024
-"Kentucky","Season onset","Bin","week","18","19",0.00024
-"Kentucky","Season onset","Bin","week","19","20",0.00024
-"Kentucky","Season onset","Bin","week","20","21",0.00024
-"Kentucky","Season onset","Bin","week","none","none",0.00024
 "Kentucky","Season peak week","Point","week",NA,NA,4
 "Kentucky","Season peak week","Bin","week",40,41,0.00026
 "Kentucky","Season peak week","Bin","week",41,42,0.00026
@@ -11732,41 +11137,6 @@
 "Kentucky","4 wk ahead","Bin","percent",12.8,12.9,5.8e-08
 "Kentucky","4 wk ahead","Bin","percent",12.9,13,3.9e-08
 "Kentucky","4 wk ahead","Bin","percent",13,100,2.6e-08
-"Louisiana","Season onset","Point","week",NA,NA,43
-"Louisiana","Season onset","Bin","week","40","41",0.00021
-"Louisiana","Season onset","Bin","week","41","42",0.36
-"Louisiana","Season onset","Bin","week","42","43",0.089
-"Louisiana","Season onset","Bin","week","43","44",0.26
-"Louisiana","Season onset","Bin","week","44","45",0.00021
-"Louisiana","Season onset","Bin","week","45","46",0.00021
-"Louisiana","Season onset","Bin","week","46","47",0.00021
-"Louisiana","Season onset","Bin","week","47","48",0.00021
-"Louisiana","Season onset","Bin","week","48","49",0.16
-"Louisiana","Season onset","Bin","week","49","50",0.12
-"Louisiana","Season onset","Bin","week","50","51",0.00021
-"Louisiana","Season onset","Bin","week","51","52",0.00021
-"Louisiana","Season onset","Bin","week","52","53",0.00021
-"Louisiana","Season onset","Bin","week","1","2",0.00021
-"Louisiana","Season onset","Bin","week","2","3",0.00021
-"Louisiana","Season onset","Bin","week","3","4",0.00021
-"Louisiana","Season onset","Bin","week","4","5",0.00021
-"Louisiana","Season onset","Bin","week","5","6",0.00021
-"Louisiana","Season onset","Bin","week","6","7",0.00021
-"Louisiana","Season onset","Bin","week","7","8",0.00021
-"Louisiana","Season onset","Bin","week","8","9",0.00021
-"Louisiana","Season onset","Bin","week","9","10",0.00021
-"Louisiana","Season onset","Bin","week","10","11",0.00021
-"Louisiana","Season onset","Bin","week","11","12",0.00021
-"Louisiana","Season onset","Bin","week","12","13",0.00021
-"Louisiana","Season onset","Bin","week","13","14",0.00021
-"Louisiana","Season onset","Bin","week","14","15",0.00021
-"Louisiana","Season onset","Bin","week","15","16",0.00021
-"Louisiana","Season onset","Bin","week","16","17",0.00021
-"Louisiana","Season onset","Bin","week","17","18",0.00021
-"Louisiana","Season onset","Bin","week","18","19",0.00021
-"Louisiana","Season onset","Bin","week","19","20",0.00021
-"Louisiana","Season onset","Bin","week","20","21",0.00021
-"Louisiana","Season onset","Bin","week","none","none",0.00021
 "Louisiana","Season peak week","Point","week",NA,NA,2
 "Louisiana","Season peak week","Bin","week",40,41,0.00026
 "Louisiana","Season peak week","Bin","week",41,42,0.00026
@@ -12329,41 +11699,6 @@
 "Louisiana","4 wk ahead","Bin","percent",12.8,12.9,8.9e-05
 "Louisiana","4 wk ahead","Bin","percent",12.9,13,7.2e-05
 "Louisiana","4 wk ahead","Bin","percent",13,100,5.8e-05
-"Maine","Season onset","Point","week",NA,NA,4
-"Maine","Season onset","Bin","week","40","41",0.00033
-"Maine","Season onset","Bin","week","41","42",0.00033
-"Maine","Season onset","Bin","week","42","43",0.00033
-"Maine","Season onset","Bin","week","43","44",0.00033
-"Maine","Season onset","Bin","week","44","45",0.00033
-"Maine","Season onset","Bin","week","45","46",0.00033
-"Maine","Season onset","Bin","week","46","47",0.00033
-"Maine","Season onset","Bin","week","47","48",0.00033
-"Maine","Season onset","Bin","week","48","49",0.00033
-"Maine","Season onset","Bin","week","49","50",0.00033
-"Maine","Season onset","Bin","week","50","51",0.00033
-"Maine","Season onset","Bin","week","51","52",0.00033
-"Maine","Season onset","Bin","week","52","53",0.00033
-"Maine","Season onset","Bin","week","1","2",0.00033
-"Maine","Season onset","Bin","week","2","3",0.11
-"Maine","Season onset","Bin","week","3","4",0.00033
-"Maine","Season onset","Bin","week","4","5",0.15
-"Maine","Season onset","Bin","week","5","6",0.6
-"Maine","Season onset","Bin","week","6","7",0.00033
-"Maine","Season onset","Bin","week","7","8",0.00033
-"Maine","Season onset","Bin","week","8","9",0.13
-"Maine","Season onset","Bin","week","9","10",0.00033
-"Maine","Season onset","Bin","week","10","11",0.00033
-"Maine","Season onset","Bin","week","11","12",0.00033
-"Maine","Season onset","Bin","week","12","13",0.00033
-"Maine","Season onset","Bin","week","13","14",0.00033
-"Maine","Season onset","Bin","week","14","15",0.00033
-"Maine","Season onset","Bin","week","15","16",0.00033
-"Maine","Season onset","Bin","week","16","17",0.00033
-"Maine","Season onset","Bin","week","17","18",0.00033
-"Maine","Season onset","Bin","week","18","19",0.00033
-"Maine","Season onset","Bin","week","19","20",0.00033
-"Maine","Season onset","Bin","week","20","21",0.00033
-"Maine","Season onset","Bin","week","none","none",0.00033
 "Maine","Season peak week","Point","week",NA,NA,3
 "Maine","Season peak week","Bin","week",40,41,0.00017
 "Maine","Season peak week","Bin","week",41,42,0.024
@@ -12926,41 +12261,6 @@
 "Maine","4 wk ahead","Bin","percent",12.8,12.9,7.8e-184
 "Maine","4 wk ahead","Bin","percent",12.9,13,1.4e-187
 "Maine","4 wk ahead","Bin","percent",13,100,2.4e-191
-"Maryland","Season onset","Point","week",NA,NA,52
-"Maryland","Season onset","Bin","week","40","41",0.00025
-"Maryland","Season onset","Bin","week","41","42",0.00025
-"Maryland","Season onset","Bin","week","42","43",0.00025
-"Maryland","Season onset","Bin","week","43","44",0.00025
-"Maryland","Season onset","Bin","week","44","45",0.00025
-"Maryland","Season onset","Bin","week","45","46",0.00025
-"Maryland","Season onset","Bin","week","46","47",0.00025
-"Maryland","Season onset","Bin","week","47","48",0.00025
-"Maryland","Season onset","Bin","week","48","49",0.00025
-"Maryland","Season onset","Bin","week","49","50",0.00025
-"Maryland","Season onset","Bin","week","50","51",0.29
-"Maryland","Season onset","Bin","week","51","52",0.12
-"Maryland","Season onset","Bin","week","52","53",0.33
-"Maryland","Season onset","Bin","week","1","2",0.00025
-"Maryland","Season onset","Bin","week","2","3",0.099
-"Maryland","Season onset","Bin","week","3","4",0.00025
-"Maryland","Season onset","Bin","week","4","5",0.15
-"Maryland","Season onset","Bin","week","5","6",0.00025
-"Maryland","Season onset","Bin","week","6","7",0.00025
-"Maryland","Season onset","Bin","week","7","8",0.00025
-"Maryland","Season onset","Bin","week","8","9",0.00025
-"Maryland","Season onset","Bin","week","9","10",0.00025
-"Maryland","Season onset","Bin","week","10","11",0.00025
-"Maryland","Season onset","Bin","week","11","12",0.00025
-"Maryland","Season onset","Bin","week","12","13",0.00025
-"Maryland","Season onset","Bin","week","13","14",0.00025
-"Maryland","Season onset","Bin","week","14","15",0.00025
-"Maryland","Season onset","Bin","week","15","16",0.00025
-"Maryland","Season onset","Bin","week","16","17",0.00025
-"Maryland","Season onset","Bin","week","17","18",0.00025
-"Maryland","Season onset","Bin","week","18","19",0.00025
-"Maryland","Season onset","Bin","week","19","20",0.00025
-"Maryland","Season onset","Bin","week","20","21",0.00025
-"Maryland","Season onset","Bin","week","none","none",0.00025
 "Maryland","Season peak week","Point","week",NA,NA,3
 "Maryland","Season peak week","Bin","week",40,41,0.00033
 "Maryland","Season peak week","Bin","week",41,42,0.00033
@@ -13655,41 +12955,6 @@
 "Maryland","4 wk ahead","Bin","percent",12.8,12.9,7.3e-46
 "Maryland","4 wk ahead","Bin","percent",12.9,13,8.1e-47
 "Maryland","4 wk ahead","Bin","percent",13,100,8.7e-48
-"Massachusetts","Season onset","Point","week",NA,NA,4
-"Massachusetts","Season onset","Bin","week","40","41",0.00032
-"Massachusetts","Season onset","Bin","week","41","42",0.00032
-"Massachusetts","Season onset","Bin","week","42","43",0.00032
-"Massachusetts","Season onset","Bin","week","43","44",0.00032
-"Massachusetts","Season onset","Bin","week","44","45",0.00032
-"Massachusetts","Season onset","Bin","week","45","46",0.00032
-"Massachusetts","Season onset","Bin","week","46","47",0.00032
-"Massachusetts","Season onset","Bin","week","47","48",0.00032
-"Massachusetts","Season onset","Bin","week","48","49",0.00032
-"Massachusetts","Season onset","Bin","week","49","50",0.00032
-"Massachusetts","Season onset","Bin","week","50","51",0.00032
-"Massachusetts","Season onset","Bin","week","51","52",0.00032
-"Massachusetts","Season onset","Bin","week","52","53",0.13
-"Massachusetts","Season onset","Bin","week","1","2",0.00032
-"Massachusetts","Season onset","Bin","week","2","3",0.17
-"Massachusetts","Season onset","Bin","week","3","4",0.1
-"Massachusetts","Season onset","Bin","week","4","5",0.24
-"Massachusetts","Season onset","Bin","week","5","6",0.00032
-"Massachusetts","Season onset","Bin","week","6","7",0.00032
-"Massachusetts","Season onset","Bin","week","7","8",0.11
-"Massachusetts","Season onset","Bin","week","8","9",0.1
-"Massachusetts","Season onset","Bin","week","9","10",0.00032
-"Massachusetts","Season onset","Bin","week","10","11",0.00032
-"Massachusetts","Season onset","Bin","week","11","12",0.13
-"Massachusetts","Season onset","Bin","week","12","13",0.00032
-"Massachusetts","Season onset","Bin","week","13","14",0.00032
-"Massachusetts","Season onset","Bin","week","14","15",0.00032
-"Massachusetts","Season onset","Bin","week","15","16",0.00032
-"Massachusetts","Season onset","Bin","week","16","17",0.00032
-"Massachusetts","Season onset","Bin","week","17","18",0.00032
-"Massachusetts","Season onset","Bin","week","18","19",0.00032
-"Massachusetts","Season onset","Bin","week","19","20",0.00032
-"Massachusetts","Season onset","Bin","week","20","21",0.00032
-"Massachusetts","Season onset","Bin","week","none","none",0.00032
 "Massachusetts","Season peak week","Point","week",NA,NA,4
 "Massachusetts","Season peak week","Bin","week",40,41,0.00037
 "Massachusetts","Season peak week","Bin","week",41,42,0.034
@@ -14384,41 +13649,6 @@
 "Massachusetts","4 wk ahead","Bin","percent",12.8,12.9,1.1e-160
 "Massachusetts","4 wk ahead","Bin","percent",12.9,13,9.1e-164
 "Massachusetts","4 wk ahead","Bin","percent",13,100,7.2e-167
-"Michigan","Season onset","Point","week",NA,NA,2
-"Michigan","Season onset","Bin","week","40","41",0.00029
-"Michigan","Season onset","Bin","week","41","42",0.00029
-"Michigan","Season onset","Bin","week","42","43",0.00029
-"Michigan","Season onset","Bin","week","43","44",0.00029
-"Michigan","Season onset","Bin","week","44","45",0.00029
-"Michigan","Season onset","Bin","week","45","46",0.00029
-"Michigan","Season onset","Bin","week","46","47",0.00029
-"Michigan","Season onset","Bin","week","47","48",0.00029
-"Michigan","Season onset","Bin","week","48","49",0.00029
-"Michigan","Season onset","Bin","week","49","50",0.00029
-"Michigan","Season onset","Bin","week","50","51",0.00029
-"Michigan","Season onset","Bin","week","51","52",0.11
-"Michigan","Season onset","Bin","week","52","53",0.37
-"Michigan","Season onset","Bin","week","1","2",0.00029
-"Michigan","Season onset","Bin","week","2","3",0.091
-"Michigan","Season onset","Bin","week","3","4",0.00029
-"Michigan","Season onset","Bin","week","4","5",0.00029
-"Michigan","Season onset","Bin","week","5","6",0.16
-"Michigan","Season onset","Bin","week","6","7",0.00029
-"Michigan","Season onset","Bin","week","7","8",0.00029
-"Michigan","Season onset","Bin","week","8","9",0.096
-"Michigan","Season onset","Bin","week","9","10",0.00029
-"Michigan","Season onset","Bin","week","10","11",0.17
-"Michigan","Season onset","Bin","week","11","12",0.00029
-"Michigan","Season onset","Bin","week","12","13",0.00029
-"Michigan","Season onset","Bin","week","13","14",0.00029
-"Michigan","Season onset","Bin","week","14","15",0.00029
-"Michigan","Season onset","Bin","week","15","16",0.00029
-"Michigan","Season onset","Bin","week","16","17",0.00029
-"Michigan","Season onset","Bin","week","17","18",0.00029
-"Michigan","Season onset","Bin","week","18","19",0.00029
-"Michigan","Season onset","Bin","week","19","20",0.00029
-"Michigan","Season onset","Bin","week","20","21",0.00029
-"Michigan","Season onset","Bin","week","none","none",0.00029
 "Michigan","Season peak week","Point","week",NA,NA,5
 "Michigan","Season peak week","Bin","week",40,41,0.00052
 "Michigan","Season peak week","Bin","week",41,42,0.00052
@@ -15113,41 +14343,6 @@
 "Michigan","4 wk ahead","Bin","percent",12.8,12.9,1.1e-12
 "Michigan","4 wk ahead","Bin","percent",12.9,13,6.7e-13
 "Michigan","4 wk ahead","Bin","percent",13,100,4e-13
-"Minnesota","Season onset","Point","week",NA,NA,2
-"Minnesota","Season onset","Bin","week","40","41",0.00037
-"Minnesota","Season onset","Bin","week","41","42",0.00037
-"Minnesota","Season onset","Bin","week","42","43",0.00037
-"Minnesota","Season onset","Bin","week","43","44",0.00037
-"Minnesota","Season onset","Bin","week","44","45",0.00037
-"Minnesota","Season onset","Bin","week","45","46",0.00037
-"Minnesota","Season onset","Bin","week","46","47",0.00037
-"Minnesota","Season onset","Bin","week","47","48",0.00037
-"Minnesota","Season onset","Bin","week","48","49",0.00037
-"Minnesota","Season onset","Bin","week","49","50",0.00037
-"Minnesota","Season onset","Bin","week","50","51",0.00037
-"Minnesota","Season onset","Bin","week","51","52",0.27
-"Minnesota","Season onset","Bin","week","52","53",0.15
-"Minnesota","Season onset","Bin","week","1","2",0.00037
-"Minnesota","Season onset","Bin","week","2","3",0.23
-"Minnesota","Season onset","Bin","week","3","4",0.00037
-"Minnesota","Season onset","Bin","week","4","5",0.00037
-"Minnesota","Season onset","Bin","week","5","6",0.00037
-"Minnesota","Season onset","Bin","week","6","7",0.00037
-"Minnesota","Season onset","Bin","week","7","8",0.11
-"Minnesota","Season onset","Bin","week","8","9",0.1
-"Minnesota","Season onset","Bin","week","9","10",0.00037
-"Minnesota","Season onset","Bin","week","10","11",0.00037
-"Minnesota","Season onset","Bin","week","11","12",0.00037
-"Minnesota","Season onset","Bin","week","12","13",0.13
-"Minnesota","Season onset","Bin","week","13","14",0.00037
-"Minnesota","Season onset","Bin","week","14","15",0.00037
-"Minnesota","Season onset","Bin","week","15","16",0.00037
-"Minnesota","Season onset","Bin","week","16","17",0.00037
-"Minnesota","Season onset","Bin","week","17","18",0.00037
-"Minnesota","Season onset","Bin","week","18","19",0.00037
-"Minnesota","Season onset","Bin","week","19","20",0.00037
-"Minnesota","Season onset","Bin","week","20","21",0.00037
-"Minnesota","Season onset","Bin","week","none","none",0.00037
 "Minnesota","Season peak week","Point","week",NA,NA,4
 "Minnesota","Season peak week","Bin","week",40,41,0.00028
 "Minnesota","Season peak week","Bin","week",41,42,0.00028
@@ -15842,41 +15037,6 @@
 "Minnesota","4 wk ahead","Bin","percent",12.8,12.9,2.9e-52
 "Minnesota","4 wk ahead","Bin","percent",12.9,13,2.7e-53
 "Minnesota","4 wk ahead","Bin","percent",13,100,2.5e-54
-"Mississippi","Season onset","Point","week",NA,NA,41
-"Mississippi","Season onset","Bin","week","40","41",0.00037
-"Mississippi","Season onset","Bin","week","41","42",0.61
-"Mississippi","Season onset","Bin","week","42","43",0.1
-"Mississippi","Season onset","Bin","week","43","44",0.28
-"Mississippi","Season onset","Bin","week","44","45",0.00037
-"Mississippi","Season onset","Bin","week","45","46",0.00037
-"Mississippi","Season onset","Bin","week","46","47",0.00037
-"Mississippi","Season onset","Bin","week","47","48",0.00037
-"Mississippi","Season onset","Bin","week","48","49",0.00037
-"Mississippi","Season onset","Bin","week","49","50",0.00037
-"Mississippi","Season onset","Bin","week","50","51",0.00037
-"Mississippi","Season onset","Bin","week","51","52",0.00037
-"Mississippi","Season onset","Bin","week","52","53",0.00037
-"Mississippi","Season onset","Bin","week","1","2",0.00037
-"Mississippi","Season onset","Bin","week","2","3",0.00037
-"Mississippi","Season onset","Bin","week","3","4",0.00037
-"Mississippi","Season onset","Bin","week","4","5",0.00037
-"Mississippi","Season onset","Bin","week","5","6",0.00037
-"Mississippi","Season onset","Bin","week","6","7",0.00037
-"Mississippi","Season onset","Bin","week","7","8",0.00037
-"Mississippi","Season onset","Bin","week","8","9",0.00037
-"Mississippi","Season onset","Bin","week","9","10",0.00037
-"Mississippi","Season onset","Bin","week","10","11",0.00037
-"Mississippi","Season onset","Bin","week","11","12",0.00037
-"Mississippi","Season onset","Bin","week","12","13",0.00037
-"Mississippi","Season onset","Bin","week","13","14",0.00037
-"Mississippi","Season onset","Bin","week","14","15",0.00037
-"Mississippi","Season onset","Bin","week","15","16",0.00037
-"Mississippi","Season onset","Bin","week","16","17",0.00037
-"Mississippi","Season onset","Bin","week","17","18",0.00037
-"Mississippi","Season onset","Bin","week","18","19",0.00037
-"Mississippi","Season onset","Bin","week","19","20",0.00037
-"Mississippi","Season onset","Bin","week","20","21",0.00037
-"Mississippi","Season onset","Bin","week","none","none",0.00037
 "Mississippi","Season peak week","Point","week",NA,NA,3
 "Mississippi","Season peak week","Bin","week",40,41,0.00019
 "Mississippi","Season peak week","Bin","week",41,42,0.00019
@@ -16571,41 +15731,6 @@
 "Mississippi","4 wk ahead","Bin","percent",12.8,12.9,6.8e-10
 "Mississippi","4 wk ahead","Bin","percent",12.9,13,4.3e-10
 "Mississippi","4 wk ahead","Bin","percent",13,100,2.8e-10
-"Missouri","Season onset","Point","week",NA,NA,53
-"Missouri","Season onset","Bin","week","40","41",0.00029
-"Missouri","Season onset","Bin","week","41","42",0.00029
-"Missouri","Season onset","Bin","week","42","43",0.00029
-"Missouri","Season onset","Bin","week","43","44",0.00029
-"Missouri","Season onset","Bin","week","44","45",0.00029
-"Missouri","Season onset","Bin","week","45","46",0.00029
-"Missouri","Season onset","Bin","week","46","47",0.00029
-"Missouri","Season onset","Bin","week","47","48",0.081
-"Missouri","Season onset","Bin","week","48","49",0.00029
-"Missouri","Season onset","Bin","week","49","50",0.1
-"Missouri","Season onset","Bin","week","50","51",0.12
-"Missouri","Season onset","Bin","week","51","52",0.16
-"Missouri","Season onset","Bin","week","52","53",0.27
-"Missouri","Season onset","Bin","week","1","2",0.00029
-"Missouri","Season onset","Bin","week","2","3",0.00029
-"Missouri","Season onset","Bin","week","3","4",0.00029
-"Missouri","Season onset","Bin","week","4","5",0.00029
-"Missouri","Season onset","Bin","week","5","6",0.00029
-"Missouri","Season onset","Bin","week","6","7",0.00029
-"Missouri","Season onset","Bin","week","7","8",0.1
-"Missouri","Season onset","Bin","week","8","9",0.00029
-"Missouri","Season onset","Bin","week","9","10",0.00029
-"Missouri","Season onset","Bin","week","10","11",0.00029
-"Missouri","Season onset","Bin","week","11","12",0.16
-"Missouri","Season onset","Bin","week","12","13",0.00029
-"Missouri","Season onset","Bin","week","13","14",0.00029
-"Missouri","Season onset","Bin","week","14","15",0.00029
-"Missouri","Season onset","Bin","week","15","16",0.00029
-"Missouri","Season onset","Bin","week","16","17",0.00029
-"Missouri","Season onset","Bin","week","17","18",0.00029
-"Missouri","Season onset","Bin","week","18","19",0.00029
-"Missouri","Season onset","Bin","week","19","20",0.00029
-"Missouri","Season onset","Bin","week","20","21",0.00029
-"Missouri","Season onset","Bin","week","none","none",0.00029
 "Missouri","Season peak week","Point","week",NA,NA,6
 "Missouri","Season peak week","Bin","week",40,41,0.00035
 "Missouri","Season peak week","Bin","week",41,42,0.00035
@@ -17168,41 +16293,6 @@
 "Missouri","4 wk ahead","Bin","percent",12.8,12.9,2.1e-07
 "Missouri","4 wk ahead","Bin","percent",12.9,13,1.4e-07
 "Missouri","4 wk ahead","Bin","percent",13,100,9.2e-08
-"Montana","Season onset","Point","week",NA,NA,3
-"Montana","Season onset","Bin","week","40","41",0.00021
-"Montana","Season onset","Bin","week","41","42",0.00021
-"Montana","Season onset","Bin","week","42","43",0.00021
-"Montana","Season onset","Bin","week","43","44",0.00021
-"Montana","Season onset","Bin","week","44","45",0.00021
-"Montana","Season onset","Bin","week","45","46",0.00021
-"Montana","Season onset","Bin","week","46","47",0.00021
-"Montana","Season onset","Bin","week","47","48",0.00021
-"Montana","Season onset","Bin","week","48","49",0.00021
-"Montana","Season onset","Bin","week","49","50",0.00021
-"Montana","Season onset","Bin","week","50","51",0.00021
-"Montana","Season onset","Bin","week","51","52",0.00021
-"Montana","Season onset","Bin","week","52","53",0.00021
-"Montana","Season onset","Bin","week","1","2",0.00021
-"Montana","Season onset","Bin","week","2","3",0.11
-"Montana","Season onset","Bin","week","3","4",0.00021
-"Montana","Season onset","Bin","week","4","5",0.88
-"Montana","Season onset","Bin","week","5","6",0.00021
-"Montana","Season onset","Bin","week","6","7",0.00021
-"Montana","Season onset","Bin","week","7","8",0.00021
-"Montana","Season onset","Bin","week","8","9",0.00021
-"Montana","Season onset","Bin","week","9","10",0.00021
-"Montana","Season onset","Bin","week","10","11",0.00021
-"Montana","Season onset","Bin","week","11","12",0.00021
-"Montana","Season onset","Bin","week","12","13",0.00021
-"Montana","Season onset","Bin","week","13","14",0.00021
-"Montana","Season onset","Bin","week","14","15",0.00021
-"Montana","Season onset","Bin","week","15","16",0.00021
-"Montana","Season onset","Bin","week","16","17",0.00021
-"Montana","Season onset","Bin","week","17","18",0.00021
-"Montana","Season onset","Bin","week","18","19",0.00021
-"Montana","Season onset","Bin","week","19","20",0.00021
-"Montana","Season onset","Bin","week","20","21",0.00021
-"Montana","Season onset","Bin","week","none","none",0.00021
 "Montana","Season peak week","Point","week",NA,NA,5
 "Montana","Season peak week","Bin","week",40,41,3e-04
 "Montana","Season peak week","Bin","week",41,42,3e-04
@@ -17765,41 +16855,6 @@
 "Montana","4 wk ahead","Bin","percent",12.8,12.9,4e-33
 "Montana","4 wk ahead","Bin","percent",12.9,13,9.1e-34
 "Montana","4 wk ahead","Bin","percent",13,100,2e-34
-"Nebraska","Season onset","Point","week",NA,NA,50
-"Nebraska","Season onset","Bin","week","40","41",0.00025
-"Nebraska","Season onset","Bin","week","41","42",0.099
-"Nebraska","Season onset","Bin","week","42","43",0.064
-"Nebraska","Season onset","Bin","week","43","44",0.00025
-"Nebraska","Season onset","Bin","week","44","45",0.00025
-"Nebraska","Season onset","Bin","week","45","46",0.098
-"Nebraska","Season onset","Bin","week","46","47",0.19
-"Nebraska","Season onset","Bin","week","47","48",0.00025
-"Nebraska","Season onset","Bin","week","48","49",0.12
-"Nebraska","Season onset","Bin","week","49","50",0.00025
-"Nebraska","Season onset","Bin","week","50","51",0.00025
-"Nebraska","Season onset","Bin","week","51","52",0.00025
-"Nebraska","Season onset","Bin","week","52","53",0.11
-"Nebraska","Season onset","Bin","week","1","2",0.00025
-"Nebraska","Season onset","Bin","week","2","3",0.00025
-"Nebraska","Season onset","Bin","week","3","4",0.00025
-"Nebraska","Season onset","Bin","week","4","5",0.00025
-"Nebraska","Season onset","Bin","week","5","6",0.3
-"Nebraska","Season onset","Bin","week","6","7",0.00025
-"Nebraska","Season onset","Bin","week","7","8",0.00025
-"Nebraska","Season onset","Bin","week","8","9",0.00025
-"Nebraska","Season onset","Bin","week","9","10",0.00025
-"Nebraska","Season onset","Bin","week","10","11",0.00025
-"Nebraska","Season onset","Bin","week","11","12",0.00025
-"Nebraska","Season onset","Bin","week","12","13",0.00025
-"Nebraska","Season onset","Bin","week","13","14",0.00025
-"Nebraska","Season onset","Bin","week","14","15",0.00025
-"Nebraska","Season onset","Bin","week","15","16",0.00025
-"Nebraska","Season onset","Bin","week","16","17",0.00025
-"Nebraska","Season onset","Bin","week","17","18",0.00025
-"Nebraska","Season onset","Bin","week","18","19",0.00025
-"Nebraska","Season onset","Bin","week","19","20",0.00025
-"Nebraska","Season onset","Bin","week","20","21",0.00025
-"Nebraska","Season onset","Bin","week","none","none",0.00025
 "Nebraska","Season peak week","Point","week",NA,NA,5
 "Nebraska","Season peak week","Bin","week",40,41,0.00038
 "Nebraska","Season peak week","Bin","week",41,42,0.00038
@@ -18362,41 +17417,6 @@
 "Nebraska","4 wk ahead","Bin","percent",12.8,12.9,4.5e-52
 "Nebraska","4 wk ahead","Bin","percent",12.9,13,4.1e-53
 "Nebraska","4 wk ahead","Bin","percent",13,100,3.6e-54
-"Nevada","Season onset","Point","week",NA,NA,1
-"Nevada","Season onset","Bin","week","40","41",0.00033
-"Nevada","Season onset","Bin","week","41","42",0.00033
-"Nevada","Season onset","Bin","week","42","43",0.00033
-"Nevada","Season onset","Bin","week","43","44",0.00033
-"Nevada","Season onset","Bin","week","44","45",0.00033
-"Nevada","Season onset","Bin","week","45","46",0.00033
-"Nevada","Season onset","Bin","week","46","47",0.00033
-"Nevada","Season onset","Bin","week","47","48",0.08
-"Nevada","Season onset","Bin","week","48","49",0.00033
-"Nevada","Season onset","Bin","week","49","50",0.00033
-"Nevada","Season onset","Bin","week","50","51",0.00033
-"Nevada","Season onset","Bin","week","51","52",0.17
-"Nevada","Season onset","Bin","week","52","53",0.14
-"Nevada","Season onset","Bin","week","1","2",0.14
-"Nevada","Season onset","Bin","week","2","3",0.15
-"Nevada","Season onset","Bin","week","3","4",0.00033
-"Nevada","Season onset","Bin","week","4","5",0.098
-"Nevada","Season onset","Bin","week","5","6",0.00033
-"Nevada","Season onset","Bin","week","6","7",0.00033
-"Nevada","Season onset","Bin","week","7","8",0.097
-"Nevada","Season onset","Bin","week","8","9",0.00033
-"Nevada","Season onset","Bin","week","9","10",0.00033
-"Nevada","Season onset","Bin","week","10","11",0.12
-"Nevada","Season onset","Bin","week","11","12",0.00033
-"Nevada","Season onset","Bin","week","12","13",0.00033
-"Nevada","Season onset","Bin","week","13","14",0.00033
-"Nevada","Season onset","Bin","week","14","15",0.00033
-"Nevada","Season onset","Bin","week","15","16",0.00033
-"Nevada","Season onset","Bin","week","16","17",0.00033
-"Nevada","Season onset","Bin","week","17","18",0.00033
-"Nevada","Season onset","Bin","week","18","19",0.00033
-"Nevada","Season onset","Bin","week","19","20",0.00033
-"Nevada","Season onset","Bin","week","20","21",0.00033
-"Nevada","Season onset","Bin","week","none","none",0.00033
 "Nevada","Season peak week","Point","week",NA,NA,3
 "Nevada","Season peak week","Bin","week",40,41,0.00029
 "Nevada","Season peak week","Bin","week",41,42,0.00029
@@ -19091,41 +18111,6 @@
 "Nevada","4 wk ahead","Bin","percent",12.8,12.9,3.9e-69
 "Nevada","4 wk ahead","Bin","percent",12.9,13,1.7e-70
 "Nevada","4 wk ahead","Bin","percent",13,100,7.3e-72
-"New Hampshire","Season onset","Point","week",NA,NA,3
-"New Hampshire","Season onset","Bin","week","40","41",0.00014
-"New Hampshire","Season onset","Bin","week","41","42",0.00014
-"New Hampshire","Season onset","Bin","week","42","43",0.00014
-"New Hampshire","Season onset","Bin","week","43","44",0.00014
-"New Hampshire","Season onset","Bin","week","44","45",0.00014
-"New Hampshire","Season onset","Bin","week","45","46",0.00014
-"New Hampshire","Season onset","Bin","week","46","47",0.00014
-"New Hampshire","Season onset","Bin","week","47","48",0.00014
-"New Hampshire","Season onset","Bin","week","48","49",0.00014
-"New Hampshire","Season onset","Bin","week","49","50",0.00014
-"New Hampshire","Season onset","Bin","week","50","51",0.00014
-"New Hampshire","Season onset","Bin","week","51","52",0.00014
-"New Hampshire","Season onset","Bin","week","52","53",0.00014
-"New Hampshire","Season onset","Bin","week","1","2",0.00014
-"New Hampshire","Season onset","Bin","week","2","3",0.00014
-"New Hampshire","Season onset","Bin","week","3","4",0.092
-"New Hampshire","Season onset","Bin","week","4","5",0.73
-"New Hampshire","Season onset","Bin","week","5","6",0.17
-"New Hampshire","Season onset","Bin","week","6","7",0.00014
-"New Hampshire","Season onset","Bin","week","7","8",0.00014
-"New Hampshire","Season onset","Bin","week","8","9",0.00014
-"New Hampshire","Season onset","Bin","week","9","10",0.00014
-"New Hampshire","Season onset","Bin","week","10","11",0.00014
-"New Hampshire","Season onset","Bin","week","11","12",0.00014
-"New Hampshire","Season onset","Bin","week","12","13",0.00014
-"New Hampshire","Season onset","Bin","week","13","14",0.00014
-"New Hampshire","Season onset","Bin","week","14","15",0.00014
-"New Hampshire","Season onset","Bin","week","15","16",0.00014
-"New Hampshire","Season onset","Bin","week","16","17",0.00014
-"New Hampshire","Season onset","Bin","week","17","18",0.00014
-"New Hampshire","Season onset","Bin","week","18","19",0.00014
-"New Hampshire","Season onset","Bin","week","19","20",0.00014
-"New Hampshire","Season onset","Bin","week","20","21",0.00014
-"New Hampshire","Season onset","Bin","week","none","none",0.00014
 "New Hampshire","Season peak week","Point","week",NA,NA,6
 "New Hampshire","Season peak week","Bin","week",40,41,0.0099
 "New Hampshire","Season peak week","Bin","week",41,42,0.005
@@ -19688,41 +18673,6 @@
 "New Hampshire","4 wk ahead","Bin","percent",12.8,12.9,1.1e-108
 "New Hampshire","4 wk ahead","Bin","percent",12.9,13,1.7e-110
 "New Hampshire","4 wk ahead","Bin","percent",13,100,2.4e-112
-"New Jersey","Season onset","Point","week",NA,NA,48
-"New Jersey","Season onset","Bin","week","40","41",0.00041
-"New Jersey","Season onset","Bin","week","41","42",0.26
-"New Jersey","Season onset","Bin","week","42","43",0.00041
-"New Jersey","Season onset","Bin","week","43","44",0.00041
-"New Jersey","Season onset","Bin","week","44","45",0.00041
-"New Jersey","Season onset","Bin","week","45","46",0.17
-"New Jersey","Season onset","Bin","week","46","47",0.00041
-"New Jersey","Season onset","Bin","week","47","48",0.00041
-"New Jersey","Season onset","Bin","week","48","49",0.097
-"New Jersey","Season onset","Bin","week","49","50",0.00041
-"New Jersey","Season onset","Bin","week","50","51",0.00041
-"New Jersey","Season onset","Bin","week","51","52",0.00041
-"New Jersey","Season onset","Bin","week","52","53",0.36
-"New Jersey","Season onset","Bin","week","1","2",0.00041
-"New Jersey","Season onset","Bin","week","2","3",0.00041
-"New Jersey","Season onset","Bin","week","3","4",0.00041
-"New Jersey","Season onset","Bin","week","4","5",0.00041
-"New Jersey","Season onset","Bin","week","5","6",0.00041
-"New Jersey","Season onset","Bin","week","6","7",0.00041
-"New Jersey","Season onset","Bin","week","7","8",0.00041
-"New Jersey","Season onset","Bin","week","8","9",0.1
-"New Jersey","Season onset","Bin","week","9","10",0.00041
-"New Jersey","Season onset","Bin","week","10","11",0.00041
-"New Jersey","Season onset","Bin","week","11","12",0.00041
-"New Jersey","Season onset","Bin","week","12","13",0.00041
-"New Jersey","Season onset","Bin","week","13","14",0.00041
-"New Jersey","Season onset","Bin","week","14","15",0.00041
-"New Jersey","Season onset","Bin","week","15","16",0.00041
-"New Jersey","Season onset","Bin","week","16","17",0.00041
-"New Jersey","Season onset","Bin","week","17","18",0.00041
-"New Jersey","Season onset","Bin","week","18","19",0.00041
-"New Jersey","Season onset","Bin","week","19","20",0.00041
-"New Jersey","Season onset","Bin","week","20","21",0.00041
-"New Jersey","Season onset","Bin","week","none","none",0.00041
 "New Jersey","Season peak week","Point","week",NA,NA,4
 "New Jersey","Season peak week","Bin","week",40,41,0.00037
 "New Jersey","Season peak week","Bin","week",41,42,0.00037
@@ -20417,41 +19367,6 @@
 "New Jersey","4 wk ahead","Bin","percent",12.8,12.9,9.4e-29
 "New Jersey","4 wk ahead","Bin","percent",12.9,13,2.4e-29
 "New Jersey","4 wk ahead","Bin","percent",13,100,6.1e-30
-"New Mexico","Season onset","Point","week",NA,NA,51
-"New Mexico","Season onset","Bin","week","40","41",0.00033
-"New Mexico","Season onset","Bin","week","41","42",0.00033
-"New Mexico","Season onset","Bin","week","42","43",0.00033
-"New Mexico","Season onset","Bin","week","43","44",0.00033
-"New Mexico","Season onset","Bin","week","44","45",0.12
-"New Mexico","Season onset","Bin","week","45","46",0.00033
-"New Mexico","Season onset","Bin","week","46","47",0.14
-"New Mexico","Season onset","Bin","week","47","48",0.13
-"New Mexico","Season onset","Bin","week","48","49",0.00033
-"New Mexico","Season onset","Bin","week","49","50",0.00033
-"New Mexico","Season onset","Bin","week","50","51",0.1
-"New Mexico","Season onset","Bin","week","51","52",0.1
-"New Mexico","Season onset","Bin","week","52","53",0.13
-"New Mexico","Season onset","Bin","week","1","2",0.00033
-"New Mexico","Season onset","Bin","week","2","3",0.00033
-"New Mexico","Season onset","Bin","week","3","4",0.00033
-"New Mexico","Season onset","Bin","week","4","5",0.16
-"New Mexico","Season onset","Bin","week","5","6",0.12
-"New Mexico","Season onset","Bin","week","6","7",0.00033
-"New Mexico","Season onset","Bin","week","7","8",0.00033
-"New Mexico","Season onset","Bin","week","8","9",0.00033
-"New Mexico","Season onset","Bin","week","9","10",0.00033
-"New Mexico","Season onset","Bin","week","10","11",0.00033
-"New Mexico","Season onset","Bin","week","11","12",0.00033
-"New Mexico","Season onset","Bin","week","12","13",0.00033
-"New Mexico","Season onset","Bin","week","13","14",0.00033
-"New Mexico","Season onset","Bin","week","14","15",0.00033
-"New Mexico","Season onset","Bin","week","15","16",0.00033
-"New Mexico","Season onset","Bin","week","16","17",0.00033
-"New Mexico","Season onset","Bin","week","17","18",0.00033
-"New Mexico","Season onset","Bin","week","18","19",0.00033
-"New Mexico","Season onset","Bin","week","19","20",0.00033
-"New Mexico","Season onset","Bin","week","20","21",0.00033
-"New Mexico","Season onset","Bin","week","none","none",0.00033
 "New Mexico","Season peak week","Point","week",NA,NA,4
 "New Mexico","Season peak week","Bin","week",40,41,0.00022
 "New Mexico","Season peak week","Bin","week",41,42,0.00022
@@ -21146,41 +20061,6 @@
 "New Mexico","4 wk ahead","Bin","percent",12.8,12.9,8e-11
 "New Mexico","4 wk ahead","Bin","percent",12.9,13,5.1e-11
 "New Mexico","4 wk ahead","Bin","percent",13,100,3.2e-11
-"New York","Season onset","Point","week",NA,NA,53
-"New York","Season onset","Bin","week","40","41",0.00033
-"New York","Season onset","Bin","week","41","42",0.00033
-"New York","Season onset","Bin","week","42","43",0.00033
-"New York","Season onset","Bin","week","43","44",0.00033
-"New York","Season onset","Bin","week","44","45",0.00033
-"New York","Season onset","Bin","week","45","46",0.00033
-"New York","Season onset","Bin","week","46","47",0.00033
-"New York","Season onset","Bin","week","47","48",0.00033
-"New York","Season onset","Bin","week","48","49",0.00033
-"New York","Season onset","Bin","week","49","50",0.00033
-"New York","Season onset","Bin","week","50","51",0.1
-"New York","Season onset","Bin","week","51","52",0.22
-"New York","Season onset","Bin","week","52","53",0.38
-"New York","Season onset","Bin","week","1","2",0.00033
-"New York","Season onset","Bin","week","2","3",0.13
-"New York","Season onset","Bin","week","3","4",0.00033
-"New York","Season onset","Bin","week","4","5",0.00033
-"New York","Season onset","Bin","week","5","6",0.00033
-"New York","Season onset","Bin","week","6","7",0.00033
-"New York","Season onset","Bin","week","7","8",0.15
-"New York","Season onset","Bin","week","8","9",0.00033
-"New York","Season onset","Bin","week","9","10",0.00033
-"New York","Season onset","Bin","week","10","11",0.00033
-"New York","Season onset","Bin","week","11","12",0.00033
-"New York","Season onset","Bin","week","12","13",0.00033
-"New York","Season onset","Bin","week","13","14",0.00033
-"New York","Season onset","Bin","week","14","15",0.00033
-"New York","Season onset","Bin","week","15","16",0.00033
-"New York","Season onset","Bin","week","16","17",0.00033
-"New York","Season onset","Bin","week","17","18",0.00033
-"New York","Season onset","Bin","week","18","19",0.00033
-"New York","Season onset","Bin","week","19","20",0.00033
-"New York","Season onset","Bin","week","20","21",0.00033
-"New York","Season onset","Bin","week","none","none",0.00033
 "New York","Season peak week","Point","week",NA,NA,6
 "New York","Season peak week","Bin","week",40,41,0.00037
 "New York","Season peak week","Bin","week",41,42,0.00037
@@ -21875,41 +20755,6 @@
 "New York","4 wk ahead","Bin","percent",12.8,12.9,1.3e-151
 "New York","4 wk ahead","Bin","percent",12.9,13,9.3e-155
 "New York","4 wk ahead","Bin","percent",13,100,6.2e-158
-"North Carolina","Season onset","Point","week",NA,NA,52
-"North Carolina","Season onset","Bin","week","40","41",0.00033
-"North Carolina","Season onset","Bin","week","41","42",0.00033
-"North Carolina","Season onset","Bin","week","42","43",0.00033
-"North Carolina","Season onset","Bin","week","43","44",0.00033
-"North Carolina","Season onset","Bin","week","44","45",0.00033
-"North Carolina","Season onset","Bin","week","45","46",0.00033
-"North Carolina","Season onset","Bin","week","46","47",0.00033
-"North Carolina","Season onset","Bin","week","47","48",0.00033
-"North Carolina","Season onset","Bin","week","48","49",0.00033
-"North Carolina","Season onset","Bin","week","49","50",0.00033
-"North Carolina","Season onset","Bin","week","50","51",0.1
-"North Carolina","Season onset","Bin","week","51","52",0.12
-"North Carolina","Season onset","Bin","week","52","53",0.54
-"North Carolina","Season onset","Bin","week","1","2",0.00033
-"North Carolina","Season onset","Bin","week","2","3",0.11
-"North Carolina","Season onset","Bin","week","3","4",0.00033
-"North Carolina","Season onset","Bin","week","4","5",0.11
-"North Carolina","Season onset","Bin","week","5","6",0.00033
-"North Carolina","Season onset","Bin","week","6","7",0.00033
-"North Carolina","Season onset","Bin","week","7","8",0.00033
-"North Carolina","Season onset","Bin","week","8","9",0.00033
-"North Carolina","Season onset","Bin","week","9","10",0.00033
-"North Carolina","Season onset","Bin","week","10","11",0.00033
-"North Carolina","Season onset","Bin","week","11","12",0.00033
-"North Carolina","Season onset","Bin","week","12","13",0.00033
-"North Carolina","Season onset","Bin","week","13","14",0.00033
-"North Carolina","Season onset","Bin","week","14","15",0.00033
-"North Carolina","Season onset","Bin","week","15","16",0.00033
-"North Carolina","Season onset","Bin","week","16","17",0.00033
-"North Carolina","Season onset","Bin","week","17","18",0.00033
-"North Carolina","Season onset","Bin","week","18","19",0.00033
-"North Carolina","Season onset","Bin","week","19","20",0.00033
-"North Carolina","Season onset","Bin","week","20","21",0.00033
-"North Carolina","Season onset","Bin","week","none","none",0.00033
 "North Carolina","Season peak week","Point","week",NA,NA,5
 "North Carolina","Season peak week","Bin","week",40,41,0.00046
 "North Carolina","Season peak week","Bin","week",41,42,0.00046
@@ -22604,41 +21449,6 @@
 "North Carolina","4 wk ahead","Bin","percent",12.8,12.9,8.4e-27
 "North Carolina","4 wk ahead","Bin","percent",12.9,13,2.5e-27
 "North Carolina","4 wk ahead","Bin","percent",13,100,7.1e-28
-"North Dakota","Season onset","Point","week",NA,NA,4
-"North Dakota","Season onset","Bin","week","40","41",0.00037
-"North Dakota","Season onset","Bin","week","41","42",0.00037
-"North Dakota","Season onset","Bin","week","42","43",0.00037
-"North Dakota","Season onset","Bin","week","43","44",0.00037
-"North Dakota","Season onset","Bin","week","44","45",0.00037
-"North Dakota","Season onset","Bin","week","45","46",0.00037
-"North Dakota","Season onset","Bin","week","46","47",0.00037
-"North Dakota","Season onset","Bin","week","47","48",0.00037
-"North Dakota","Season onset","Bin","week","48","49",0.00037
-"North Dakota","Season onset","Bin","week","49","50",0.00037
-"North Dakota","Season onset","Bin","week","50","51",0.00037
-"North Dakota","Season onset","Bin","week","51","52",0.00037
-"North Dakota","Season onset","Bin","week","52","53",0.3
-"North Dakota","Season onset","Bin","week","1","2",0.00037
-"North Dakota","Season onset","Bin","week","2","3",0.32
-"North Dakota","Season onset","Bin","week","3","4",0.00037
-"North Dakota","Season onset","Bin","week","4","5",0.00037
-"North Dakota","Season onset","Bin","week","5","6",0.00037
-"North Dakota","Season onset","Bin","week","6","7",0.00037
-"North Dakota","Season onset","Bin","week","7","8",0.00037
-"North Dakota","Season onset","Bin","week","8","9",0.00037
-"North Dakota","Season onset","Bin","week","9","10",0.00037
-"North Dakota","Season onset","Bin","week","10","11",0.13
-"North Dakota","Season onset","Bin","week","11","12",0.00037
-"North Dakota","Season onset","Bin","week","12","13",0.08
-"North Dakota","Season onset","Bin","week","13","14",0.00037
-"North Dakota","Season onset","Bin","week","14","15",0.00037
-"North Dakota","Season onset","Bin","week","15","16",0.17
-"North Dakota","Season onset","Bin","week","16","17",0.00037
-"North Dakota","Season onset","Bin","week","17","18",0.00037
-"North Dakota","Season onset","Bin","week","18","19",0.00037
-"North Dakota","Season onset","Bin","week","19","20",0.00037
-"North Dakota","Season onset","Bin","week","20","21",0.00037
-"North Dakota","Season onset","Bin","week","none","none",0.00037
 "North Dakota","Season peak week","Point","week",NA,NA,6
 "North Dakota","Season peak week","Bin","week",40,41,0.00025
 "North Dakota","Season peak week","Bin","week",41,42,0.00025
@@ -23333,41 +22143,6 @@
 "North Dakota","4 wk ahead","Bin","percent",12.8,12.9,8e-21
 "North Dakota","4 wk ahead","Bin","percent",12.9,13,3.1e-21
 "North Dakota","4 wk ahead","Bin","percent",13,100,1.2e-21
-"Ohio","Season onset","Point","week",NA,NA,3
-"Ohio","Season onset","Bin","week","40","41",0.00028
-"Ohio","Season onset","Bin","week","41","42",0.00028
-"Ohio","Season onset","Bin","week","42","43",0.00028
-"Ohio","Season onset","Bin","week","43","44",0.00028
-"Ohio","Season onset","Bin","week","44","45",0.00028
-"Ohio","Season onset","Bin","week","45","46",0.00028
-"Ohio","Season onset","Bin","week","46","47",0.00028
-"Ohio","Season onset","Bin","week","47","48",0.00028
-"Ohio","Season onset","Bin","week","48","49",0.00028
-"Ohio","Season onset","Bin","week","49","50",0.00028
-"Ohio","Season onset","Bin","week","50","51",0.15
-"Ohio","Season onset","Bin","week","51","52",0.00028
-"Ohio","Season onset","Bin","week","52","53",0.064
-"Ohio","Season onset","Bin","week","1","2",0.00028
-"Ohio","Season onset","Bin","week","2","3",0.3
-"Ohio","Season onset","Bin","week","3","4",0.00028
-"Ohio","Season onset","Bin","week","4","5",0.15
-"Ohio","Season onset","Bin","week","5","6",0.00028
-"Ohio","Season onset","Bin","week","6","7",0.096
-"Ohio","Season onset","Bin","week","7","8",0.14
-"Ohio","Season onset","Bin","week","8","9",0.00028
-"Ohio","Season onset","Bin","week","9","10",0.00028
-"Ohio","Season onset","Bin","week","10","11",0.00028
-"Ohio","Season onset","Bin","week","11","12",0.1
-"Ohio","Season onset","Bin","week","12","13",0.00028
-"Ohio","Season onset","Bin","week","13","14",0.00028
-"Ohio","Season onset","Bin","week","14","15",0.00028
-"Ohio","Season onset","Bin","week","15","16",0.00028
-"Ohio","Season onset","Bin","week","16","17",0.00028
-"Ohio","Season onset","Bin","week","17","18",0.00028
-"Ohio","Season onset","Bin","week","18","19",0.00028
-"Ohio","Season onset","Bin","week","19","20",0.00028
-"Ohio","Season onset","Bin","week","20","21",0.00028
-"Ohio","Season onset","Bin","week","none","none",0.00028
 "Ohio","Season peak week","Point","week",NA,NA,3
 "Ohio","Season peak week","Bin","week",40,41,5e-04
 "Ohio","Season peak week","Bin","week",41,42,5e-04
@@ -24062,41 +22837,6 @@
 "Ohio","4 wk ahead","Bin","percent",12.8,12.9,1.1e-176
 "Ohio","4 wk ahead","Bin","percent",12.9,13,3.4e-180
 "Ohio","4 wk ahead","Bin","percent",13,100,9.9e-184
-"Oklahoma","Season onset","Point","week",NA,NA,47
-"Oklahoma","Season onset","Bin","week","40","41",0.00033
-"Oklahoma","Season onset","Bin","week","41","42",0.00033
-"Oklahoma","Season onset","Bin","week","42","43",0.00033
-"Oklahoma","Season onset","Bin","week","43","44",0.23
-"Oklahoma","Season onset","Bin","week","44","45",0.00033
-"Oklahoma","Season onset","Bin","week","45","46",0.00033
-"Oklahoma","Season onset","Bin","week","46","47",0.41
-"Oklahoma","Season onset","Bin","week","47","48",0.00033
-"Oklahoma","Season onset","Bin","week","48","49",0.12
-"Oklahoma","Season onset","Bin","week","49","50",0.11
-"Oklahoma","Season onset","Bin","week","50","51",0.00033
-"Oklahoma","Season onset","Bin","week","51","52",0.00033
-"Oklahoma","Season onset","Bin","week","52","53",0.00033
-"Oklahoma","Season onset","Bin","week","1","2",0.00033
-"Oklahoma","Season onset","Bin","week","2","3",0.00033
-"Oklahoma","Season onset","Bin","week","3","4",0.00033
-"Oklahoma","Season onset","Bin","week","4","5",0.00033
-"Oklahoma","Season onset","Bin","week","5","6",0.00033
-"Oklahoma","Season onset","Bin","week","6","7",0.11
-"Oklahoma","Season onset","Bin","week","7","8",0.00033
-"Oklahoma","Season onset","Bin","week","8","9",0.00033
-"Oklahoma","Season onset","Bin","week","9","10",0.00033
-"Oklahoma","Season onset","Bin","week","10","11",0.00033
-"Oklahoma","Season onset","Bin","week","11","12",0.00033
-"Oklahoma","Season onset","Bin","week","12","13",0.00033
-"Oklahoma","Season onset","Bin","week","13","14",0.00033
-"Oklahoma","Season onset","Bin","week","14","15",0.00033
-"Oklahoma","Season onset","Bin","week","15","16",0.00033
-"Oklahoma","Season onset","Bin","week","16","17",0.00033
-"Oklahoma","Season onset","Bin","week","17","18",0.00033
-"Oklahoma","Season onset","Bin","week","18","19",0.00033
-"Oklahoma","Season onset","Bin","week","19","20",0.00033
-"Oklahoma","Season onset","Bin","week","20","21",0.00033
-"Oklahoma","Season onset","Bin","week","none","none",0.00033
 "Oklahoma","Season peak week","Point","week",NA,NA,4
 "Oklahoma","Season peak week","Bin","week",40,41,0.00047
 "Oklahoma","Season peak week","Bin","week",41,42,0.00047
@@ -24791,41 +23531,6 @@
 "Oklahoma","4 wk ahead","Bin","percent",12.8,12.9,1.7e-05
 "Oklahoma","4 wk ahead","Bin","percent",12.9,13,1.4e-05
 "Oklahoma","4 wk ahead","Bin","percent",13,100,1.1e-05
-"Oregon","Season onset","Point","week",NA,NA,3
-"Oregon","Season onset","Bin","week","40","41",0.00029
-"Oregon","Season onset","Bin","week","41","42",0.00029
-"Oregon","Season onset","Bin","week","42","43",0.00029
-"Oregon","Season onset","Bin","week","43","44",0.00029
-"Oregon","Season onset","Bin","week","44","45",0.00029
-"Oregon","Season onset","Bin","week","45","46",0.00029
-"Oregon","Season onset","Bin","week","46","47",0.00029
-"Oregon","Season onset","Bin","week","47","48",0.00029
-"Oregon","Season onset","Bin","week","48","49",0.00029
-"Oregon","Season onset","Bin","week","49","50",0.00029
-"Oregon","Season onset","Bin","week","50","51",0.00029
-"Oregon","Season onset","Bin","week","51","52",0.2
-"Oregon","Season onset","Bin","week","52","53",0.16
-"Oregon","Season onset","Bin","week","1","2",0.00029
-"Oregon","Season onset","Bin","week","2","3",0.17
-"Oregon","Season onset","Bin","week","3","4",0.00029
-"Oregon","Season onset","Bin","week","4","5",0.00029
-"Oregon","Season onset","Bin","week","5","6",0.12
-"Oregon","Season onset","Bin","week","6","7",0.00029
-"Oregon","Season onset","Bin","week","7","8",0.00029
-"Oregon","Season onset","Bin","week","8","9",0.064
-"Oregon","Season onset","Bin","week","9","10",0.17
-"Oregon","Season onset","Bin","week","10","11",0.00029
-"Oregon","Season onset","Bin","week","11","12",0.00029
-"Oregon","Season onset","Bin","week","12","13",0.00029
-"Oregon","Season onset","Bin","week","13","14",0.11
-"Oregon","Season onset","Bin","week","14","15",0.00029
-"Oregon","Season onset","Bin","week","15","16",0.00029
-"Oregon","Season onset","Bin","week","16","17",0.00029
-"Oregon","Season onset","Bin","week","17","18",0.00029
-"Oregon","Season onset","Bin","week","18","19",0.00029
-"Oregon","Season onset","Bin","week","19","20",0.00029
-"Oregon","Season onset","Bin","week","20","21",0.00029
-"Oregon","Season onset","Bin","week","none","none",0.00029
 "Oregon","Season peak week","Point","week",NA,NA,3
 "Oregon","Season peak week","Bin","week",40,41,0.00049
 "Oregon","Season peak week","Bin","week",41,42,0.00049
@@ -25520,41 +24225,6 @@
 "Oregon","4 wk ahead","Bin","percent",12.8,12.9,3.4e-50
 "Oregon","4 wk ahead","Bin","percent",12.9,13,2.4e-51
 "Oregon","4 wk ahead","Bin","percent",13,100,1.7e-52
-"Pennsylvania","Season onset","Point","week",NA,NA,53
-"Pennsylvania","Season onset","Bin","week","40","41",4.9e-05
-"Pennsylvania","Season onset","Bin","week","41","42",4.9e-05
-"Pennsylvania","Season onset","Bin","week","42","43",4.9e-05
-"Pennsylvania","Season onset","Bin","week","43","44",4.9e-05
-"Pennsylvania","Season onset","Bin","week","44","45",4.9e-05
-"Pennsylvania","Season onset","Bin","week","45","46",4.9e-05
-"Pennsylvania","Season onset","Bin","week","46","47",4.9e-05
-"Pennsylvania","Season onset","Bin","week","47","48",4.9e-05
-"Pennsylvania","Season onset","Bin","week","48","49",4.9e-05
-"Pennsylvania","Season onset","Bin","week","49","50",4.9e-05
-"Pennsylvania","Season onset","Bin","week","50","51",0.12
-"Pennsylvania","Season onset","Bin","week","51","52",0.15
-"Pennsylvania","Season onset","Bin","week","52","53",0.15
-"Pennsylvania","Season onset","Bin","week","1","2",0.082
-"Pennsylvania","Season onset","Bin","week","2","3",0.39
-"Pennsylvania","Season onset","Bin","week","3","4",0.11
-"Pennsylvania","Season onset","Bin","week","4","5",4.9e-05
-"Pennsylvania","Season onset","Bin","week","5","6",4.9e-05
-"Pennsylvania","Season onset","Bin","week","6","7",4.9e-05
-"Pennsylvania","Season onset","Bin","week","7","8",4.9e-05
-"Pennsylvania","Season onset","Bin","week","8","9",4.9e-05
-"Pennsylvania","Season onset","Bin","week","9","10",4.9e-05
-"Pennsylvania","Season onset","Bin","week","10","11",4.9e-05
-"Pennsylvania","Season onset","Bin","week","11","12",4.9e-05
-"Pennsylvania","Season onset","Bin","week","12","13",4.9e-05
-"Pennsylvania","Season onset","Bin","week","13","14",4.9e-05
-"Pennsylvania","Season onset","Bin","week","14","15",4.9e-05
-"Pennsylvania","Season onset","Bin","week","15","16",4.9e-05
-"Pennsylvania","Season onset","Bin","week","16","17",4.9e-05
-"Pennsylvania","Season onset","Bin","week","17","18",4.9e-05
-"Pennsylvania","Season onset","Bin","week","18","19",4.9e-05
-"Pennsylvania","Season onset","Bin","week","19","20",4.9e-05
-"Pennsylvania","Season onset","Bin","week","20","21",4.9e-05
-"Pennsylvania","Season onset","Bin","week","none","none",4.9e-05
 "Pennsylvania","Season peak week","Point","week",NA,NA,2
 "Pennsylvania","Season peak week","Bin","week",40,41,4e-04
 "Pennsylvania","Season peak week","Bin","week",41,42,4e-04
@@ -26249,41 +24919,6 @@
 "Pennsylvania","4 wk ahead","Bin","percent",12.8,12.9,7.3e-92
 "Pennsylvania","4 wk ahead","Bin","percent",12.9,13,9.9e-94
 "Pennsylvania","4 wk ahead","Bin","percent",13,100,1.3e-95
-"Rhode Island","Season onset","Point","week",NA,NA,3
-"Rhode Island","Season onset","Bin","week","40","41",0.00025
-"Rhode Island","Season onset","Bin","week","41","42",0.00025
-"Rhode Island","Season onset","Bin","week","42","43",0.00025
-"Rhode Island","Season onset","Bin","week","43","44",0.00025
-"Rhode Island","Season onset","Bin","week","44","45",0.00025
-"Rhode Island","Season onset","Bin","week","45","46",0.00025
-"Rhode Island","Season onset","Bin","week","46","47",0.00025
-"Rhode Island","Season onset","Bin","week","47","48",0.00025
-"Rhode Island","Season onset","Bin","week","48","49",0.00025
-"Rhode Island","Season onset","Bin","week","49","50",0.00025
-"Rhode Island","Season onset","Bin","week","50","51",0.00025
-"Rhode Island","Season onset","Bin","week","51","52",0.00025
-"Rhode Island","Season onset","Bin","week","52","53",0.098
-"Rhode Island","Season onset","Bin","week","1","2",0.00025
-"Rhode Island","Season onset","Bin","week","2","3",0.00025
-"Rhode Island","Season onset","Bin","week","3","4",0.12
-"Rhode Island","Season onset","Bin","week","4","5",0.54
-"Rhode Island","Season onset","Bin","week","5","6",0.00025
-"Rhode Island","Season onset","Bin","week","6","7",0.00025
-"Rhode Island","Season onset","Bin","week","7","8",0.12
-"Rhode Island","Season onset","Bin","week","8","9",0.11
-"Rhode Island","Season onset","Bin","week","9","10",0.00025
-"Rhode Island","Season onset","Bin","week","10","11",0.00025
-"Rhode Island","Season onset","Bin","week","11","12",0.00025
-"Rhode Island","Season onset","Bin","week","12","13",0.00025
-"Rhode Island","Season onset","Bin","week","13","14",0.00025
-"Rhode Island","Season onset","Bin","week","14","15",0.00025
-"Rhode Island","Season onset","Bin","week","15","16",0.00025
-"Rhode Island","Season onset","Bin","week","16","17",0.00025
-"Rhode Island","Season onset","Bin","week","17","18",0.00025
-"Rhode Island","Season onset","Bin","week","18","19",0.00025
-"Rhode Island","Season onset","Bin","week","19","20",0.00025
-"Rhode Island","Season onset","Bin","week","20","21",0.00025
-"Rhode Island","Season onset","Bin","week","none","none",0.00025
 "Rhode Island","Season peak week","Point","week",NA,NA,6
 "Rhode Island","Season peak week","Bin","week",40,41,0.00028
 "Rhode Island","Season peak week","Bin","week",41,42,0.00028
@@ -26846,41 +25481,6 @@
 "Rhode Island","4 wk ahead","Bin","percent",12.8,12.9,4.7e-56
 "Rhode Island","4 wk ahead","Bin","percent",12.9,13,3e-57
 "Rhode Island","4 wk ahead","Bin","percent",13,100,1.9e-58
-"South Carolina","Season onset","Point","week",NA,NA,52
-"South Carolina","Season onset","Bin","week","40","41",0.00033
-"South Carolina","Season onset","Bin","week","41","42",0.00033
-"South Carolina","Season onset","Bin","week","42","43",0.00033
-"South Carolina","Season onset","Bin","week","43","44",0.00033
-"South Carolina","Season onset","Bin","week","44","45",0.17
-"South Carolina","Season onset","Bin","week","45","46",0.00033
-"South Carolina","Season onset","Bin","week","46","47",0.00033
-"South Carolina","Season onset","Bin","week","47","48",0.00033
-"South Carolina","Season onset","Bin","week","48","49",0.13
-"South Carolina","Season onset","Bin","week","49","50",0.00033
-"South Carolina","Season onset","Bin","week","50","51",0.098
-"South Carolina","Season onset","Bin","week","51","52",0.064
-"South Carolina","Season onset","Bin","week","52","53",0.28
-"South Carolina","Season onset","Bin","week","1","2",0.00033
-"South Carolina","Season onset","Bin","week","2","3",0.00033
-"South Carolina","Season onset","Bin","week","3","4",0.00033
-"South Carolina","Season onset","Bin","week","4","5",0.13
-"South Carolina","Season onset","Bin","week","5","6",0.00033
-"South Carolina","Season onset","Bin","week","6","7",0.00033
-"South Carolina","Season onset","Bin","week","7","8",0.00033
-"South Carolina","Season onset","Bin","week","8","9",0.00033
-"South Carolina","Season onset","Bin","week","9","10",0.00033
-"South Carolina","Season onset","Bin","week","10","11",0.12
-"South Carolina","Season onset","Bin","week","11","12",0.00033
-"South Carolina","Season onset","Bin","week","12","13",0.00033
-"South Carolina","Season onset","Bin","week","13","14",0.00033
-"South Carolina","Season onset","Bin","week","14","15",0.00033
-"South Carolina","Season onset","Bin","week","15","16",0.00033
-"South Carolina","Season onset","Bin","week","16","17",0.00033
-"South Carolina","Season onset","Bin","week","17","18",0.00033
-"South Carolina","Season onset","Bin","week","18","19",0.00033
-"South Carolina","Season onset","Bin","week","19","20",0.00033
-"South Carolina","Season onset","Bin","week","20","21",0.00033
-"South Carolina","Season onset","Bin","week","none","none",0.00033
 "South Carolina","Season peak week","Point","week",NA,NA,3
 "South Carolina","Season peak week","Bin","week",40,41,0.00042
 "South Carolina","Season peak week","Bin","week",41,42,0.00042
@@ -27443,41 +26043,6 @@
 "South Carolina","4 wk ahead","Bin","percent",12.8,12.9,3.6e-10
 "South Carolina","4 wk ahead","Bin","percent",12.9,13,2.2e-10
 "South Carolina","4 wk ahead","Bin","percent",13,100,1.3e-10
-"South Dakota","Season onset","Point","week",NA,NA,3
-"South Dakota","Season onset","Bin","week","40","41",0.00017
-"South Dakota","Season onset","Bin","week","41","42",0.00017
-"South Dakota","Season onset","Bin","week","42","43",0.00017
-"South Dakota","Season onset","Bin","week","43","44",0.00017
-"South Dakota","Season onset","Bin","week","44","45",0.00017
-"South Dakota","Season onset","Bin","week","45","46",0.00017
-"South Dakota","Season onset","Bin","week","46","47",0.12
-"South Dakota","Season onset","Bin","week","47","48",0.00017
-"South Dakota","Season onset","Bin","week","48","49",0.00017
-"South Dakota","Season onset","Bin","week","49","50",0.00017
-"South Dakota","Season onset","Bin","week","50","51",0.00017
-"South Dakota","Season onset","Bin","week","51","52",0.00017
-"South Dakota","Season onset","Bin","week","52","53",0.00017
-"South Dakota","Season onset","Bin","week","1","2",0.13
-"South Dakota","Season onset","Bin","week","2","3",0.11
-"South Dakota","Season onset","Bin","week","3","4",0.00017
-"South Dakota","Season onset","Bin","week","4","5",0.00017
-"South Dakota","Season onset","Bin","week","5","6",0.27
-"South Dakota","Season onset","Bin","week","6","7",0.1
-"South Dakota","Season onset","Bin","week","7","8",0.00017
-"South Dakota","Season onset","Bin","week","8","9",0.26
-"South Dakota","Season onset","Bin","week","9","10",0.00017
-"South Dakota","Season onset","Bin","week","10","11",0.00017
-"South Dakota","Season onset","Bin","week","11","12",0.00017
-"South Dakota","Season onset","Bin","week","12","13",0.00017
-"South Dakota","Season onset","Bin","week","13","14",0.00017
-"South Dakota","Season onset","Bin","week","14","15",0.00017
-"South Dakota","Season onset","Bin","week","15","16",0.00017
-"South Dakota","Season onset","Bin","week","16","17",0.00017
-"South Dakota","Season onset","Bin","week","17","18",0.00017
-"South Dakota","Season onset","Bin","week","18","19",0.00017
-"South Dakota","Season onset","Bin","week","19","20",0.00017
-"South Dakota","Season onset","Bin","week","20","21",0.00017
-"South Dakota","Season onset","Bin","week","none","none",0.00017
 "South Dakota","Season peak week","Point","week",NA,NA,4
 "South Dakota","Season peak week","Bin","week",40,41,0.00045
 "South Dakota","Season peak week","Bin","week",41,42,0.00045
@@ -28172,41 +26737,6 @@
 "South Dakota","4 wk ahead","Bin","percent",12.8,12.9,4.5e-99
 "South Dakota","4 wk ahead","Bin","percent",12.9,13,8.9e-101
 "South Dakota","4 wk ahead","Bin","percent",13,100,1.7e-102
-"Tennessee","Season onset","Point","week",NA,NA,53
-"Tennessee","Season onset","Bin","week","40","41",0.00029
-"Tennessee","Season onset","Bin","week","41","42",0.00029
-"Tennessee","Season onset","Bin","week","42","43",0.00029
-"Tennessee","Season onset","Bin","week","43","44",0.00029
-"Tennessee","Season onset","Bin","week","44","45",0.00029
-"Tennessee","Season onset","Bin","week","45","46",0.00029
-"Tennessee","Season onset","Bin","week","46","47",0.00029
-"Tennessee","Season onset","Bin","week","47","48",0.00029
-"Tennessee","Season onset","Bin","week","48","49",0.25
-"Tennessee","Season onset","Bin","week","49","50",0.00029
-"Tennessee","Season onset","Bin","week","50","51",0.00029
-"Tennessee","Season onset","Bin","week","51","52",0.31
-"Tennessee","Season onset","Bin","week","52","53",0.24
-"Tennessee","Season onset","Bin","week","1","2",0.00029
-"Tennessee","Season onset","Bin","week","2","3",0.00029
-"Tennessee","Season onset","Bin","week","3","4",0.00029
-"Tennessee","Season onset","Bin","week","4","5",0.00029
-"Tennessee","Season onset","Bin","week","5","6",0.00029
-"Tennessee","Season onset","Bin","week","6","7",0.00029
-"Tennessee","Season onset","Bin","week","7","8",0.00029
-"Tennessee","Season onset","Bin","week","8","9",0.00029
-"Tennessee","Season onset","Bin","week","9","10",0.084
-"Tennessee","Season onset","Bin","week","10","11",0.00029
-"Tennessee","Season onset","Bin","week","11","12",0.00029
-"Tennessee","Season onset","Bin","week","12","13",0.11
-"Tennessee","Season onset","Bin","week","13","14",0.00029
-"Tennessee","Season onset","Bin","week","14","15",0.00029
-"Tennessee","Season onset","Bin","week","15","16",0.00029
-"Tennessee","Season onset","Bin","week","16","17",0.00029
-"Tennessee","Season onset","Bin","week","17","18",0.00029
-"Tennessee","Season onset","Bin","week","18","19",0.00029
-"Tennessee","Season onset","Bin","week","19","20",0.00029
-"Tennessee","Season onset","Bin","week","20","21",0.00029
-"Tennessee","Season onset","Bin","week","none","none",0.00029
 "Tennessee","Season peak week","Point","week",NA,NA,4
 "Tennessee","Season peak week","Bin","week",40,41,0.00038
 "Tennessee","Season peak week","Bin","week",41,42,0.00038
@@ -28901,41 +27431,6 @@
 "Tennessee","4 wk ahead","Bin","percent",12.8,12.9,2.7e-41
 "Tennessee","4 wk ahead","Bin","percent",12.9,13,4.4e-42
 "Tennessee","4 wk ahead","Bin","percent",13,100,7.2e-43
-"Texas","Season onset","Point","week",NA,NA,45
-"Texas","Season onset","Bin","week","40","41",0.00033
-"Texas","Season onset","Bin","week","41","42",0.1
-"Texas","Season onset","Bin","week","42","43",0.15
-"Texas","Season onset","Bin","week","43","44",0.13
-"Texas","Season onset","Bin","week","44","45",0.15
-"Texas","Season onset","Bin","week","45","46",0.21
-"Texas","Season onset","Bin","week","46","47",0.00033
-"Texas","Season onset","Bin","week","47","48",0.00033
-"Texas","Season onset","Bin","week","48","49",0.12
-"Texas","Season onset","Bin","week","49","50",0.00033
-"Texas","Season onset","Bin","week","50","51",0.00033
-"Texas","Season onset","Bin","week","51","52",0.00033
-"Texas","Season onset","Bin","week","52","53",0.13
-"Texas","Season onset","Bin","week","1","2",0.00033
-"Texas","Season onset","Bin","week","2","3",0.00033
-"Texas","Season onset","Bin","week","3","4",0.00033
-"Texas","Season onset","Bin","week","4","5",0.00033
-"Texas","Season onset","Bin","week","5","6",0.00033
-"Texas","Season onset","Bin","week","6","7",0.00033
-"Texas","Season onset","Bin","week","7","8",0.00033
-"Texas","Season onset","Bin","week","8","9",0.00033
-"Texas","Season onset","Bin","week","9","10",0.00033
-"Texas","Season onset","Bin","week","10","11",0.00033
-"Texas","Season onset","Bin","week","11","12",0.00033
-"Texas","Season onset","Bin","week","12","13",0.00033
-"Texas","Season onset","Bin","week","13","14",0.00033
-"Texas","Season onset","Bin","week","14","15",0.00033
-"Texas","Season onset","Bin","week","15","16",0.00033
-"Texas","Season onset","Bin","week","16","17",0.00033
-"Texas","Season onset","Bin","week","17","18",0.00033
-"Texas","Season onset","Bin","week","18","19",0.00033
-"Texas","Season onset","Bin","week","19","20",0.00033
-"Texas","Season onset","Bin","week","20","21",0.00033
-"Texas","Season onset","Bin","week","none","none",0.00033
 "Texas","Season peak week","Point","week",NA,NA,4
 "Texas","Season peak week","Bin","week",40,41,0.00052
 "Texas","Season peak week","Bin","week",41,42,0.00052
@@ -29630,41 +28125,6 @@
 "Texas","4 wk ahead","Bin","percent",12.8,12.9,5.4e-05
 "Texas","4 wk ahead","Bin","percent",12.9,13,4.3e-05
 "Texas","4 wk ahead","Bin","percent",13,100,3.4e-05
-"Utah","Season onset","Point","week",NA,NA,53
-"Utah","Season onset","Bin","week","40","41",0.00029
-"Utah","Season onset","Bin","week","41","42",0.00029
-"Utah","Season onset","Bin","week","42","43",0.00029
-"Utah","Season onset","Bin","week","43","44",0.00029
-"Utah","Season onset","Bin","week","44","45",0.00029
-"Utah","Season onset","Bin","week","45","46",0.00029
-"Utah","Season onset","Bin","week","46","47",0.00029
-"Utah","Season onset","Bin","week","47","48",0.097
-"Utah","Season onset","Bin","week","48","49",0.13
-"Utah","Season onset","Bin","week","49","50",0.13
-"Utah","Season onset","Bin","week","50","51",0.12
-"Utah","Season onset","Bin","week","51","52",0.00029
-"Utah","Season onset","Bin","week","52","53",0.17
-"Utah","Season onset","Bin","week","1","2",0.00029
-"Utah","Season onset","Bin","week","2","3",0.00029
-"Utah","Season onset","Bin","week","3","4",0.00029
-"Utah","Season onset","Bin","week","4","5",0.00029
-"Utah","Season onset","Bin","week","5","6",0.1
-"Utah","Season onset","Bin","week","6","7",0.00029
-"Utah","Season onset","Bin","week","7","8",0.24
-"Utah","Season onset","Bin","week","8","9",0.00029
-"Utah","Season onset","Bin","week","9","10",0.00029
-"Utah","Season onset","Bin","week","10","11",0.00029
-"Utah","Season onset","Bin","week","11","12",0.00029
-"Utah","Season onset","Bin","week","12","13",0.00029
-"Utah","Season onset","Bin","week","13","14",0.00029
-"Utah","Season onset","Bin","week","14","15",0.00029
-"Utah","Season onset","Bin","week","15","16",0.00029
-"Utah","Season onset","Bin","week","16","17",0.00029
-"Utah","Season onset","Bin","week","17","18",0.00029
-"Utah","Season onset","Bin","week","18","19",0.00029
-"Utah","Season onset","Bin","week","19","20",0.00029
-"Utah","Season onset","Bin","week","20","21",0.00029
-"Utah","Season onset","Bin","week","none","none",0.00029
 "Utah","Season peak week","Point","week",NA,NA,3
 "Utah","Season peak week","Bin","week",40,41,0.00042
 "Utah","Season peak week","Bin","week",41,42,0.00042
@@ -30227,41 +28687,6 @@
 "Utah","4 wk ahead","Bin","percent",12.8,12.9,7.1e-23
 "Utah","4 wk ahead","Bin","percent",12.9,13,2.1e-23
 "Utah","4 wk ahead","Bin","percent",13,100,6.3e-24
-"Vermont","Season onset","Point","week",NA,NA,2
-"Vermont","Season onset","Bin","week","40","41",0.00029
-"Vermont","Season onset","Bin","week","41","42",0.00029
-"Vermont","Season onset","Bin","week","42","43",0.00029
-"Vermont","Season onset","Bin","week","43","44",0.00029
-"Vermont","Season onset","Bin","week","44","45",0.00029
-"Vermont","Season onset","Bin","week","45","46",0.00029
-"Vermont","Season onset","Bin","week","46","47",0.00029
-"Vermont","Season onset","Bin","week","47","48",0.00029
-"Vermont","Season onset","Bin","week","48","49",0.00029
-"Vermont","Season onset","Bin","week","49","50",0.00029
-"Vermont","Season onset","Bin","week","50","51",0.00029
-"Vermont","Season onset","Bin","week","51","52",0.25
-"Vermont","Season onset","Bin","week","52","53",0.00029
-"Vermont","Season onset","Bin","week","1","2",0.15
-"Vermont","Season onset","Bin","week","2","3",0.00029
-"Vermont","Season onset","Bin","week","3","4",0.33
-"Vermont","Season onset","Bin","week","4","5",0.00029
-"Vermont","Season onset","Bin","week","5","6",0.00029
-"Vermont","Season onset","Bin","week","6","7",0.00029
-"Vermont","Season onset","Bin","week","7","8",0.13
-"Vermont","Season onset","Bin","week","8","9",0.00029
-"Vermont","Season onset","Bin","week","9","10",0.00029
-"Vermont","Season onset","Bin","week","10","11",0.00029
-"Vermont","Season onset","Bin","week","11","12",0.13
-"Vermont","Season onset","Bin","week","12","13",0.00029
-"Vermont","Season onset","Bin","week","13","14",0.00029
-"Vermont","Season onset","Bin","week","14","15",0.00029
-"Vermont","Season onset","Bin","week","15","16",0.00029
-"Vermont","Season onset","Bin","week","16","17",0.00029
-"Vermont","Season onset","Bin","week","17","18",0.00029
-"Vermont","Season onset","Bin","week","18","19",0.00029
-"Vermont","Season onset","Bin","week","19","20",0.00029
-"Vermont","Season onset","Bin","week","20","21",0.00029
-"Vermont","Season onset","Bin","week","none","none",0.00029
 "Vermont","Season peak week","Point","week",NA,NA,7
 "Vermont","Season peak week","Bin","week",40,41,0.00037
 "Vermont","Season peak week","Bin","week",41,42,0.00037
@@ -30956,41 +29381,6 @@
 "Vermont","4 wk ahead","Bin","percent",12.8,12.9,3.7e-127
 "Vermont","4 wk ahead","Bin","percent",12.9,13,1.1e-129
 "Vermont","4 wk ahead","Bin","percent",13,100,3.3e-132
-"Virginia","Season onset","Point","week",NA,NA,51
-"Virginia","Season onset","Bin","week","40","41",0.00017
-"Virginia","Season onset","Bin","week","41","42",0.00017
-"Virginia","Season onset","Bin","week","42","43",0.00017
-"Virginia","Season onset","Bin","week","43","44",0.00017
-"Virginia","Season onset","Bin","week","44","45",0.00017
-"Virginia","Season onset","Bin","week","45","46",0.00017
-"Virginia","Season onset","Bin","week","46","47",0.00017
-"Virginia","Season onset","Bin","week","47","48",0.00017
-"Virginia","Season onset","Bin","week","48","49",0.00017
-"Virginia","Season onset","Bin","week","49","50",0.3
-"Virginia","Season onset","Bin","week","50","51",0.33
-"Virginia","Season onset","Bin","week","51","52",0.1
-"Virginia","Season onset","Bin","week","52","53",0.15
-"Virginia","Season onset","Bin","week","1","2",0.00017
-"Virginia","Season onset","Bin","week","2","3",0.12
-"Virginia","Season onset","Bin","week","3","4",0.00017
-"Virginia","Season onset","Bin","week","4","5",0.00017
-"Virginia","Season onset","Bin","week","5","6",0.00017
-"Virginia","Season onset","Bin","week","6","7",0.00017
-"Virginia","Season onset","Bin","week","7","8",0.00017
-"Virginia","Season onset","Bin","week","8","9",0.00017
-"Virginia","Season onset","Bin","week","9","10",0.00017
-"Virginia","Season onset","Bin","week","10","11",0.00017
-"Virginia","Season onset","Bin","week","11","12",0.00017
-"Virginia","Season onset","Bin","week","12","13",0.00017
-"Virginia","Season onset","Bin","week","13","14",0.00017
-"Virginia","Season onset","Bin","week","14","15",0.00017
-"Virginia","Season onset","Bin","week","15","16",0.00017
-"Virginia","Season onset","Bin","week","16","17",0.00017
-"Virginia","Season onset","Bin","week","17","18",0.00017
-"Virginia","Season onset","Bin","week","18","19",0.00017
-"Virginia","Season onset","Bin","week","19","20",0.00017
-"Virginia","Season onset","Bin","week","20","21",0.00017
-"Virginia","Season onset","Bin","week","none","none",0.00017
 "Virginia","Season peak week","Point","week",NA,NA,3
 "Virginia","Season peak week","Bin","week",40,41,0.00056
 "Virginia","Season peak week","Bin","week",41,42,0.00056
@@ -31553,41 +29943,6 @@
 "Virginia","4 wk ahead","Bin","percent",12.8,12.9,1.7e-22
 "Virginia","4 wk ahead","Bin","percent",12.9,13,4.1e-23
 "Virginia","4 wk ahead","Bin","percent",13,100,9.6e-24
-"Washington","Season onset","Point","week",NA,NA,2
-"Washington","Season onset","Bin","week","40","41",0.00033
-"Washington","Season onset","Bin","week","41","42",0.00033
-"Washington","Season onset","Bin","week","42","43",0.00033
-"Washington","Season onset","Bin","week","43","44",0.00033
-"Washington","Season onset","Bin","week","44","45",0.00033
-"Washington","Season onset","Bin","week","45","46",0.00033
-"Washington","Season onset","Bin","week","46","47",0.00033
-"Washington","Season onset","Bin","week","47","48",0.00033
-"Washington","Season onset","Bin","week","48","49",0.00033
-"Washington","Season onset","Bin","week","49","50",0.00033
-"Washington","Season onset","Bin","week","50","51",0.00033
-"Washington","Season onset","Bin","week","51","52",0.00033
-"Washington","Season onset","Bin","week","52","53",0.14
-"Washington","Season onset","Bin","week","1","2",0.12
-"Washington","Season onset","Bin","week","2","3",0.29
-"Washington","Season onset","Bin","week","3","4",0.15
-"Washington","Season onset","Bin","week","4","5",0.1
-"Washington","Season onset","Bin","week","5","6",0.00033
-"Washington","Season onset","Bin","week","6","7",0.1
-"Washington","Season onset","Bin","week","7","8",0.00033
-"Washington","Season onset","Bin","week","8","9",0.088
-"Washington","Season onset","Bin","week","9","10",0.00033
-"Washington","Season onset","Bin","week","10","11",0.00033
-"Washington","Season onset","Bin","week","11","12",0.00033
-"Washington","Season onset","Bin","week","12","13",0.00033
-"Washington","Season onset","Bin","week","13","14",0.00033
-"Washington","Season onset","Bin","week","14","15",0.00033
-"Washington","Season onset","Bin","week","15","16",0.00033
-"Washington","Season onset","Bin","week","16","17",0.00033
-"Washington","Season onset","Bin","week","17","18",0.00033
-"Washington","Season onset","Bin","week","18","19",0.00033
-"Washington","Season onset","Bin","week","19","20",0.00033
-"Washington","Season onset","Bin","week","20","21",0.00033
-"Washington","Season onset","Bin","week","none","none",0.00033
 "Washington","Season peak week","Point","week",NA,NA,7
 "Washington","Season peak week","Bin","week",40,41,4e-04
 "Washington","Season peak week","Bin","week",41,42,4e-04
@@ -32150,41 +30505,6 @@
 "Washington","4 wk ahead","Bin","percent",12.8,12.9,4.5e-18
 "Washington","4 wk ahead","Bin","percent",12.9,13,1.9e-18
 "Washington","4 wk ahead","Bin","percent",13,100,7.9e-19
-"West Virginia","Season onset","Point","week",NA,NA,2
-"West Virginia","Season onset","Bin","week","40","41",0.00029
-"West Virginia","Season onset","Bin","week","41","42",0.00029
-"West Virginia","Season onset","Bin","week","42","43",0.00029
-"West Virginia","Season onset","Bin","week","43","44",0.00029
-"West Virginia","Season onset","Bin","week","44","45",0.00029
-"West Virginia","Season onset","Bin","week","45","46",0.00029
-"West Virginia","Season onset","Bin","week","46","47",0.00029
-"West Virginia","Season onset","Bin","week","47","48",0.00029
-"West Virginia","Season onset","Bin","week","48","49",0.00029
-"West Virginia","Season onset","Bin","week","49","50",0.00029
-"West Virginia","Season onset","Bin","week","50","51",0.00029
-"West Virginia","Season onset","Bin","week","51","52",0.28
-"West Virginia","Season onset","Bin","week","52","53",0.13
-"West Virginia","Season onset","Bin","week","1","2",0.00029
-"West Virginia","Season onset","Bin","week","2","3",0.00029
-"West Virginia","Season onset","Bin","week","3","4",0.19
-"West Virginia","Season onset","Bin","week","4","5",0.18
-"West Virginia","Season onset","Bin","week","5","6",0.00029
-"West Virginia","Season onset","Bin","week","6","7",0.1
-"West Virginia","Season onset","Bin","week","7","8",0.00029
-"West Virginia","Season onset","Bin","week","8","9",0.00029
-"West Virginia","Season onset","Bin","week","9","10",0.00029
-"West Virginia","Season onset","Bin","week","10","11",0.11
-"West Virginia","Season onset","Bin","week","11","12",0.00029
-"West Virginia","Season onset","Bin","week","12","13",0.00029
-"West Virginia","Season onset","Bin","week","13","14",0.00029
-"West Virginia","Season onset","Bin","week","14","15",0.00029
-"West Virginia","Season onset","Bin","week","15","16",0.00029
-"West Virginia","Season onset","Bin","week","16","17",0.00029
-"West Virginia","Season onset","Bin","week","17","18",0.00029
-"West Virginia","Season onset","Bin","week","18","19",0.00029
-"West Virginia","Season onset","Bin","week","19","20",0.00029
-"West Virginia","Season onset","Bin","week","20","21",0.00029
-"West Virginia","Season onset","Bin","week","none","none",0.00029
 "West Virginia","Season peak week","Point","week",NA,NA,4
 "West Virginia","Season peak week","Bin","week",40,41,3e-04
 "West Virginia","Season peak week","Bin","week",41,42,3e-04
@@ -32747,41 +31067,6 @@
 "West Virginia","4 wk ahead","Bin","percent",12.8,12.9,1.1e-11
 "West Virginia","4 wk ahead","Bin","percent",12.9,13,7.4e-12
 "West Virginia","4 wk ahead","Bin","percent",13,100,4.8e-12
-"Wisconsin","Season onset","Point","week",NA,NA,3
-"Wisconsin","Season onset","Bin","week","40","41",0.00033
-"Wisconsin","Season onset","Bin","week","41","42",0.00033
-"Wisconsin","Season onset","Bin","week","42","43",0.00033
-"Wisconsin","Season onset","Bin","week","43","44",0.00033
-"Wisconsin","Season onset","Bin","week","44","45",0.00033
-"Wisconsin","Season onset","Bin","week","45","46",0.00033
-"Wisconsin","Season onset","Bin","week","46","47",0.00033
-"Wisconsin","Season onset","Bin","week","47","48",0.00033
-"Wisconsin","Season onset","Bin","week","48","49",0.00033
-"Wisconsin","Season onset","Bin","week","49","50",0.083
-"Wisconsin","Season onset","Bin","week","50","51",0.00033
-"Wisconsin","Season onset","Bin","week","51","52",0.00033
-"Wisconsin","Season onset","Bin","week","52","53",0.29
-"Wisconsin","Season onset","Bin","week","1","2",0.00033
-"Wisconsin","Season onset","Bin","week","2","3",0.00033
-"Wisconsin","Season onset","Bin","week","3","4",0.00033
-"Wisconsin","Season onset","Bin","week","4","5",0.088
-"Wisconsin","Season onset","Bin","week","5","6",0.31
-"Wisconsin","Season onset","Bin","week","6","7",0.1
-"Wisconsin","Season onset","Bin","week","7","8",0.00033
-"Wisconsin","Season onset","Bin","week","8","9",0.00033
-"Wisconsin","Season onset","Bin","week","9","10",0.00033
-"Wisconsin","Season onset","Bin","week","10","11",0.12
-"Wisconsin","Season onset","Bin","week","11","12",0.00033
-"Wisconsin","Season onset","Bin","week","12","13",0.00033
-"Wisconsin","Season onset","Bin","week","13","14",0.00033
-"Wisconsin","Season onset","Bin","week","14","15",0.00033
-"Wisconsin","Season onset","Bin","week","15","16",0.00033
-"Wisconsin","Season onset","Bin","week","16","17",0.00033
-"Wisconsin","Season onset","Bin","week","17","18",0.00033
-"Wisconsin","Season onset","Bin","week","18","19",0.00033
-"Wisconsin","Season onset","Bin","week","19","20",0.00033
-"Wisconsin","Season onset","Bin","week","20","21",0.00033
-"Wisconsin","Season onset","Bin","week","none","none",0.00033
 "Wisconsin","Season peak week","Point","week",NA,NA,5
 "Wisconsin","Season peak week","Bin","week",40,41,0.00041
 "Wisconsin","Season peak week","Bin","week",41,42,0.00041
@@ -33476,41 +31761,6 @@
 "Wisconsin","4 wk ahead","Bin","percent",12.8,12.9,1.5e-43
 "Wisconsin","4 wk ahead","Bin","percent",12.9,13,1.9e-44
 "Wisconsin","4 wk ahead","Bin","percent",13,100,2.4e-45
-"Wyoming","Season onset","Point","week",NA,NA,2
-"Wyoming","Season onset","Bin","week","40","41",0.00029
-"Wyoming","Season onset","Bin","week","41","42",0.00029
-"Wyoming","Season onset","Bin","week","42","43",0.00029
-"Wyoming","Season onset","Bin","week","43","44",0.00029
-"Wyoming","Season onset","Bin","week","44","45",0.00029
-"Wyoming","Season onset","Bin","week","45","46",0.00029
-"Wyoming","Season onset","Bin","week","46","47",0.00029
-"Wyoming","Season onset","Bin","week","47","48",0.00029
-"Wyoming","Season onset","Bin","week","48","49",0.00029
-"Wyoming","Season onset","Bin","week","49","50",0.00029
-"Wyoming","Season onset","Bin","week","50","51",0.13
-"Wyoming","Season onset","Bin","week","51","52",0.00029
-"Wyoming","Season onset","Bin","week","52","53",0.14
-"Wyoming","Season onset","Bin","week","1","2",0.13
-"Wyoming","Season onset","Bin","week","2","3",0.00029
-"Wyoming","Season onset","Bin","week","3","4",0.14
-"Wyoming","Season onset","Bin","week","4","5",0.28
-"Wyoming","Season onset","Bin","week","5","6",0.08
-"Wyoming","Season onset","Bin","week","6","7",0.00029
-"Wyoming","Season onset","Bin","week","7","8",0.00029
-"Wyoming","Season onset","Bin","week","8","9",0.00029
-"Wyoming","Season onset","Bin","week","9","10",0.00029
-"Wyoming","Season onset","Bin","week","10","11",0.00029
-"Wyoming","Season onset","Bin","week","11","12",0.00029
-"Wyoming","Season onset","Bin","week","12","13",0.084
-"Wyoming","Season onset","Bin","week","13","14",0.00029
-"Wyoming","Season onset","Bin","week","14","15",0.00029
-"Wyoming","Season onset","Bin","week","15","16",0.00029
-"Wyoming","Season onset","Bin","week","16","17",0.00029
-"Wyoming","Season onset","Bin","week","17","18",0.00029
-"Wyoming","Season onset","Bin","week","18","19",0.00029
-"Wyoming","Season onset","Bin","week","19","20",0.00029
-"Wyoming","Season onset","Bin","week","20","21",0.00029
-"Wyoming","Season onset","Bin","week","none","none",0.00029
 "Wyoming","Season peak week","Point","week",NA,NA,5
 "Wyoming","Season peak week","Bin","week",40,41,0.00056
 "Wyoming","Season peak week","Bin","week",41,42,0.00056
@@ -34073,41 +32323,6 @@
 "Wyoming","4 wk ahead","Bin","percent",12.8,12.9,1.1e-12
 "Wyoming","4 wk ahead","Bin","percent",12.9,13,6.7e-13
 "Wyoming","4 wk ahead","Bin","percent",13,100,4.2e-13
-"New York City","Season onset","Point","week",NA,NA,49
-"New York City","Season onset","Bin","week","40","41",2e-04
-"New York City","Season onset","Bin","week","41","42",2e-04
-"New York City","Season onset","Bin","week","42","43",2e-04
-"New York City","Season onset","Bin","week","43","44",2e-04
-"New York City","Season onset","Bin","week","44","45",2e-04
-"New York City","Season onset","Bin","week","45","46",2e-04
-"New York City","Season onset","Bin","week","46","47",2e-04
-"New York City","Season onset","Bin","week","47","48",2e-04
-"New York City","Season onset","Bin","week","48","49",0.33
-"New York City","Season onset","Bin","week","49","50",0.35
-"New York City","Season onset","Bin","week","50","51",2e-04
-"New York City","Season onset","Bin","week","51","52",0.31
-"New York City","Season onset","Bin","week","52","53",2e-04
-"New York City","Season onset","Bin","week","1","2",2e-04
-"New York City","Season onset","Bin","week","2","3",2e-04
-"New York City","Season onset","Bin","week","3","4",2e-04
-"New York City","Season onset","Bin","week","4","5",2e-04
-"New York City","Season onset","Bin","week","5","6",2e-04
-"New York City","Season onset","Bin","week","6","7",2e-04
-"New York City","Season onset","Bin","week","7","8",2e-04
-"New York City","Season onset","Bin","week","8","9",2e-04
-"New York City","Season onset","Bin","week","9","10",2e-04
-"New York City","Season onset","Bin","week","10","11",2e-04
-"New York City","Season onset","Bin","week","11","12",2e-04
-"New York City","Season onset","Bin","week","12","13",2e-04
-"New York City","Season onset","Bin","week","13","14",2e-04
-"New York City","Season onset","Bin","week","14","15",2e-04
-"New York City","Season onset","Bin","week","15","16",2e-04
-"New York City","Season onset","Bin","week","16","17",2e-04
-"New York City","Season onset","Bin","week","17","18",2e-04
-"New York City","Season onset","Bin","week","18","19",2e-04
-"New York City","Season onset","Bin","week","19","20",2e-04
-"New York City","Season onset","Bin","week","20","21",2e-04
-"New York City","Season onset","Bin","week","none","none",2e-04
 "New York City","Season peak week","Point","week",NA,NA,2
 "New York City","Season peak week","Bin","week",40,41,0.00053
 "New York City","Season peak week","Bin","week",41,42,0.00053
@@ -34802,41 +33017,6 @@
 "New York City","4 wk ahead","Bin","percent",12.8,12.9,3.9e-82
 "New York City","4 wk ahead","Bin","percent",12.9,13,1.1e-83
 "New York City","4 wk ahead","Bin","percent",13,100,2.8e-85
-"Virgin Islands","Season onset","Point","week",NA,NA,52
-"Virgin Islands","Season onset","Bin","week","40","41",0.00048
-"Virgin Islands","Season onset","Bin","week","41","42",0.00048
-"Virgin Islands","Season onset","Bin","week","42","43",0.00048
-"Virgin Islands","Season onset","Bin","week","43","44",0.00048
-"Virgin Islands","Season onset","Bin","week","44","45",0.11
-"Virgin Islands","Season onset","Bin","week","45","46",0.13
-"Virgin Islands","Season onset","Bin","week","46","47",0.11
-"Virgin Islands","Season onset","Bin","week","47","48",0.00048
-"Virgin Islands","Season onset","Bin","week","48","49",0.00048
-"Virgin Islands","Season onset","Bin","week","49","50",0.00048
-"Virgin Islands","Season onset","Bin","week","50","51",0.00048
-"Virgin Islands","Season onset","Bin","week","51","52",0.00048
-"Virgin Islands","Season onset","Bin","week","52","53",0.00048
-"Virgin Islands","Season onset","Bin","week","1","2",0.00048
-"Virgin Islands","Season onset","Bin","week","2","3",0.2
-"Virgin Islands","Season onset","Bin","week","3","4",0.00048
-"Virgin Islands","Season onset","Bin","week","4","5",0.00048
-"Virgin Islands","Season onset","Bin","week","5","6",0.18
-"Virgin Islands","Season onset","Bin","week","6","7",0.25
-"Virgin Islands","Season onset","Bin","week","7","8",0.00048
-"Virgin Islands","Season onset","Bin","week","8","9",0.00048
-"Virgin Islands","Season onset","Bin","week","9","10",0.00048
-"Virgin Islands","Season onset","Bin","week","10","11",0.00048
-"Virgin Islands","Season onset","Bin","week","11","12",0.00048
-"Virgin Islands","Season onset","Bin","week","12","13",0.00048
-"Virgin Islands","Season onset","Bin","week","13","14",0.00048
-"Virgin Islands","Season onset","Bin","week","14","15",0.00048
-"Virgin Islands","Season onset","Bin","week","15","16",0.00048
-"Virgin Islands","Season onset","Bin","week","16","17",0.00048
-"Virgin Islands","Season onset","Bin","week","17","18",0.00048
-"Virgin Islands","Season onset","Bin","week","18","19",0.00048
-"Virgin Islands","Season onset","Bin","week","19","20",0.00048
-"Virgin Islands","Season onset","Bin","week","20","21",0.00048
-"Virgin Islands","Season onset","Bin","week","none","none",0.00048
 "Virgin Islands","Season peak week","Point","week",NA,NA,1
 "Virgin Islands","Season peak week","Bin","week",40,41,0.00067
 "Virgin Islands","Season peak week","Bin","week",41,42,0.00067
@@ -35531,41 +33711,6 @@
 "Virgin Islands","4 wk ahead","Bin","percent",12.8,12.9,2.3e-231
 "Virgin Islands","4 wk ahead","Bin","percent",12.9,13,4.8e-235
 "Virgin Islands","4 wk ahead","Bin","percent",13,100,9.2e-239
-"Puerto Rico","Season onset","Point","week",NA,NA,41
-"Puerto Rico","Season onset","Bin","week","40","41",0.00018
-"Puerto Rico","Season onset","Bin","week","41","42",0.99
-"Puerto Rico","Season onset","Bin","week","42","43",0.00018
-"Puerto Rico","Season onset","Bin","week","43","44",0.00018
-"Puerto Rico","Season onset","Bin","week","44","45",0.00018
-"Puerto Rico","Season onset","Bin","week","45","46",0.00018
-"Puerto Rico","Season onset","Bin","week","46","47",0.00018
-"Puerto Rico","Season onset","Bin","week","47","48",0.00018
-"Puerto Rico","Season onset","Bin","week","48","49",0.00018
-"Puerto Rico","Season onset","Bin","week","49","50",0.00018
-"Puerto Rico","Season onset","Bin","week","50","51",0.00018
-"Puerto Rico","Season onset","Bin","week","51","52",0.00018
-"Puerto Rico","Season onset","Bin","week","52","53",0.00018
-"Puerto Rico","Season onset","Bin","week","1","2",0.00018
-"Puerto Rico","Season onset","Bin","week","2","3",0.00018
-"Puerto Rico","Season onset","Bin","week","3","4",0.00018
-"Puerto Rico","Season onset","Bin","week","4","5",0.00018
-"Puerto Rico","Season onset","Bin","week","5","6",0.00018
-"Puerto Rico","Season onset","Bin","week","6","7",0.00018
-"Puerto Rico","Season onset","Bin","week","7","8",0.00018
-"Puerto Rico","Season onset","Bin","week","8","9",0.00018
-"Puerto Rico","Season onset","Bin","week","9","10",0.00018
-"Puerto Rico","Season onset","Bin","week","10","11",0.00018
-"Puerto Rico","Season onset","Bin","week","11","12",0.00018
-"Puerto Rico","Season onset","Bin","week","12","13",0.00018
-"Puerto Rico","Season onset","Bin","week","13","14",0.00018
-"Puerto Rico","Season onset","Bin","week","14","15",0.00018
-"Puerto Rico","Season onset","Bin","week","15","16",0.00018
-"Puerto Rico","Season onset","Bin","week","16","17",0.00018
-"Puerto Rico","Season onset","Bin","week","17","18",0.00018
-"Puerto Rico","Season onset","Bin","week","18","19",0.00018
-"Puerto Rico","Season onset","Bin","week","19","20",0.00018
-"Puerto Rico","Season onset","Bin","week","20","21",0.00018
-"Puerto Rico","Season onset","Bin","week","none","none",0.00018
 "Puerto Rico","Season peak week","Point","week",NA,NA,50
 "Puerto Rico","Season peak week","Bin","week",40,41,0.00041
 "Puerto Rico","Season peak week","Bin","week",41,42,0.00041

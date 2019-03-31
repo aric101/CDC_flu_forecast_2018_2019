@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"Oklahoma","1 wk ahead","Point","percent",NA,NA,8.4
+"Oklahoma","1 wk ahead","Point","percent",NA,NA,7
 "Oklahoma","1 wk ahead","Bin","percent",0,0.1,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",0.1,0.2,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",0.2,0.3,6.8e-05
@@ -48,7 +48,7 @@
 "Oklahoma","1 wk ahead","Bin","percent",4.5,4.6,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",4.6,4.7,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",4.7,4.8,6.8e-05
-"Oklahoma","1 wk ahead","Bin","percent",4.8,4.9,6.8e-05
+"Oklahoma","1 wk ahead","Bin","percent",4.8,4.9,0.25
 "Oklahoma","1 wk ahead","Bin","percent",4.9,5,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",5,5.1,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",5.1,5.2,6.8e-05
@@ -67,7 +67,7 @@
 "Oklahoma","1 wk ahead","Bin","percent",6.4,6.5,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",6.5,6.6,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",6.6,6.7,6.8e-05
-"Oklahoma","1 wk ahead","Bin","percent",6.7,6.8,0.28
+"Oklahoma","1 wk ahead","Bin","percent",6.7,6.8,0.31
 "Oklahoma","1 wk ahead","Bin","percent",6.8,6.9,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",6.9,7,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",7,7.1,6.8e-05
@@ -83,12 +83,12 @@
 "Oklahoma","1 wk ahead","Bin","percent",8,8.1,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",8.1,8.2,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",8.2,8.3,6.8e-05
-"Oklahoma","1 wk ahead","Bin","percent",8.3,8.4,0.25
+"Oklahoma","1 wk ahead","Bin","percent",8.3,8.4,0.2
 "Oklahoma","1 wk ahead","Bin","percent",8.4,8.5,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",8.5,8.6,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",8.6,8.7,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",8.7,8.8,6.8e-05
-"Oklahoma","1 wk ahead","Bin","percent",8.8,8.9,0.24
+"Oklahoma","1 wk ahead","Bin","percent",8.8,8.9,0.22
 "Oklahoma","1 wk ahead","Bin","percent",8.9,9,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",9,9.1,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",9.1,9.2,6.8e-05
@@ -104,7 +104,7 @@
 "Oklahoma","1 wk ahead","Bin","percent",10.1,10.2,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",10.2,10.3,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",10.3,10.4,6.8e-05
-"Oklahoma","1 wk ahead","Bin","percent",10.4,10.5,0.21
+"Oklahoma","1 wk ahead","Bin","percent",10.4,10.5,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",10.5,10.6,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",10.6,10.7,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",10.7,10.8,6.8e-05
@@ -131,7 +131,7 @@
 "Oklahoma","1 wk ahead","Bin","percent",12.8,12.9,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",12.9,13,6.8e-05
 "Oklahoma","1 wk ahead","Bin","percent",13,100,6.8e-05
-"Oklahoma","2 wk ahead","Point","percent",NA,NA,8.3
+"Oklahoma","2 wk ahead","Point","percent",NA,NA,6.9
 "Oklahoma","2 wk ahead","Bin","percent",0,0.1,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",0.1,0.2,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",0.2,0.3,6.8e-05
@@ -180,7 +180,7 @@
 "Oklahoma","2 wk ahead","Bin","percent",4.5,4.6,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",4.6,4.7,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",4.7,4.8,6.8e-05
-"Oklahoma","2 wk ahead","Bin","percent",4.8,4.9,6.8e-05
+"Oklahoma","2 wk ahead","Bin","percent",4.8,4.9,0.27
 "Oklahoma","2 wk ahead","Bin","percent",4.9,5,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",5,5.1,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",5.1,5.2,6.8e-05
@@ -199,7 +199,7 @@
 "Oklahoma","2 wk ahead","Bin","percent",6.4,6.5,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",6.5,6.6,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",6.6,6.7,6.8e-05
-"Oklahoma","2 wk ahead","Bin","percent",6.7,6.8,0.31
+"Oklahoma","2 wk ahead","Bin","percent",6.7,6.8,0.32
 "Oklahoma","2 wk ahead","Bin","percent",6.8,6.9,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",6.9,7,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",7,7.1,6.8e-05
@@ -215,12 +215,12 @@
 "Oklahoma","2 wk ahead","Bin","percent",8,8.1,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",8.1,8.2,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",8.2,8.3,6.8e-05
-"Oklahoma","2 wk ahead","Bin","percent",8.3,8.4,0.26
+"Oklahoma","2 wk ahead","Bin","percent",8.3,8.4,0.19
 "Oklahoma","2 wk ahead","Bin","percent",8.4,8.5,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",8.5,8.6,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",8.6,8.7,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",8.7,8.8,6.8e-05
-"Oklahoma","2 wk ahead","Bin","percent",8.8,8.9,0.22
+"Oklahoma","2 wk ahead","Bin","percent",8.8,8.9,0.21
 "Oklahoma","2 wk ahead","Bin","percent",8.9,9,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",9,9.1,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",9.1,9.2,6.8e-05
@@ -236,7 +236,7 @@
 "Oklahoma","2 wk ahead","Bin","percent",10.1,10.2,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",10.2,10.3,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",10.3,10.4,6.8e-05
-"Oklahoma","2 wk ahead","Bin","percent",10.4,10.5,0.2
+"Oklahoma","2 wk ahead","Bin","percent",10.4,10.5,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",10.5,10.6,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",10.6,10.7,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",10.7,10.8,6.8e-05
@@ -263,7 +263,7 @@
 "Oklahoma","2 wk ahead","Bin","percent",12.8,12.9,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",12.9,13,6.8e-05
 "Oklahoma","2 wk ahead","Bin","percent",13,100,6.8e-05
-"Oklahoma","3 wk ahead","Point","percent",NA,NA,8.3
+"Oklahoma","3 wk ahead","Point","percent",NA,NA,6.9
 "Oklahoma","3 wk ahead","Bin","percent",0,0.1,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",0.1,0.2,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",0.2,0.3,6.8e-05
@@ -312,7 +312,7 @@
 "Oklahoma","3 wk ahead","Bin","percent",4.5,4.6,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",4.6,4.7,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",4.7,4.8,6.8e-05
-"Oklahoma","3 wk ahead","Bin","percent",4.8,4.9,6.8e-05
+"Oklahoma","3 wk ahead","Bin","percent",4.8,4.9,0.29
 "Oklahoma","3 wk ahead","Bin","percent",4.9,5,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",5,5.1,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",5.1,5.2,6.8e-05
@@ -347,12 +347,12 @@
 "Oklahoma","3 wk ahead","Bin","percent",8,8.1,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",8.1,8.2,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",8.2,8.3,6.8e-05
-"Oklahoma","3 wk ahead","Bin","percent",8.3,8.4,0.26
+"Oklahoma","3 wk ahead","Bin","percent",8.3,8.4,0.18
 "Oklahoma","3 wk ahead","Bin","percent",8.4,8.5,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",8.5,8.6,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",8.6,8.7,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",8.7,8.8,6.8e-05
-"Oklahoma","3 wk ahead","Bin","percent",8.8,8.9,0.21
+"Oklahoma","3 wk ahead","Bin","percent",8.8,8.9,0.2
 "Oklahoma","3 wk ahead","Bin","percent",8.9,9,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",9,9.1,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",9.1,9.2,6.8e-05
@@ -368,7 +368,7 @@
 "Oklahoma","3 wk ahead","Bin","percent",10.1,10.2,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",10.2,10.3,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",10.3,10.4,6.8e-05
-"Oklahoma","3 wk ahead","Bin","percent",10.4,10.5,0.2
+"Oklahoma","3 wk ahead","Bin","percent",10.4,10.5,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",10.5,10.6,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",10.6,10.7,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",10.7,10.8,6.8e-05
@@ -395,7 +395,7 @@
 "Oklahoma","3 wk ahead","Bin","percent",12.8,12.9,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",12.9,13,6.8e-05
 "Oklahoma","3 wk ahead","Bin","percent",13,100,6.8e-05
-"Oklahoma","4 wk ahead","Point","percent",NA,NA,8.2
+"Oklahoma","4 wk ahead","Point","percent",NA,NA,6.8
 "Oklahoma","4 wk ahead","Bin","percent",0,0.1,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",0.1,0.2,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",0.2,0.3,6.8e-05
@@ -444,7 +444,7 @@
 "Oklahoma","4 wk ahead","Bin","percent",4.5,4.6,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",4.6,4.7,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",4.7,4.8,6.8e-05
-"Oklahoma","4 wk ahead","Bin","percent",4.8,4.9,6.8e-05
+"Oklahoma","4 wk ahead","Bin","percent",4.8,4.9,0.3
 "Oklahoma","4 wk ahead","Bin","percent",4.9,5,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",5,5.1,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",5.1,5.2,6.8e-05
@@ -463,7 +463,7 @@
 "Oklahoma","4 wk ahead","Bin","percent",6.4,6.5,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",6.5,6.6,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",6.6,6.7,6.8e-05
-"Oklahoma","4 wk ahead","Bin","percent",6.7,6.8,0.34
+"Oklahoma","4 wk ahead","Bin","percent",6.7,6.8,0.33
 "Oklahoma","4 wk ahead","Bin","percent",6.8,6.9,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",6.9,7,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",7,7.1,6.8e-05
@@ -479,12 +479,12 @@
 "Oklahoma","4 wk ahead","Bin","percent",8,8.1,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",8.1,8.2,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",8.2,8.3,6.8e-05
-"Oklahoma","4 wk ahead","Bin","percent",8.3,8.4,0.26
+"Oklahoma","4 wk ahead","Bin","percent",8.3,8.4,0.17
 "Oklahoma","4 wk ahead","Bin","percent",8.4,8.5,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",8.5,8.6,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",8.6,8.7,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",8.7,8.8,6.8e-05
-"Oklahoma","4 wk ahead","Bin","percent",8.8,8.9,0.2
+"Oklahoma","4 wk ahead","Bin","percent",8.8,8.9,0.19
 "Oklahoma","4 wk ahead","Bin","percent",8.9,9,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",9,9.1,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",9.1,9.2,6.8e-05
@@ -500,7 +500,7 @@
 "Oklahoma","4 wk ahead","Bin","percent",10.1,10.2,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",10.2,10.3,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",10.3,10.4,6.8e-05
-"Oklahoma","4 wk ahead","Bin","percent",10.4,10.5,0.19
+"Oklahoma","4 wk ahead","Bin","percent",10.4,10.5,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",10.5,10.6,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",10.6,10.7,6.8e-05
 "Oklahoma","4 wk ahead","Bin","percent",10.7,10.8,6.8e-05
