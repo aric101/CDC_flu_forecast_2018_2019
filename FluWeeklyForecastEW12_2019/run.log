@@ -1,0 +1,35 @@
+remove existing output files
+Running: national onset week
+Done: national onset week
+Running: national peak week
+Done: national peak week
+Running: national peak prev
+Done: national peak prev
+Running: national ILI prev 1-4 weeks ahead
+Done: national ILI prev 1-4 weeks ahead
+Running: CA onset week
+Done: CA onset week
+Running: CA peak week
+Done: CA peak week
+Running: CA peak prev
+Done: CA peak prev
+Running: CA ILI prev 1-4 weeks ahead
+Done: CA ILI prev 1-4 weeks ahead
+Running: 10 regions onset week
+Done: 10 regions onset week
+Running: 10 regions peak week
+Done: 10 regions peak week
+Running: 10 regions peak prev
+Done: 10 regions peak prev
+Running: 10 regions ILI prev 1-4 weeks ahead
+Done: 10 regions ILI prev 1-4 weeks ahead
+Running: 53 states onset week
+Done: 10 states onset week
+Running: 53 states peak week
+Done: 10 states peak week
+Running: 53 states peak prev
+Done: 10 states peak prev
+Running: 53 states ILI prev 1-4 weeks ahead
+Done: 10 states ILI prev 1-4 weeks ahead
+Running: merge output
+Done: merge output
