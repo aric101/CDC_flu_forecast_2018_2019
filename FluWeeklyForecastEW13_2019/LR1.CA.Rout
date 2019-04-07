@@ -92,12 +92,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
       YEAR WEEK     ILI
-23343 2018   21 3.77469
 23397 2018   22 3.43078
 23451 2018   23 3.60434
-23505 2018   24 3.52792
-23559 2018   25 3.42603
-23613 2018   26 3.67831
+23505 2018   24 3.53079
+23559 2018   25 3.39448
+23613 2018   26 3.64560
+23667 2018   27 3.10743
 > 
 > flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
 > flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
@@ -554,8 +554,9 @@ Type 'q()' to quit R.
 23343 2018   21 3.774690
 23397 2018   22 3.430780
 23451 2018   23 3.604340
-23505 2018   24 3.527920
-23559 2018   25 3.426030
+23505 2018   24 3.530790
+23559 2018   25 3.394480
+23613 2018   26 3.645600
 > 
 > flu.data.yr.prev
       YEAR WEEK      ILI
@@ -998,8 +999,9 @@ Type 'q()' to quit R.
 23343 2018   21 3.774690
 23397 2018   22 3.430780
 23451 2018   23 3.604340
-23505 2018   24 3.527920
-23559 2018   25 3.426030
+23505 2018   24 3.530790
+23559 2018   25 3.394480
+23613 2018   26 3.645600
 > tmp.pk.week <- 
 + lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.9+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -1292,8 +1294,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(1:34))))
- [1] 11.658499 10.663469 11.333365 11.352042 10.663469  9.686138 11.333365
- [8] 10.663469 10.663469 10.663469
+ [1]  9.686138 11.333365 11.193407 11.295343 10.663469 11.658499 11.252395
+ [8] 11.658499  9.686138 10.663469
 > 
 > 
 > national4wks <- read.csv("national.onset.wk.forecast.template.csv")
@@ -1322,14 +1324,14 @@ Type 'q()' to quit R.
 > head(national4wks)
     Location       Target  Type Unit Bin_start_incl Bin_end_notincl   Value
 1 California Season onset Point week           <NA>            <NA> 5.0e+01
-2 California Season onset   Bin week             40              41 3.6e-04
-3 California Season onset   Bin week             41              42 3.6e-04
-4 California Season onset   Bin week             42              43 3.6e-04
-5 California Season onset   Bin week             43              44 3.6e-04
-6 California Season onset   Bin week             44              45 3.6e-04
+2 California Season onset   Bin week             40              41 2.4e-04
+3 California Season onset   Bin week             41              42 2.4e-04
+4 California Season onset   Bin week             42              43 2.4e-04
+5 California Season onset   Bin week             43              44 2.4e-04
+6 California Season onset   Bin week             44              45 2.4e-04
 > 
 > write.csv(national4wks, "./output/ca.onset.wk.csv", row.names=F)
 > 
 > proc.time()
    user  system elapsed 
- 23.544   0.060  23.602 
+  20.84    0.04   20.88 

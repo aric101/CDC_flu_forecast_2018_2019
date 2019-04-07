@@ -81,19 +81,19 @@ Type 'q()' to quit R.
 267        X         X      X      906               126          32998
 > tail(flu.data)
       REGION TYPE     REGION YEAR WEEK     ILI AGE 0-4 AGE 25-49 AGE 25-64
-23343      States California 2019    7 3.77469       X         X         X
 23397      States California 2019    8 3.43078       X         X         X
 23451      States California 2019    9 3.60434       X         X         X
-23505      States California 2019   10 3.52792       X         X         X
-23559      States California 2019   11 3.42603       X         X         X
-23613      States California 2019   12 3.67831       X         X         X
+23505      States California 2019   10 3.53079       X         X         X
+23559      States California 2019   11 3.39448       X         X         X
+23613      States California 2019   12  3.6456       X         X         X
+23667      States California 2019   13 3.10743       X         X         X
       AGE 5-24 AGE 50-64 AGE 65 ILITOTAL NUM. OF PROVIDERS TOTAL PATIENTS
-23343        X         X      X     1678               111          44454
 23397        X         X      X     1521               114          44334
 23451        X         X      X     1807               114          50134
-23505        X         X      X     1749               107          49576
-23559        X         X      X     1657               102          48365
-23613        X         X      X     1411                78          38360
+23505        X         X      X     1750               111          49564
+23559        X         X      X     1645               106          48461
+23613        X         X      X     1578               100          43285
+23667        X         X      X     1183                89          38070
 > #flu.data <- flu.data[-which(flu.data$ILI=="X"),]
 > 
 > flu.data$ILI <- as.numeric(as.character(flu.data$ILI))
@@ -107,12 +107,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
       YEAR WEEK     ILI
-23343 2018   21 3.77469
 23397 2018   22 3.43078
 23451 2018   23 3.60434
-23505 2018   24 3.52792
-23559 2018   25 3.42603
-23613 2018   26 3.67831
+23505 2018   24 3.53079
+23559 2018   25 3.39448
+23613 2018   26 3.64560
+23667 2018   27 3.10743
 > 
 > flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
 > flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
@@ -569,8 +569,9 @@ Type 'q()' to quit R.
 23343 2018   21 3.774690
 23397 2018   22 3.430780
 23451 2018   23 3.604340
-23505 2018   24 3.527920
-23559 2018   25 3.426030
+23505 2018   24 3.530790
+23559 2018   25 3.394480
+23613 2018   26 3.645600
 > flu.data.yr.prev <- flu.data.yr.prev[(flu.data.yr.prev$YEAR<2018 & flu.data.yr.prev$ILI >=  max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==2018]) | flu.data.yr.prev$YEAR==2018),]
 > 
 > flu.data.yr.prev
@@ -646,8 +647,9 @@ Type 'q()' to quit R.
 23343 2018   21 3.77469
 23397 2018   22 3.43078
 23451 2018   23 3.60434
-23505 2018   24 3.52792
-23559 2018   25 3.42603
+23505 2018   24 3.53079
+23559 2018   25 3.39448
+23613 2018   26 3.64560
 > tmp.pk.week <- 
 + lapply(unique(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.3+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.3+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -918,8 +920,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(1:33))))
- [1] 17.93805 17.25661 17.38043 17.96023 16.24691 17.28336 17.38962 17.66150
- [9] 18.57538 17.34180
+ [1] 18.11670 18.53430 17.28858 18.11670 17.10540 18.21478 17.99860 17.27398
+ [9] 18.56888 17.66340
 > 
 > national4wks <- read.csv("national.pk.wk.forecast.template.csv")
 > head(national4wks)
@@ -947,15 +949,15 @@ Type 'q()' to quit R.
 > head(national4wks)
     Location           Target  Type Unit Bin_start_incl Bin_end_notincl   Value
 1 California Season peak week Point week             NA              NA 3.00000
-2 California Season peak week   Bin week             40              41 0.00028
-3 California Season peak week   Bin week             41              42 0.00028
-4 California Season peak week   Bin week             42              43 0.00028
-5 California Season peak week   Bin week             43              44 0.00028
-6 California Season peak week   Bin week             44              45 0.00028
+2 California Season peak week   Bin week             40              41 0.00041
+3 California Season peak week   Bin week             41              42 0.00041
+4 California Season peak week   Bin week             42              43 0.00041
+5 California Season peak week   Bin week             43              44 0.00041
+6 California Season peak week   Bin week             44              45 0.00041
 > 
 > write.csv(national4wks, "./output/ca.pk.wk.csv", row.names=F)
 > 
 > 
 > proc.time()
    user  system elapsed 
- 24.664   0.056  24.719 
+ 25.136   0.032  25.170 
