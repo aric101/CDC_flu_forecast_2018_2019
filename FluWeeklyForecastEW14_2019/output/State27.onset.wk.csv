@@ -1,18 +1,18 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
 "Nebraska","Season onset","Point","week",NA,NA,49
 "Nebraska","Season onset","Bin","week","40","41",0.00033
-"Nebraska","Season onset","Bin","week","41","42",0.098
-"Nebraska","Season onset","Bin","week","42","43",0.13
+"Nebraska","Season onset","Bin","week","41","42",0.11
+"Nebraska","Season onset","Bin","week","42","43",0.14
 "Nebraska","Season onset","Bin","week","43","44",0.00033
 "Nebraska","Season onset","Bin","week","44","45",0.00033
-"Nebraska","Season onset","Bin","week","45","46",0.097
-"Nebraska","Season onset","Bin","week","46","47",0.15
+"Nebraska","Season onset","Bin","week","45","46",0.08
+"Nebraska","Season onset","Bin","week","46","47",0.1
 "Nebraska","Season onset","Bin","week","47","48",0.00033
-"Nebraska","Season onset","Bin","week","48","49",0.13
+"Nebraska","Season onset","Bin","week","48","49",0.12
 "Nebraska","Season onset","Bin","week","49","50",0.00033
 "Nebraska","Season onset","Bin","week","50","51",0.00033
 "Nebraska","Season onset","Bin","week","51","52",0.00033
-"Nebraska","Season onset","Bin","week","52","53",0.1
+"Nebraska","Season onset","Bin","week","52","53",0.15
 "Nebraska","Season onset","Bin","week","1","2",0.00033
 "Nebraska","Season onset","Bin","week","2","3",0.00033
 "Nebraska","Season onset","Bin","week","3","4",0.00033

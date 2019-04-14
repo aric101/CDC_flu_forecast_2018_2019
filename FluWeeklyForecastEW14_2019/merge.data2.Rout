@@ -45,8 +45,8 @@ Type 'q()' to quit R.
 ./plots/forecastHHS2.png
 ./plots/forecastHHS3.png
 ./plots/forecastHHS4.png
-./plots/forecastHHS5.png
-./plots/forecastHHS7.png
+./plots/forecastHHS6.png
+./plots/forecastHHS8.png
 ./plots/forecastState10.png
 ./plots/forecastState11.png
 ./plots/forecastState12.png
@@ -269,19 +269,19 @@ cat: ./output/State53.pk.prev.csv: No such file or directory
 > 
 > 
 > #### rename output files
-> system("cp ./output/all.csv ./EW13-UCSF1-2019-04-08.csv")
-> system("cp ./output/all.ca.csv ./EW13-UCSF1-CA-2019-04-08.csv")
-> system("cp ./output/all.state.csv ./EW13-UCSF1-States-2019-04-08.csv")
+> system("cp ./output/all.csv ./EW14-UCSF1-2019-04-15.csv")
+> system("cp ./output/all.ca.csv ./EW14-UCSF1-CA-2019-04-15.csv")
+> system("cp ./output/all.state.csv ./EW14-UCSF1-States-2019-04-15.csv")
 > 
-> system("wc -l  EW13-UCSF1-2019-04-08.csv")
-8020 EW13-UCSF1-2019-04-08.csv
-> system("wc -l  EW13-UCSF1-CA-2019-04-08.csv")
-730 EW13-UCSF1-CA-2019-04-08.csv
-> system("wc -l  EW13-UCSF1-States-2019-04-08.csv")
-36262 EW13-UCSF1-States-2019-04-08.csv
-> system("cp  EW13-UCSF1-2019-04-08.csv EW13-UCSF1-CA-2019-04-08.csv EW13-UCSF1-States-2019-04-08.csv forecast1-4wk.png ./submit")
+> system("wc -l  EW14-UCSF1-2019-04-15.csv")
+8020 EW14-UCSF1-2019-04-15.csv
+> system("wc -l  EW14-UCSF1-CA-2019-04-15.csv")
+730 EW14-UCSF1-CA-2019-04-15.csv
+> system("wc -l  EW14-UCSF1-States-2019-04-15.csv")
+36262 EW14-UCSF1-States-2019-04-15.csv
+> system("cp  EW14-UCSF1-2019-04-15.csv EW14-UCSF1-CA-2019-04-15.csv EW14-UCSF1-States-2019-04-15.csv forecast1-4wk.png ./submit")
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.180   0.132   1.012 
+  0.164   0.144   1.001 

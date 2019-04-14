@@ -1,5 +1,5 @@
 "Location","Target","Type","Unit","Bin_start_incl","Bin_end_notincl","Value"
-"New York City","Season peak percentage","Point","percent",NA,NA,6.1
+"New York City","Season peak percentage","Point","percent",NA,NA,6.2
 "New York City","Season peak percentage","Bin","percent",0,0.1,0.00055
 "New York City","Season peak percentage","Bin","percent",0.1,0.2,0.00055
 "New York City","Season peak percentage","Bin","percent",0.2,0.3,0.00055
@@ -47,7 +47,7 @@
 "New York City","Season peak percentage","Bin","percent",4.4,4.5,0.00055
 "New York City","Season peak percentage","Bin","percent",4.5,4.6,0.00055
 "New York City","Season peak percentage","Bin","percent",4.6,4.7,0.00055
-"New York City","Season peak percentage","Bin","percent",4.7,4.8,0.21
+"New York City","Season peak percentage","Bin","percent",4.7,4.8,0.19
 "New York City","Season peak percentage","Bin","percent",4.8,4.9,0.00055
 "New York City","Season peak percentage","Bin","percent",4.9,5,0.00055
 "New York City","Season peak percentage","Bin","percent",5,5.1,0.00055
@@ -83,8 +83,8 @@
 "New York City","Season peak percentage","Bin","percent",8,8.1,0.00055
 "New York City","Season peak percentage","Bin","percent",8.1,8.2,0.00055
 "New York City","Season peak percentage","Bin","percent",8.2,8.3,0.00055
-"New York City","Season peak percentage","Bin","percent",8.3,8.4,0.14
-"New York City","Season peak percentage","Bin","percent",8.4,8.5,0.16
+"New York City","Season peak percentage","Bin","percent",8.3,8.4,0.19
+"New York City","Season peak percentage","Bin","percent",8.4,8.5,0.14
 "New York City","Season peak percentage","Bin","percent",8.5,8.6,0.00055
 "New York City","Season peak percentage","Bin","percent",8.6,8.7,0.00055
 "New York City","Season peak percentage","Bin","percent",8.7,8.8,0.00055

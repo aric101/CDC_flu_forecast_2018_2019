@@ -68,12 +68,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
      YEAR WEEK     ILI
-1119 2018   22 4.92017
-1120 2018   23 4.59434
-1121 2018   24 4.39919
-1122 2018   25 4.24774
-1123 2018   26 3.76951
-1124 2018   27 3.15695
+1120 2018   23 4.60236
+1121 2018   24 4.40945
+1122 2018   25 4.24309
+1123 2018   26 3.71537
+1124 2018   27 3.13300
+1125 2018   28 2.75770
 > 
 > flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
 > flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
@@ -1201,17 +1201,18 @@ Type 'q()' to quit R.
 1110 2018   12 3.141590
 1111 2018   13 3.967560
 1112 2018   15 3.468140
-1113 2018   16 3.104400
-1114 2018   17 3.319040
-1115 2018   18 3.789700
-1116 2018   19 4.337870
-1117 2018   20 4.858460
-1118 2018   21 5.076790
-1119 2018   22 4.920170
-1120 2018   23 4.594340
-1121 2018   24 4.399190
-1122 2018   25 4.247740
-1123 2018   26 3.769510
+1113 2018   16 3.104390
+1114 2018   17 3.319030
+1115 2018   18 3.789400
+1116 2018   19 4.340890
+1117 2018   20 4.860990
+1118 2018   21 5.074840
+1119 2018   22 4.938670
+1120 2018   23 4.602360
+1121 2018   24 4.409450
+1122 2018   25 4.243090
+1123 2018   26 3.715370
+1124 2018   27 3.133000
 > flu.data.yr.prev <- flu.data.yr.prev[(flu.data.yr.prev$YEAR<2016 & flu.data.yr.prev$ILI >=  max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==2018]) | flu.data.yr.prev$YEAR==2018),]
 > 
 > flu.data.yr.prev
@@ -1263,17 +1264,18 @@ Type 'q()' to quit R.
 1110 2018   12 3.14159
 1111 2018   13 3.96756
 1112 2018   15 3.46814
-1113 2018   16 3.10440
-1114 2018   17 3.31904
-1115 2018   18 3.78970
-1116 2018   19 4.33787
-1117 2018   20 4.85846
-1118 2018   21 5.07679
-1119 2018   22 4.92017
-1120 2018   23 4.59434
-1121 2018   24 4.39919
-1122 2018   25 4.24774
-1123 2018   26 3.76951
+1113 2018   16 3.10439
+1114 2018   17 3.31903
+1115 2018   18 3.78940
+1116 2018   19 4.34089
+1117 2018   20 4.86099
+1118 2018   21 5.07484
+1119 2018   22 4.93867
+1120 2018   23 4.60236
+1121 2018   24 4.40945
+1122 2018   25 4.24309
+1123 2018   26 3.71537
+1124 2018   27 3.13300
 > tmp.pk.week <- 
 + lapply(unique(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.3+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.3+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -1549,8 +1551,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(0:130))))
- [1] 65.80789 67.62743 65.21583 64.23332 67.10251 66.97351 65.93215 66.11570
- [9] 66.09169 68.37079
+ [1] 66.85014 65.99193 66.00364 67.17752 67.20316 66.37131 66.71341 66.00395
+ [9] 65.84536 66.50733
 > 
 > national4wks <- read.csv("national.pk.prev.forecast.template.csv")
 > head(national4wks)
@@ -1584,15 +1586,15 @@ Type 'q()' to quit R.
 6 US National Season peak percentage   Bin percent            0.4
   Bin_end_notincl   Value
 1              NA 6.60000
-2             0.1 0.00035
-3             0.2 0.00035
-4             0.3 0.00035
-5             0.4 0.00035
-6             0.5 0.00035
+2             0.1 0.00029
+3             0.2 0.00029
+4             0.3 0.00029
+5             0.4 0.00029
+6             0.5 0.00029
 > 
 > write.csv(national4wks, "./output/national.pk.prev.csv", row.names=F)
 > 
 > 
 > proc.time()
    user  system elapsed 
- 84.852   0.052  84.916 
+ 87.788   0.040  87.827 
