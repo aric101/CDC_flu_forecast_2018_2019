@@ -1,7 +1,7 @@
 
-R version 3.4.1 (2017-06-30) -- "Single Candle"
-Copyright (C) 2017 The R Foundation for Statistical Computing
-Platform: x86_64-redhat-linux-gnu (64-bit)
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -68,12 +68,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
      YEAR WEEK     ILI
-1121 2018   24 4.39711
-1122 2018   25 4.24348
-1123 2018   26 3.69413
-1124 2018   27 3.12161
-1125 2018   28 2.75425
-1126 2018   29 2.35636
+1122 2018   25 4.25155
+1123 2018   26 3.70256
+1124 2018   27 3.13390
+1125 2018   28 2.75674
+1126 2018   29 2.39044
+1127 2018   30 2.11548
 > 
 > flu.data.yr.prev <- flu.data[,c("YEAR","WEEK","ILI")]
 > flu.data.yr.prev$WEEK <- flu.data.yr.prev$WEEK - 39
@@ -1201,19 +1201,20 @@ Type 'q()' to quit R.
 1110 2018   12 3.132430
 1111 2018   13 3.955570
 1112 2018   15 3.458690
-1113 2018   16 3.099290
-1114 2018   17 3.320310
-1115 2018   18 3.791090
-1116 2018   19 4.339700
-1117 2018   20 4.861470
-1118 2018   21 5.073540
-1119 2018   22 4.934000
-1120 2018   23 4.589050
-1121 2018   24 4.397110
-1122 2018   25 4.243480
-1123 2018   26 3.694130
-1124 2018   27 3.121610
-1125 2018   28 2.754250
+1113 2018   16 3.100270
+1114 2018   17 3.322160
+1115 2018   18 3.790360
+1116 2018   19 4.337730
+1117 2018   20 4.860400
+1118 2018   21 5.071550
+1119 2018   22 4.931970
+1120 2018   23 4.594440
+1121 2018   24 4.410500
+1122 2018   25 4.251550
+1123 2018   26 3.702560
+1124 2018   27 3.133900
+1125 2018   28 2.756740
+1126 2018   29 2.390440
 > flu.data.yr.prev <- flu.data.yr.prev[(flu.data.yr.prev$YEAR<2016 & flu.data.yr.prev$ILI >=  max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==2018]) | flu.data.yr.prev$YEAR==2018),]
 > 
 > flu.data.yr.prev
@@ -1265,19 +1266,20 @@ Type 'q()' to quit R.
 1110 2018   12 3.13243
 1111 2018   13 3.95557
 1112 2018   15 3.45869
-1113 2018   16 3.09929
-1114 2018   17 3.32031
-1115 2018   18 3.79109
-1116 2018   19 4.33970
-1117 2018   20 4.86147
-1118 2018   21 5.07354
-1119 2018   22 4.93400
-1120 2018   23 4.58905
-1121 2018   24 4.39711
-1122 2018   25 4.24348
-1123 2018   26 3.69413
-1124 2018   27 3.12161
-1125 2018   28 2.75425
+1113 2018   16 3.10027
+1114 2018   17 3.32216
+1115 2018   18 3.79036
+1116 2018   19 4.33773
+1117 2018   20 4.86040
+1118 2018   21 5.07155
+1119 2018   22 4.93197
+1120 2018   23 4.59444
+1121 2018   24 4.41050
+1122 2018   25 4.25155
+1123 2018   26 3.70256
+1124 2018   27 3.13390
+1125 2018   28 2.75674
+1126 2018   29 2.39044
 > tmp.pk.week <- 
 + lapply(unique(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.3+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.3+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -1553,8 +1555,8 @@ Type 'q()' to quit R.
 > sim.forecast.ili <- tmp/length(sim.forecast.ili.LIST)
 > 
 > sapply(1:length(sim.forecast.ili.LIST), function(k)apply(sim.forecast.ili.LIST[[k]], 2, function(x)sum(x*(0:130))))
- [1] 66.52191 66.32815 65.02938 64.40962 66.09169 65.80789 68.24244 65.07585
- [9] 67.33583 67.05852
+ [1] 69.12751 68.00789 66.39048 66.24295 67.54243 67.74588 65.98515 66.16723
+ [9] 65.47961 65.92534
 > 
 > national4wks <- read.csv("national.pk.prev.forecast.template.csv")
 > head(national4wks)
@@ -1587,16 +1589,16 @@ Type 'q()' to quit R.
 5 US National Season peak percentage   Bin percent            0.3
 6 US National Season peak percentage   Bin percent            0.4
   Bin_end_notincl   Value
-1              NA 6.60000
-2             0.1 0.00034
-3             0.2 0.00034
-4             0.3 0.00034
-5             0.4 0.00034
-6             0.5 0.00034
+1              NA 6.70000
+2             0.1 0.00036
+3             0.2 0.00036
+4             0.3 0.00036
+5             0.4 0.00036
+6             0.5 0.00036
 > 
 > write.csv(national4wks, "./output/national.pk.prev.csv", row.names=F)
 > 
 > 
 > proc.time()
    user  system elapsed 
- 50.827   0.073  51.921 
+ 94.952   0.080  95.032 

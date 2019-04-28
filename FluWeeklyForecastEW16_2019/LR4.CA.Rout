@@ -1,7 +1,7 @@
 
-R version 3.4.1 (2017-06-30) -- "Single Candle"
-Copyright (C) 2017 The R Foundation for Statistical Computing
-Platform: x86_64-redhat-linux-gnu (64-bit)
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -46,10 +46,10 @@ Type 'q()' to quit R.
 [1] 44
 > 
 > #wkID <- (5:8) + (0)
-> wkID <- (4:7) + (25) # EW15 2019
+> wkID <- (4:7) + (26) # EW16 2019
 > 
 > week2season(wkID)
-[1] 16 17 18 19
+[1] 17 18 19 20
 > 
 > system("ls ./data/*.csv")
 ./data/ILINetCA.csv
@@ -105,19 +105,19 @@ Type 'q()' to quit R.
 267        X         X      X      906               126          32998
 > tail(flu.data)
       REGION TYPE     REGION YEAR WEEK     ILI AGE 0-4 AGE 25-49 AGE 25-64
-23505      States California 2019   10 3.54088       X         X         X
-23559      States California 2019   11 3.36035       X         X         X
-23613      States California 2019   12 3.54661       X         X         X
-23667      States California 2019   13 3.02444       X         X         X
-23721      States California 2019   14 3.05569       X         X         X
-23775      States California 2019   15 2.66261       X         X         X
+23559      States California 2019   11 3.37445       X         X         X
+23613      States California 2019   12 3.55238       X         X         X
+23667      States California 2019   13 3.01104       X         X         X
+23721      States California 2019   14 3.00413       X         X         X
+23775      States California 2019   15 2.55972       X         X         X
+23829      States California 2019   16 2.58357       X         X         X
       AGE 5-24 AGE 50-64 AGE 65 ILITOTAL NUM. OF PROVIDERS TOTAL PATIENTS
-23505        X         X      X     1755               111          49564
-23559        X         X      X     1642               108          48864
-23613        X         X      X     1659               109          46777
-23667        X         X      X     1329               105          43942
-23721        X         X      X     1222                94          39991
-23775        X         X      X      971                73          36468
+23559        X         X      X     1658               110          49134
+23613        X         X      X     1672               112          47067
+23667        X         X      X     1336               109          44370
+23721        X         X      X     1273               105          42375
+23775        X         X      X     1034                93          40395
+23829        X         X      X      929                72          35958
 > #flu.data <- flu.data[-which(flu.data$ILI=="X"),]
 > 
 > flu.data$ILI <- as.numeric(as.character(flu.data$ILI))
@@ -131,12 +131,12 @@ Type 'q()' to quit R.
 > flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] <- flu.data.wk.prev$WEEK[flu.data.wk.prev$WEEK<=0] + 53
 > tail(flu.data.wk.prev)
       YEAR WEEK     ILI
-23505 2018   24 3.54088
-23559 2018   25 3.36035
-23613 2018   26 3.54661
-23667 2018   27 3.02444
-23721 2018   28 3.05569
-23775 2018   29 2.66261
+23559 2018   25 3.37445
+23613 2018   26 3.55238
+23667 2018   27 3.01104
+23721 2018   28 3.00413
+23775 2018   29 2.55972
+23829 2018   30 2.58357
 > flu.data.wk.prev <- flu.data.wk.prev[flu.data.wk.prev$WEEK>=(head(wkID,1)-3) & flu.data.wk.prev$WEEK<=tail(wkID+1,1),]
 > ## flu.data.wk.prev <- flu.data.wk.prev[
 > ## (flu.data.wk.prev$YEAR<2016 & flu.data.wk.prev$WEEK>=head(wkID,1) & flu.data.wk.prev$WEEK<=tail(wkID,1)) |
@@ -166,12 +166,12 @@ Type 'q()' to quit R.
 267 2010    6 2.74562
 > tail(flu.data.yr.prev)
       YEAR WEEK     ILI
-23505 2018   24 3.54088
-23559 2018   25 3.36035
-23613 2018   26 3.54661
-23667 2018   27 3.02444
-23721 2018   28 3.05569
-23775 2018   29 2.66261
+23559 2018   25 3.37445
+23613 2018   26 3.55238
+23667 2018   27 3.01104
+23721 2018   28 3.00413
+23775 2018   29 2.55972
+23829 2018   30 2.58357
 > flu.data.yr.prev <- flu.data.yr.prev[-nrow(flu.data.yr.prev), ]
 > flu.data.yr.prev
       YEAR WEEK      ILI
@@ -608,17 +608,18 @@ Type 'q()' to quit R.
 23019 2018   15 3.279020
 23073 2018   16 3.120610
 23127 2018   17 2.875920
-23181 2018   18 2.745050
-23235 2018   19 3.243750
-23289 2018   20 3.246460
-23343 2018   21 3.774690
-23397 2018   22 3.430780
-23451 2018   23 3.604340
-23505 2018   24 3.540880
-23559 2018   25 3.360350
-23613 2018   26 3.546610
-23667 2018   27 3.024440
-23721 2018   28 3.055690
+23181 2018   18 2.719220
+23235 2018   19 3.217780
+23289 2018   20 3.223350
+23343 2018   21 3.750310
+23397 2018   22 3.408350
+23451 2018   23 3.577370
+23505 2018   24 3.545500
+23559 2018   25 3.374450
+23613 2018   26 3.552380
+23667 2018   27 3.011040
+23721 2018   28 3.004130
+23775 2018   29 2.559720
 > #####################################
 > #####################################
 > 
@@ -1057,17 +1058,18 @@ Type 'q()' to quit R.
 23019 2018   15 3.279020
 23073 2018   16 3.120610
 23127 2018   17 2.875920
-23181 2018   18 2.745050
-23235 2018   19 3.243750
-23289 2018   20 3.246460
-23343 2018   21 3.774690
-23397 2018   22 3.430780
-23451 2018   23 3.604340
-23505 2018   24 3.540880
-23559 2018   25 3.360350
-23613 2018   26 3.546610
-23667 2018   27 3.024440
-23721 2018   28 3.055690
+23181 2018   18 2.719220
+23235 2018   19 3.217780
+23289 2018   20 3.223350
+23343 2018   21 3.750310
+23397 2018   22 3.408350
+23451 2018   23 3.577370
+23505 2018   24 3.545500
+23559 2018   25 3.374450
+23613 2018   26 3.552380
+23667 2018   27 3.011040
+23721 2018   28 3.004130
+23775 2018   29 2.559720
 > tmp.pk.week <- 
 + lapply(min(flu.data.yr.prev$YEAR) : max(flu.data.yr.prev$YEAR), function(yr){
 +   flu.data.yr.prev$WEEK[which(flu.data.yr.prev$YEAR==yr & flu.data.yr.prev$ILI >= -0.1+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]) & flu.data.yr.prev$ILI <= 0.1+max(flu.data.yr.prev$ILI[flu.data.yr.prev$YEAR==yr]))]
@@ -1406,12 +1408,12 @@ Type 'q()' to quit R.
 > 
 > head(national4wks)
     Location     Target  Type    Unit Bin_start_incl Bin_end_notincl   Value
-1 California 1 wk ahead Point percent             NA              NA 2.7e+00
-2 California 1 wk ahead   Bin percent            0.0             0.1 6.8e-08
-3 California 1 wk ahead   Bin percent            0.1             0.2 6.8e-08
-4 California 1 wk ahead   Bin percent            0.2             0.3 6.8e-08
-5 California 1 wk ahead   Bin percent            0.3             0.4 6.8e-08
-6 California 1 wk ahead   Bin percent            0.4             0.5 6.8e-08
+1 California 1 wk ahead Point percent             NA              NA 2.5e+00
+2 California 1 wk ahead   Bin percent            0.0             0.1 4.5e-09
+3 California 1 wk ahead   Bin percent            0.1             0.2 4.5e-09
+4 California 1 wk ahead   Bin percent            0.2             0.3 4.5e-09
+5 California 1 wk ahead   Bin percent            0.3             0.4 4.5e-09
+6 California 1 wk ahead   Bin percent            0.4             0.5 4.5e-09
 > 
 > write.csv(national4wks, "./output/ca4wks.csv", row.names=F)
 > 
@@ -1451,13 +1453,13 @@ Type 'q()' to quit R.
 > national4wks$Value[(2+130+2+130+2+130+2):(2+130+2+130+2+130+2+130)] <- signif(sim.forecast.ili[,4],2)
 > 
 > head(national4wks)
-    Location     Target  Type    Unit Bin_start_incl Bin_end_notincl   Value
-1 California 1 wk ahead Point percent             NA              NA 2.7e+00
-2 California 1 wk ahead   Bin percent            0.0             0.1 4.1e-08
-3 California 1 wk ahead   Bin percent            0.1             0.2 1.2e-07
-4 California 1 wk ahead   Bin percent            0.2             0.3 3.4e-07
-5 California 1 wk ahead   Bin percent            0.3             0.4 9.0e-07
-6 California 1 wk ahead   Bin percent            0.4             0.5 2.3e-06
+    Location     Target  Type    Unit Bin_start_incl Bin_end_notincl Value
+1 California 1 wk ahead Point percent             NA              NA   2.5
+2 California 1 wk ahead   Bin percent            0.0             0.1   0.0
+3 California 1 wk ahead   Bin percent            0.1             0.2   0.0
+4 California 1 wk ahead   Bin percent            0.2             0.3   0.0
+5 California 1 wk ahead   Bin percent            0.3             0.4   0.0
+6 California 1 wk ahead   Bin percent            0.4             0.5   0.0
 > 
 > write.csv(national4wks, "./output/ca4wksSMOOTH.csv", row.names=F)
 > 
@@ -1465,7 +1467,7 @@ Type 'q()' to quit R.
 > 
 > 
 > flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018]
-[1] 3.54661 3.02444 3.05569 2.66261
+[1] 3.01104 3.00413 2.55972 2.58357
 > 
 > projection <- apply(avg.ili,2, function(x)c(flu.data.wk.prev$ILI[flu.data.wk.prev$YEAR==2018], x/10))
 > png("./plots/forecastCA.png")
